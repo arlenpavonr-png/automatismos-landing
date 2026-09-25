@@ -88,6 +88,34 @@ img{max-width:100%;height:auto;display:block}
 @keyframes flotar{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 .wa-float svg{width:28px;height:28px}
 .bg-oscuro{background:var(--oscuro)}
+a.serv-item{text-decoration:none;color:inherit;display:block;transition:border-color .2s}
+a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
+.serv-cta{font-size:11px;color:var(--verde);margin-top:6px;font-weight:600}
+.btn-call{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:10px;border:1.5px solid rgba(255,255,255,0.35);color:var(--blanco);text-decoration:none;border-radius:12px;padding:0.85rem 1.25rem;font-size:15px;font-weight:600}
+.precios{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:1.25rem}
+.precio-card{background:var(--card);border:1px solid var(--borde);border-radius:14px;padding:1.1rem;text-align:center}
+.precio-marca{font-size:13px;font-weight:600;color:var(--blanco)}
+.precio-desde{font-size:11px;color:var(--gris);margin-top:6px}
+.precio-valor{font-family:'Bebas Neue',sans-serif;font-size:30px;color:var(--amarillo);letter-spacing:1px;line-height:1.1}
+.precio-nota{font-size:12px;color:var(--gris);margin-top:12px;line-height:1.55}
+.videos{display:grid;grid-template-columns:1fr;gap:12px;margin-top:1.25rem}
+.video-card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--borde);border-radius:14px;overflow:hidden}
+.video-thumb{position:relative;aspect-ratio:16/9;background:#000}
+.video-thumb img{width:100%;height:100%;object-fit:cover}
+.video-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.video-play span{width:56px;height:56px;border-radius:50%;background:rgba(0,0,0,0.6);border:2px solid #fff;display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;padding-left:4px}
+.video-txt{padding:0.8rem 1rem;font-size:13px;font-weight:600;color:var(--blanco)}
+.video-txt small{display:block;font-weight:400;color:var(--gris);margin-top:2px}
+.prod-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:1.25rem}
+.prod-card{background:var(--card);border:1px solid var(--borde);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.prod-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff}
+.prod-info{padding:0.75rem;display:flex;flex-direction:column;gap:4px;flex:1}
+.prod-name{font-size:13px;font-weight:600;color:var(--blanco);line-height:1.3}
+.prod-price{font-size:12px;color:var(--gris)}
+.prod-price b{color:var(--amarillo);font-size:14px}
+.prod-btn{margin-top:auto;display:block;text-align:center;background:var(--verde);color:#fff;text-decoration:none;border-radius:8px;padding:8px;font-size:12px;font-weight:600}
+.serv-full{grid-column:1/-1}
+.ciudades{display:flex;flex-wrap:wrap;gap:8px;margin:1rem 0 1.25rem}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-695987136"></script>
@@ -98,15 +126,25 @@ img{max-width:100%;height:auto;display:block}
   gtag('config', 'AW-695987136');
 </script>
 <script>
+  // Conversión de Google Ads al tocar cualquier botón de WhatsApp.
+  // transport_type 'beacon' = el aviso a Google sale aunque el celular abra WhatsApp de inmediato.
+  // Si algún enlace abre en la misma pestaña, se espera a que Google confirme (máx. 0,8 s) antes de salir.
   document.addEventListener('click', function(e) {
-    var link = e.target.closest('a[href*="wa.me"]');
-    if (link) {
-      gtag('event', 'conversion', {
-        'send_to': 'AW-695987136/ovsSCKLgs4AdEMDX78sC',
-        'value': 1.0,
-        'currency': 'COP'
-      });
-    }
+    var link = e.target.closest('a[href*="wa.me"], a[href^="tel:"]');
+    if (!link || typeof gtag !== 'function') return;
+    var url = link.href;
+    var misma = link.target !== '_blank' && link.href.indexOf('tel:') !== 0;
+    var salio = false;
+    function abrir() { if (salio) return; salio = true; if (misma) window.location.href = url; }
+    if (misma) e.preventDefault();
+    gtag('event', 'conversion', {
+      'send_to': 'AW-695987136/ovsSCKLgs4AdEMDX78sC',
+      'value': 1.0,
+      'currency': 'COP',
+      'transport_type': 'beacon',
+      'event_callback': abrir
+    });
+    if (misma) setTimeout(abrir, 800);
   });
 </script>
 
@@ -116,26 +154,27 @@ img{max-width:100%;height:auto;display:block}
 
 <nav class="nav">
   <div class="nav-logo">ARPA<span>.</span></div>
-  <a class="nav-wa" href="https://wa.me/573005683914?text=Hola%20Arlen,%20vi%20tu%20anuncio%20en%20Google%20y%20necesito%20cotizar%20un%20servicio%20para%20mi%20puerta">WhatsApp</a>
+  <a class="nav-wa" href="https://wa.me/573005683914?text=Hola%20Arlen,%20vi%20tu%20anuncio%20en%20Google%20y%20necesito%20cotizar%20un%20servicio%20para%20mi%20puerta" target="_blank" rel="noopener">WhatsApp</a>
 </nav>
 
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-badge"><span class="pulse"></span> Técnicos disponibles hoy en Medellín</div>
     <h1>¡NO SE BAJE<br>MÁS DEL<br><span class="am">CARRO!</span><br><span class="az">AUTOMATICE<br>SU GARAJE HOY</span></h1>
-    <p class="hero-sub">Instalación de motores para portones eléctricos en el <strong>Valle de Aburrá</strong>. Garantía técnica de 12 meses incluida.</p>
-    <a class="btn-wa-hero" href="https://wa.me/573005683914?text=Hola%20Arlen,%20vi%20tu%20anuncio%20en%20Google%20y%20necesito%20cotizar%20un%20servicio%20para%20mi%20puerta">
+    <p class="hero-sub">Instalación de motores para portones eléctricos en el <strong>Valle de Aburrá</strong>. Garantía técnica de 2 años incluida.</p>
+    <a class="btn-wa-hero" href="https://wa.me/573005683914?text=Hola%20Arlen,%20vi%20tu%20anuncio%20en%20Google%20y%20necesito%20cotizar%20un%20servicio%20para%20mi%20puerta" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       COTIZAR MI MOTOR POR WHATSAPP
     </a>
-    <p class="btn-hint">Respuesta inmediata · Sin compromiso · Gratis</p>
+    <a class="btn-call" href="tel:+573005683914">📞 Prefiero llamar: 300 568 3914</a>
+    <p class="btn-hint" style="margin-top:10px">Respuesta inmediata · Sin compromiso · Gratis</p>
   </div>
 </section>
 
 <div class="stats">
   <div class="stat"><div class="stat-n">+500</div><div class="stat-l">Puertas instaladas</div></div>
   <div class="stat"><div class="stat-n">10+</div><div class="stat-l">Años de experiencia</div></div>
-  <div class="stat"><div class="stat-n">12M</div><div class="stat-l">Garantía incluida</div></div>
+  <div class="stat"><div class="stat-n">2 AÑOS</div><div class="stat-l">Garantía incluida</div></div>
 </div>
 
 <div class="urgencia">
@@ -149,36 +188,90 @@ img{max-width:100%;height:auto;display:block}
 </div>
 
 <section class="section">
+  <div class="sec-label">Trabajos reales</div>
+  <div class="sec-title">Mira cómo quedan</div>
+  <div class="sec-sub">Instalaciones hechas por nuestro equipo. Toca para ver el video.</div>
+  <div class="videos">
+    <a class="video-card" href="https://www.youtube.com/watch?v=Z-rpOsMuErQ" target="_blank" rel="noopener">
+      <div class="video-thumb"><img src="https://img.youtube.com/vi/Z-rpOsMuErQ/hqdefault.jpg" alt="Puerta seccional levadiza instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play"><span>▶</span></div></div>
+      <div class="video-txt">Puerta seccional levadiza<small>Garaje residencial automatizado · Instalado por nosotros</small></div>
+    </a>
+    <a class="video-card" href="https://www.youtube.com/watch?v=la3iGII-6fg" target="_blank" rel="noopener">
+      <div class="video-thumb"><img src="https://img.youtube.com/vi/la3iGII-6fg/hqdefault.jpg" alt="Motor Bulldozer 850 instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play"><span>▶</span></div></div>
+      <div class="video-txt">Motor Bulldozer 850<small>Portón corredizo · Instalado por nosotros</small></div>
+    </a>
+    <a class="video-card" href="https://www.youtube.com/shorts/YOPrU7i_wcA" target="_blank" rel="noopener">
+      <div class="video-thumb"><img src="https://img.youtube.com/vi/YOPrU7i_wcA/hqdefault.jpg" alt="Brazos Eagle 250 instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play"><span>▶</span></div></div>
+      <div class="video-txt">Brazos Eagle 250<small>Puerta batiente de 2 hojas · Instalado por nosotros</small></div>
+    </a>
+  </div>
+</section>
+
+<section class="section">
   <div class="sec-label">Por qué elegirnos</div>
   <div class="sec-title">Lo que nos diferencia</div>
   <div class="sec-sub">No somos intermediarios — somos técnicos especializados con años en el campo.</div>
   <div class="dolor-card"><div class="dolor-ico">⚡</div><div><div class="dolor-title">Rapidez y disponibilidad</div><div class="dolor-desc">Técnicos disponibles hoy en El Poblado, Envigado, Laureles, Bello, Itagüí y todo el Valle de Aburrá.</div></div></div>
   <div class="dolor-card"><div class="dolor-ico">🛠️</div><div><div class="dolor-title">Más de 500 puertas instaladas</div><div class="dolor-desc">10 años de experiencia en instalación. Sabemos exactamente qué motor necesitas.</div></div></div>
-  <div class="dolor-card"><div class="dolor-ico">🏆</div><div><div class="dolor-title">Marcas top del mercado</div><div class="dolor-desc">Distribuidores de Accessmatic, BFT, Elite, NAS y LiftMaster. Repuestos originales garantizados.</div></div></div>
-  <div class="dolor-card"><div class="dolor-ico">🛡️</div><div><div class="dolor-title">Garantía técnica de 12 meses</div><div class="dolor-desc">Todos nuestros trabajos incluyen garantía real. Si algo falla, regresamos sin costo adicional.</div></div></div>
+  <div class="dolor-card"><div class="dolor-ico">🏆</div><div><div class="dolor-title">Marcas top del mercado</div><div class="dolor-desc">Trabajamos con Accessmatic, BFT, Elite, NAS y LiftMaster, comprados a sus distribuidores oficiales. Equipos y repuestos originales.</div></div></div>
+  <div class="dolor-card"><div class="dolor-ico">🛡️</div><div><div class="dolor-title">Garantía técnica de 2 años</div><div class="dolor-desc">Todos nuestros trabajos incluyen garantía real. Si algo falla, regresamos sin costo adicional.</div></div></div>
 </section>
 
 <section class="section bg-oscuro">
   <div class="sec-label">Nuestros servicios</div>
   <div class="sec-title">¿Qué tipo de puerta tienes?</div>
-  <div class="sec-sub">Instalamos todo tipo de acceso automático con motor nuevo.</div>
+  <div class="sec-sub">Toca tu tipo de puerta y te cotizamos por WhatsApp.</div>
   <div class="grid-serv">
-    <div class="serv-item"><div class="serv-ico">🚗</div><div class="serv-name">Corrediza</div><div class="serv-sub">Portón eléctrico</div></div>
-    <div class="serv-item"><div class="serv-ico">🔄</div><div class="serv-name">Batiente</div><div class="serv-sub">1 o 2 hojas</div></div>
-    <div class="serv-item"><div class="serv-ico">⬆️</div><div class="serv-name">Enrollable</div><div class="serv-sub">Persiana eléctrica</div></div>
-    <div class="serv-item"><div class="serv-ico">🏭</div><div class="serv-name">Seccional</div><div class="serv-sub">Garaje residencial</div></div>
-    <div class="serv-item"><div class="serv-ico">🚧</div><div class="serv-name">Barrera</div><div class="serv-sub">Parqueaderos</div></div>
-    <div class="serv-item"><div class="serv-ico">🏠</div><div class="serv-name">Techo corredizo</div><div class="serv-sub">Automatizado</div></div>
+    <a class="serv-item" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20un%20motor%20para%20puerta%20corrediza" target="_blank" rel="noopener"><div class="serv-ico">🚗</div><div class="serv-name">Corrediza</div><div class="serv-sub">Portón eléctrico</div><div class="serv-cta">Cotizar →</div></a>
+    <a class="serv-item" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20un%20motor%20para%20puerta%20batiente" target="_blank" rel="noopener"><div class="serv-ico">🔄</div><div class="serv-name">Batiente</div><div class="serv-sub">1 o 2 hojas</div><div class="serv-cta">Cotizar →</div></a>
+    <a class="serv-item" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20un%20motor%20para%20cortina%20enrollable" target="_blank" rel="noopener"><div class="serv-ico">⬆️</div><div class="serv-name">Enrollable</div><div class="serv-sub">Persiana eléctrica</div><div class="serv-cta">Cotizar →</div></a>
+    <a class="serv-item" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20un%20motor%20para%20puerta%20seccional%20de%20garaje" target="_blank" rel="noopener"><div class="serv-ico">🏭</div><div class="serv-name">Seccional</div><div class="serv-sub">Garaje residencial</div><div class="serv-cta">Cotizar →</div></a>
+    <a class="serv-item" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20un%20motor%20para%20barrera%20vehicular" target="_blank" rel="noopener"><div class="serv-ico">🚧</div><div class="serv-name">Barrera</div><div class="serv-sub">Parqueaderos</div><div class="serv-cta">Cotizar →</div></a>
+    <a class="serv-item" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20un%20motor%20para%20techo%20corredizo" target="_blank" rel="noopener"><div class="serv-ico">🏠</div><div class="serv-name">Techo corredizo</div><div class="serv-sub">Automatizado</div><div class="serv-cta">Cotizar →</div></a>
+    <a class="serv-item serv-full" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20necesito%20cotizar%20una%20puerta%20de%20vidrio%20autom%C3%A1tica%20para%20local%20u%20oficina" target="_blank" rel="noopener"><div class="serv-ico">🏢</div><div class="serv-name">Puerta de vidrio automática</div><div class="serv-sub">Locales, oficinas, clínicas</div><div class="serv-cta">Cotizar →</div></a>
   </div>
 </section>
 
 
 
+<section class="section">
+  <div class="sec-label">Precios de referencia</div>
+  <div class="sec-title">¿Cuánto cuesta un motor?</div>
+  <div class="sec-sub">Kit de motor completo con controles. Te confirmamos el modelo exacto según el peso y tamaño de tu puerta.</div>
+  <div class="precios">
+    <div class="precio-card"><div class="precio-marca">Accessmatic</div><div class="precio-desde">desde</div><div class="precio-valor">$1.000.000</div></div>
+    <div class="precio-card"><div class="precio-marca">BFT</div><div class="precio-desde">desde</div><div class="precio-valor">$1.800.000</div></div>
+  </div>
+  <p class="precio-nota">Precio del equipo. La instalación se cotiza aparte según tu puerta. Enviamos a toda Colombia.</p>
+</section>
+
 <section class="section bg-oscuro">
-  <div class="sec-label">Distribuidores autorizados</div>
-  <div class="sec-title">Marcas que manejamos</div>
+  <div class="sec-label">Equipos</div>
+  <div class="sec-title">Motores y kits que instalamos</div>
+  <div class="sec-sub">Kits completos con controles. Precio del equipo; la instalación va aparte.</div>
+  <div class="prod-grid">
+    <div class="prod-card"><img src="img/motor-corredizo.webp" alt="Motor para portón corredizo" loading="lazy" width="480" height="360"><div class="prod-info"><div class="prod-name">Motor para portón corredizo</div><div class="prod-price">Casas, conjuntos y bodegas</div><div class="prod-price">desde <b>$1.099.900</b></div><a class="prod-btn" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20quiero%20cotizar%3A%20motor%20para%20port%C3%B3n%20corredizo" target="_blank" rel="noopener">Cotizar este</a></div></div>
+    <div class="prod-card"><img src="img/brazos-batientes-2-hojas.webp" alt="Brazos para puerta batiente de 2 hojas" loading="lazy" width="480" height="360"><div class="prod-info"><div class="prod-name">Brazos para puerta batiente de 2 hojas</div><div class="prod-price">Portones de 2 hojas</div><div class="prod-price">desde <b>$2.199.900</b></div><a class="prod-btn" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20quiero%20cotizar%3A%20kit%20de%20brazos%20para%20puerta%20batiente%20de%202%20hojas" target="_blank" rel="noopener">Cotizar este</a></div></div>
+    <div class="prod-card"><img src="img/brazo-batiente-1-hoja.webp" alt="Brazo para puerta batiente de 1 hoja" loading="lazy" width="480" height="360"><div class="prod-info"><div class="prod-name">Brazo para puerta batiente de 1 hoja</div><div class="prod-price">Con tarjeta y 2 controles</div><div class="prod-price">desde <b>$2.719.900</b></div><a class="prod-btn" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20quiero%20cotizar%3A%20brazo%20para%20puerta%20batiente%20de%201%20hoja" target="_blank" rel="noopener">Cotizar este</a></div></div>
+    <div class="prod-card"><img src="img/puerta-vidrio-automatica.webp" alt="Puerta de vidrio automática" loading="lazy" width="480" height="360"><div class="prod-info"><div class="prod-name">Puerta de vidrio automática</div><div class="prod-price">Locales, oficinas y clínicas</div><div class="prod-price">Cotización según medidas</div><a class="prod-btn" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20quiero%20cotizar%3A%20puerta%20de%20vidrio%20autom%C3%A1tica%20para%20local%20u%20oficina" target="_blank" rel="noopener">Cotizar este</a></div></div>
+    <div class="prod-card"><img src="img/puerta-peatonal-batiente.webp" alt="Operador para puerta peatonal" loading="lazy" width="480" height="360"><div class="prod-info"><div class="prod-name">Operador para puerta peatonal</div><div class="prod-price">Apertura automática con botón o control</div><div class="prod-price">Cotización según medidas</div><a class="prod-btn" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20quiero%20cotizar%3A%20operador%20autom%C3%A1tico%20para%20puerta%20peatonal%20batiente" target="_blank" rel="noopener">Cotizar este</a></div></div>
+    <div class="prod-card"><img src="img/herrajes-levadiza.webp" alt="Kit de herrajes para puerta levadiza" loading="lazy" width="480" height="360"><div class="prod-info"><div class="prod-name">Kit de herrajes para puerta levadiza</div><div class="prod-price">Resortes, guías y accesorios</div><div class="prod-price">Cotización según peso</div><a class="prod-btn" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20su%20p%C3%A1gina%20y%20quiero%20cotizar%3A%20kit%20de%20herrajes%20para%20puerta%20levadiza" target="_blank" rel="noopener">Cotizar este</a></div></div>
+  </div>
+</section>
+
+<section class="section bg-oscuro">
+  <div class="sec-label">Fuera de Medellín</div>
+  <div class="sec-title">¿Estás en otra ciudad?</div>
+  <div class="sec-sub">Te enviamos el motor con todo lo necesario para instalarlo. Ya hemos enviado equipos a:</div>
+  <div class="ciudades"><span class="zona">Bogotá</span><span class="zona">Cali</span><span class="zona">Pereira</span><span class="zona">Bucaramanga</span><span class="zona">Ibagué</span><span class="zona">+ cualquier ciudad 🇨🇴</span></div>
+  <a class="btn-wa-final" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20estoy%20fuera%20de%20Medell%C3%ADn%20y%20necesito%20cotizar%20un%20motor%20con%20env%C3%ADo%20a%20mi%20ciudad" target="_blank" rel="noopener">COTIZAR MOTOR CON ENVÍO</a>
+</section>
+
+<section class="section bg-oscuro">
+  <div class="sec-label">Equipos originales</div>
+  <div class="sec-title">Marcas que instalamos</div>
   <div class="marcas-row">
-    <span class="marca-pill">BFT</span><span class="marca-pill">Accessmatic</span><span class="marca-pill">Elite</span><span class="marca-pill">NAS</span><span class="marca-pill">LiftMaster</span><span class="marca-pill">Beninca</span><span class="marca-pill">Chamberlain</span>
+    <span class="marca-pill">BFT</span><span class="marca-pill">Accessmatic</span><span class="marca-pill">Elite</span><span class="marca-pill">NAS</span><span class="marca-pill">LiftMaster</span>
   </div>
 </section>
 
@@ -189,17 +282,7 @@ img{max-width:100%;height:auto;display:block}
     <div class="step"><div class="step-num">1</div><div><div class="step-title">Escríbenos por WhatsApp</div><div class="step-desc">Cuéntanos qué tipo de puerta tienes y dónde estás. Te respondemos en minutos.</div></div></div>
     <div class="step"><div class="step-num">2</div><div><div class="step-title">Cotización exacta</div><div class="step-desc">Te enviamos precio con todo incluido — motor, instalación y garantía. Sin sorpresas.</div></div></div>
     <div class="step"><div class="step-num">3</div><div><div class="step-title">Visita técnica</div><div class="step-desc">Agendamos e instalamos al día siguiente según disponibilidad en tu zona.</div></div></div>
-    <div class="step"><div class="step-num">4</div><div><div class="step-title">Puerta funcionando + garantía</div><div class="step-desc">12 meses de garantía técnica. Soporte directo con nosotros si necesitas algo.</div></div></div>
-  </div>
-</section>
-
-<section class="section bg-oscuro">
-  <div class="sec-label">Lo que dicen nuestros clientes</div>
-  <div class="sec-title">Opiniones reales</div>
-  <div style="margin-top:1.25rem">
-    <div class="testi"><div class="stars">★★★★★</div><div class="testi-txt">"Muy buena atención desde el primer mensaje. Instalaron al día siguiente y la puerta quedó perfecta. 100% recomendados."</div><div class="testi-autor"><span class="autor-dot"></span> Carlos M. · El Poblado, Medellín</div></div>
-    <div class="testi"><div class="stars">★★★★★</div><div class="testi-txt">"Profesionales y puntuales. El precio fue justo y el motor lleva meses funcionando sin ningún problema."</div><div class="testi-autor"><span class="autor-dot"></span> Sandra R. · Laureles, Medellín</div></div>
-    <div class="testi"><div class="stars">★★★★★</div><div class="testi-txt">"Les compré el motor para enviar a otra ciudad. El equipo llegó perfecto y con todo lo necesario para la instalación."</div><div class="testi-autor"><span class="autor-dot"></span> Jhon D. · Manizales</div></div>
+    <div class="step"><div class="step-num">4</div><div><div class="step-title">Puerta funcionando + garantía</div><div class="step-desc">2 años de garantía técnica. Soporte directo con nosotros si necesitas algo.</div></div></div>
   </div>
 </section>
 
@@ -214,7 +297,7 @@ img{max-width:100%;height:auto;display:block}
 <section class="cta-final">
   <h2>¿LISTO PARA<br><span>COTIZAR?</span></h2>
   <p>Escríbenos ahora y te respondemos en minutos.<br>Sin compromiso, sin costo.</p>
-  <a class="btn-wa-final" href="https://wa.me/573005683914?text=Hola%20Arlen,%20vi%20tu%20anuncio%20en%20Google%20y%20necesito%20cotizar%20un%20servicio%20para%20mi%20puerta">
+  <a class="btn-wa-final" href="https://wa.me/573005683914?text=Hola%20Arlen,%20vi%20tu%20anuncio%20en%20Google%20y%20necesito%20cotizar%20un%20servicio%20para%20mi%20puerta" target="_blank" rel="noopener">
     <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     COTIZAR MI MOTOR POR WHATSAPP
   </a>
