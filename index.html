@@ -98,14 +98,21 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
 .precio-desde{font-size:11px;color:var(--gris);margin-top:6px}
 .precio-valor{font-family:'Bebas Neue',sans-serif;font-size:30px;color:var(--amarillo);letter-spacing:1px;line-height:1.1}
 .precio-nota{font-size:12px;color:var(--gris);margin-top:12px;line-height:1.55}
-.videos{display:grid;grid-template-columns:1fr;gap:12px;margin-top:1.25rem}
-.video-card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--borde);border-radius:14px;overflow:hidden}
+.videos{display:flex;gap:12px;margin-top:1.25rem;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.videos::-webkit-scrollbar{display:none}
+.video-card{flex:0 0 78%;scroll-snap-align:start;display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--borde);border-radius:14px;overflow:hidden}
 .video-thumb{position:relative;aspect-ratio:16/9;background:#000}
 .video-thumb img{width:100%;height:100%;object-fit:cover}
 .video-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 .video-play span{width:56px;height:56px;border-radius:50%;background:rgba(0,0,0,0.6);border:2px solid #fff;display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;padding-left:4px}
+.video-play-btn{display:block;width:100%;margin:0;padding:0;border:0;background:transparent;cursor:pointer;color:inherit;font:inherit;text-align:left}
+.video-thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .video-txt{padding:0.8rem 1rem;font-size:13px;font-weight:600;color:var(--blanco)}
 .video-txt small{display:block;font-weight:400;color:var(--gris);margin-top:2px}
+@media (min-width:900px){
+.videos{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;scroll-snap-type:none}
+.video-card{flex:none;width:auto;scroll-snap-align:unset}
+}
 .prod-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:1.25rem}
 .prod-card{background:var(--card);border:1px solid var(--borde);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
 .prod-card img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff}
@@ -116,6 +123,7 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
 .prod-btn{margin-top:auto;display:block;text-align:center;background:var(--verde);color:#fff;text-decoration:none;border-radius:8px;padding:8px;font-size:12px;font-weight:600}
 .serv-full{grid-column:1/-1}
 .ciudades{display:flex;flex-wrap:wrap;gap:8px;margin:1rem 0 1.25rem}
+.videos-wa{margin-top:1.25rem}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-695987136"></script>
@@ -192,19 +200,32 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
   <div class="sec-title">Mira cómo quedan</div>
   <div class="sec-sub">Instalaciones hechas por nuestro equipo. Toca para ver el video.</div>
   <div class="videos">
-    <a class="video-card" href="https://www.youtube.com/watch?v=Z-rpOsMuErQ" target="_blank" rel="noopener">
-      <div class="video-thumb"><img src="https://img.youtube.com/vi/Z-rpOsMuErQ/hqdefault.jpg" alt="Puerta seccional levadiza instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play"><span>▶</span></div></div>
+    <article class="video-card">
+      <div class="video-media" data-yt="Z-rpOsMuErQ">
+        <button type="button" class="video-play-btn" aria-label="Reproducir video: Puerta seccional levadiza">
+          <div class="video-thumb"><img src="https://img.youtube.com/vi/Z-rpOsMuErQ/hqdefault.jpg" alt="Puerta seccional levadiza instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play" aria-hidden="true"><span>▶</span></div></div>
+        </button>
+      </div>
       <div class="video-txt">Puerta seccional levadiza<small>Garaje residencial automatizado · Instalado por nosotros</small></div>
-    </a>
-    <a class="video-card" href="https://www.youtube.com/watch?v=la3iGII-6fg" target="_blank" rel="noopener">
-      <div class="video-thumb"><img src="https://img.youtube.com/vi/la3iGII-6fg/hqdefault.jpg" alt="Motor Bulldozer 850 instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play"><span>▶</span></div></div>
+    </article>
+    <article class="video-card">
+      <div class="video-media" data-yt="la3iGII-6fg">
+        <button type="button" class="video-play-btn" aria-label="Reproducir video: Motor Bulldozer 850">
+          <div class="video-thumb"><img src="https://img.youtube.com/vi/la3iGII-6fg/hqdefault.jpg" alt="Motor Bulldozer 850 instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play" aria-hidden="true"><span>▶</span></div></div>
+        </button>
+      </div>
       <div class="video-txt">Motor Bulldozer 850<small>Portón corredizo · Instalado por nosotros</small></div>
-    </a>
-    <a class="video-card" href="https://www.youtube.com/shorts/YOPrU7i_wcA" target="_blank" rel="noopener">
-      <div class="video-thumb"><img src="https://img.youtube.com/vi/YOPrU7i_wcA/hqdefault.jpg" alt="Brazos Eagle 250 instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play"><span>▶</span></div></div>
+    </article>
+    <article class="video-card">
+      <div class="video-media" data-yt="YOPrU7i_wcA">
+        <button type="button" class="video-play-btn" aria-label="Reproducir video: Brazos Eagle 250">
+          <div class="video-thumb"><img src="https://img.youtube.com/vi/YOPrU7i_wcA/hqdefault.jpg" alt="Brazos Eagle 250 instalado por Automatismos ARPA" loading="lazy" width="480" height="270"><div class="video-play" aria-hidden="true"><span>▶</span></div></div>
+        </button>
+      </div>
       <div class="video-txt">Brazos Eagle 250<small>Puerta batiente de 2 hojas · Instalado por nosotros</small></div>
-    </a>
+    </article>
   </div>
+  <a class="btn-wa-final videos-wa" href="https://wa.me/573005683914?text=Hola%20Arlen%2C%20vi%20sus%20videos%20de%20instalaciones%20y%20quiero%20cotizar%20una%20puerta" target="_blank" rel="noopener">¿Quieres una así? Cotiza por WhatsApp</a>
 </section>
 
 <section class="section">
@@ -306,6 +327,38 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
 <footer class="footer">
   <p>Automatismos Arlenpav S.A.S · NIT 901.473.259-8<br>Medellín, Colombia · +57 300-568-3914<br>© 2026 Todos los derechos reservados</p>
 </footer>
+<script>
+(function () {
+  var root = document.querySelector('.videos');
+  if (!root) return;
 
+  function savePoster(media) {
+    if (!media.getAttribute('data-poster')) media.setAttribute('data-poster', media.innerHTML);
+  }
+
+  function stopCard(card) {
+    var media = card.querySelector('.video-media');
+    var poster = media && media.getAttribute('data-poster');
+    if (media && poster) media.innerHTML = poster;
+    card.classList.remove('is-playing');
+  }
+
+  root.addEventListener('click', function (e) {
+    var btn = e.target.closest('.video-play-btn');
+    if (!btn || !root.contains(btn)) return;
+    var card = btn.closest('.video-card');
+    var media = btn.closest('.video-media');
+    var id = media && media.getAttribute('data-yt');
+    if (!card || !media || !id) return;
+    savePoster(media);
+    root.querySelectorAll('.video-card.is-playing').forEach(function (other) {
+      if (other !== card) stopCard(other);
+    });
+    var title = (btn.getAttribute('aria-label') || 'Video').replace(/^Reproducir video:\s*/, '').replace(/"/g, '');
+    media.innerHTML = '<div class="video-thumb"><iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0&playsinline=1" title="' + title + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>';
+    card.classList.add('is-playing');
+  });
+})();
+</script>
 </body>
 </html>
