@@ -4,6 +4,10 @@ Este archivo se lee al iniciar cada sesión. Mantenerlo al día: cada vez que
 cambie algo del negocio o de la página, actualizar la sección que corresponda
 y la bitácora del final.
 
+> **Ojo: este repositorio es público.** Cualquiera puede leer este archivo en
+> GitHub. No guardar aquí datos sensibles (presupuestos de Ads, ventas,
+> márgenes, costos, claves). `_config.yml` lo excluye de la página publicada.
+
 ## Cómo trabajar con Arlen
 
 - Arlen Pavón, Medellín, Colombia. No es programador y trabaja desde el celular.
@@ -100,7 +104,7 @@ respuesta a la sección que corresponda y borrar la pregunta.
 
 - ¿Hacia dónde va el negocio en los próximos meses (metas, servicios nuevos,
   ciudades)?
-- ¿Cuánto se invierte en Google Ads y cuántos contactos/ventas llegan al mes?
+- ¿Dónde guardar datos sensibles (Ads, ventas, márgenes) si no aquí?
 - ¿Hay "reglas del negocio" escritas (se mencionan en el historial)? ¿Dónde?
 - ¿Se instala en Rionegro / Oriente antioqueño?
 - ¿Las cifras +500 puertas y 10+ años son exactas?
