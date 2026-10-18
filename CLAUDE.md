@@ -56,6 +56,19 @@ las ciudades grandes con distribuidores. Medir 60 días y decidir con datos.
 **Reparto de Google Ads: 70 % Medellín/Valle de Aburrá/Rionegro, 30 %
 nacional** (el monto está en Drive).
 
+**Publicidad = siempre cliente final (regla de Arlen).** Google Ads y redes le
+hablan siempre al cliente final: el ama de casa, el trabajador que quiere su
+motor de garaje o de portón. Nunca anuncios para instaladores o cerrajeros.
+
+**Piloto: cerrajerías de pueblos (aprobado por Arlen, 18-oct-2026).** Única
+excepción a "no aliados": cerrajerías de municipios **sin distribuidor**, que
+hoy tienen que viajar a una ciudad para comprar. Solo **Accessmatic**, 10 % de
+descuento sobre la lista, pago 100 % antes de despachar, envío por
+Coordinadora a su cargo, asesoría de programación a distancia (la instalación
+la hace el cerrajero). Se llega a ellas por contacto directo de WhatsApp (no
+con publicidad), máximo 10-15 mensajes nuevos al día. Arlen acepta menor
+ganancia porque puede llenar más rápido la meta nacional. Medir 60 días.
+
 **Recomendaciones de distribuidores:** prácticamente no le llegan trabajos a
 Arlen por esa vía en el año (posible razón, según Arlen: a él ya lo tienen
 como comprador fijo). No contar con ese canal.
@@ -173,8 +186,9 @@ barato, actualizar ambos sitios.
 
 ## Canales descartados
 
-- **Instaladores aliados / venta a otros instaladores — descartado por Arlen
-  (18-oct-2026).** Los distribuidores oficiales les dan 30-40 % de descuento
+- **Instaladores aliados / venta a otros instaladores en ciudades con
+  distribuidor — descartado por Arlen (18-oct-2026).** (Excepción en prueba:
+  cerrajerías de pueblos sin distribuidor, ver arriba.) Los distribuidores oficiales les dan 30-40 % de descuento
   directo a los instaladores; Arlen no puede competir con eso dándoles 5-10 %.
   No volver a proponerlo.
 - **Mercado Libre — descartado por Arlen (18-oct-2026).** Lo usó cerca de dos
@@ -241,3 +255,6 @@ borrar la pregunta.
 - 2026-10-18: Arlen elige la opción A para lo nacional (municipios sin
   distribuidor, medir 60 días) y el reparto de Ads 70 % Medellín / 30 %
   nacional. Las recomendaciones de distribuidores no son un canal.
+- 2026-10-18: piloto de cerrajerías de pueblos sin distribuidor, solo
+  Accessmatic, 10 % de descuento. Regla: la publicidad siempre le habla al
+  cliente final.
