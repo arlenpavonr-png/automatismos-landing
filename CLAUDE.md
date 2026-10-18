@@ -30,8 +30,18 @@ otro lado. Si una decisión de Arlen cambia una regla, se cambia aquí.
 1. **Aumentar las ventas en Medellín** (instalación).
 2. **Aumentar los envíos nacionales** (venta de equipos a otras ciudades).
 
-**Meta numérica (desde oct-2026): mínimo 10 ventas al mes en Medellín
-(instalación) y mínimo 10 ventas al mes con envío nacional.**
+**Meta numérica (decidida por Arlen, 18-oct-2026):**
+- **Medellín (instalación): mínimo 10 ventas al mes.**
+- **Nacional (envío): 6 ventas al mes en 90 días** (nov-2026 a ene-2027:
+  aprox. 3 → 4-5 → 6). La meta de 10 nacionales sigue a largo plazo (mes 6-9)
+  y depende de que funcione la red de instaladores aliados.
+
+**Estrategia nacional:** el comprador real desde otra ciudad es quien instala
+(herreros, cerrajeros, empresas de seguridad). Orden: 1) red de instaladores
+aliados, 2) campaña nacional de Ads dirigida a ese comprador, 3) catálogo de
+WhatsApp Business, 4) Facebook para encontrar aliados, SEO por ciudad,
+propiedad horizontal y referidos. El Perfil de Negocio de Google solo sirve
+para Medellín (no poner "toda Colombia": riesgo de suspensión).
 
 Toda propuesta de cambio a la página debe servir a una de estas dos metas.
 
@@ -74,6 +84,13 @@ Arlen (dueño) ── autoriza
 - **Instalación:** Medellín, Valle de Aburrá y Rionegro (confirmado). No
   prometer otros municipios del Oriente sin preguntar. **Venta con envío:** toda
   Colombia por Coordinadora (el envío lo paga el cliente).
+- **Ventas con envío — reglas de Arlen:** pago del **100 % antes de
+  despachar**, solo por transferencia a la cuenta de la empresa y con la plata
+  ya visible en el banco (un pantallazo no vale). Sin contraentrega. Foto de
+  los seriales antes de despachar. Garantía de 2 años en el equipo; la mano de
+  obra la responde quien instala. Retracto de 5 días hábiles (ley): confirmar
+  con fotos y medidas que el kit sirve antes de vender y revisar el serial al
+  recibir una devolución (pendiente validar con abogado o contador).
 - **Contacto:** WhatsApp y teléfono +57 300 568 3914. Atención de lunes a
   viernes, de 8 a. m. a 5 p. m.
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
@@ -155,6 +172,10 @@ barato, actualizar ambos sitios.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
+- ¿Aprueba el precio para aliados (desde su 2.ª compra: -10 % Accessmatic,
+  -5 % BFT)?
+- ¿Hay contactos de compradores instaladores de la época de Mercado Libre?
+- ¿Qué trae cada kit y hay equipos en bodega para despachar rápido?
 - ¿Cuánto se gasta hoy en Google Ads y cuántos contactos llegan por semana?
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
   kit, garantía si instala un técnico de otra ciudad, anticipo, medios de
@@ -191,3 +212,6 @@ borrar la pregunta.
 - 2026-10-18: la página pasa a decir "precio con IVA incluido" (antes decía
   "sin IVA; si requiere factura se suma el IVA", y eso era falso porque la
   lista oficial ya trae el IVA). Mercado Libre queda descartado.
+- 2026-10-18: Arlen fija la meta nacional en 6 ventas/mes a 90 días (10 a
+  largo plazo) y la regla de pago 100 % antes de despachar. La estrategia
+  nacional pasa a priorizar instaladores aliados.

@@ -12,7 +12,7 @@ Antes de trabajar, lee `CLAUDE.md` (reglas del negocio, precios, metas) e
 
 ## Tu meta
 Que Google Ads traiga los contactos necesarios para cerrar **10 ventas al mes
-en Medellín (instalación)** y **10 ventas al mes con envío nacional**.
+en Medellín (instalación)** y **6 ventas al mes con envío nacional** (meta a 90 días; 10 a largo plazo).
 
 ## Lo que haces
 - Estructura de campañas separadas: Medellín/Valle de Aburrá/Rionegro

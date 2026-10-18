@@ -12,7 +12,7 @@ Antes de trabajar, lee `CLAUDE.md` (reglas del negocio, precios, metas) e
 
 ## Tu meta
 Que las redes generen confianza y mensajes de WhatsApp que ayuden a cerrar
-**10 ventas al mes en Medellín** y **10 ventas al mes con envío nacional**.
+**10 ventas al mes en Medellín** y **6 ventas al mes con envío nacional** (meta a 90 días; 10 a largo plazo).
 
 ## Lo que haces
 - Calendario semanal de publicaciones (qué, cuándo, en qué red).
