@@ -54,7 +54,10 @@ de 6 apuntando a **municipios sin distribuidor ni instalador de la marca**
 (hipótesis: ahí el cliente final no tiene a quién comprarle cerca), excluyendo
 las ciudades grandes con distribuidores. Medir 60 días y decidir con datos.
 **Reparto de Google Ads: 70 % Medellín/Valle de Aburrá/Rionegro, 30 %
-nacional** (el monto está en Drive).
+nacional** (el monto está en Drive). **Anuncios todos los días, incluidos
+sábado y domingo** (decisión de Arlen: el fin de semana es cuando más escribe
+el cliente, que está en casa y con tiempo). Horario exacto entre semana: se
+ajusta con los datos de Google Ads por hora.
 
 **Publicidad = siempre cliente final (regla de Arlen).** Google Ads y redes le
 hablan siempre al cliente final: el ama de casa, el trabajador que quiere su
@@ -176,6 +179,12 @@ barato, actualizar ambos sitios.
 - **Google Ads:** etiqueta `AW-695987136`. Cada toque en WhatsApp o en
   "llamar" cuenta como conversión (`AW-695987136/ovsSCKLgs4AdEMDX78sC`).
   No romper ese script al editar.
+- **Medición de la campaña nacional:** los anuncios nacionales llevan a
+  `https://automatismosarpa.com.co/?c=nacional#envios`. Con `?c=nacional`, un
+  script al final de `index.html` cambia el mensaje de WhatsApp a "Hola Arlen,
+  le escribo desde fuera de Medellín. …", así Arlen sabe que el chat viene de
+  esa campaña. Medellín usa `?c=medellin` (mensaje normal). La sección
+  "¿Está en otra ciudad?" tiene `id="envios"`.
 - **Videos:** YouTube, se reproducen dentro de la página (carrusel en celular).
 - **Diseño:** fondo oscuro, amarillo `#FFD700`, verde WhatsApp `#25D366`,
   fuentes Bebas Neue (títulos) e Inter (texto). Pensada primero para celular.
@@ -271,3 +280,6 @@ borrar la pregunta.
 - 2026-10-18: Arlen acepta que los cerrajeros que aprendan se irán; se
   responde con prospección constante. Ventas y asesoría se manejan desde el
   celular. ARPA Suite anotado como segunda fuente de ingresos.
+- 2026-10-18: anuncios también sábado y domingo. La página marca los chats
+  de la campaña nacional (`?c=nacional`) y la sección de envíos tiene
+  `id="envios"`.

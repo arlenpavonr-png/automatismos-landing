@@ -285,7 +285,7 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
   </div>
 </section>
 
-<section class="section bg-oscuro">
+<section class="section bg-oscuro" id="envios">
   <div class="sec-label">Fuera de Medellín</div>
   <div class="sec-title">¿Está en otra ciudad?</div>
   <div class="sec-sub">Le enviamos el motor por Coordinadora con todo lo necesario para instalarlo (el envío lo paga el cliente). Ya hemos enviado equipos a:</div>
@@ -362,6 +362,25 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
     var title = (btn.getAttribute('aria-label') || 'Video').replace(/^Reproducir video:\s*/, '').replace(/"/g, '');
     media.innerHTML = '<div class="video-thumb"><iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0&playsinline=1" title="' + title + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>';
     card.classList.add('is-playing');
+  });
+})();
+</script>
+<script>
+// Anuncios de la campaña nacional llegan con ?c=nacional: el mensaje de WhatsApp
+// lo indica para que Arlen sepa que el chat viene de esa campaña.
+(function () {
+  var c = new URLSearchParams(window.location.search).get('c');
+  if (c !== 'nacional') return;
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function (link) {
+    try {
+      var url = new URL(link.href);
+      var text = url.searchParams.get('text');
+      if (!text || text.indexOf('fuera de Medellín') !== -1) return;
+      url.searchParams.set('text', text.replace(/^Hola Arlen,\s*(.)/, function (m, letra) {
+        return 'Hola Arlen, le escribo desde fuera de Medellín. ' + letra.toUpperCase();
+      }));
+      link.href = url.toString();
+    } catch (e) {}
   });
 })();
 </script>
