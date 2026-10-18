@@ -131,8 +131,8 @@ Arlen (dueño) ── autoriza
   obra la responde quien instala. Retracto de 5 días hábiles (ley): confirmar
   con fotos y medidas que el kit sirve antes de vender y revisar el serial al
   recibir una devolución (pendiente validar con abogado o contador).
-- **Contacto:** WhatsApp y teléfono +57 300 568 3914. Atención de lunes a
-  viernes, de 8 a. m. a 5 p. m.
+- **Contacto:** WhatsApp y teléfono +57 300 568 3914. Atención **todos los días**
+  (decisión de Arlen, 18-oct-2026; antes era lunes a viernes de 8 a 5).
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
   obra. No cubre descargas eléctricas.
 - **Atención y ventas desde el celular:** Arlen maneja ventas, WhatsApp y
@@ -283,3 +283,5 @@ borrar la pregunta.
 - 2026-10-18: anuncios también sábado y domingo. La página marca los chats
   de la campaña nacional (`?c=nacional`) y la sección de envíos tiene
   `id="envios"`.
+- 2026-10-18: la página dice "Escríbanos por WhatsApp todos los días" (antes
+  "lunes a viernes, de 8 a. m. a 5 p. m.").
