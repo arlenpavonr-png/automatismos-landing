@@ -54,7 +54,8 @@ de 6 apuntando a **municipios sin distribuidor ni instalador de la marca**
 (hipótesis: ahí el cliente final no tiene a quién comprarle cerca), excluyendo
 las ciudades grandes con distribuidores. Medir 60 días y decidir con datos.
 **Reparto de Google Ads: 70 % Medellín/Valle de Aburrá/Rionegro, 30 %
-nacional** (el monto está en Drive). **Anuncios todos los días, incluidos
+nacional** (el monto está en Drive; **el tope incluye el IVA que cobra
+Google**). **Anuncios todos los días, incluidos
 sábado y domingo** (decisión de Arlen: el fin de semana es cuando más escribe
 el cliente, que está en casa y con tiempo). Horario exacto entre semana: se
 ajusta con los datos de Google Ads por hora.
@@ -67,8 +68,8 @@ motor de garaje o de portón. Nunca anuncios para instaladores o cerrajeros.
 excepción a "no aliados": cerrajerías de municipios **sin distribuidor**, que
 hoy tienen que viajar a una ciudad para comprar. Solo **Accessmatic**, 10 % de
 descuento sobre la lista, pago 100 % antes de despachar, envío por
-Coordinadora a su cargo, asesoría de programación a distancia (la instalación
-la hace el cerrajero). Se llega a ellas por contacto directo de WhatsApp (no
+Coordinadora a su cargo, asesoría de programación a distancia **de 8 a. m. a 5 p. m.**
+(o cuadrada con el cliente; la instalación la hace el cerrajero). Se llega a ellas por contacto directo de WhatsApp (no
 con publicidad), máximo 10-15 mensajes nuevos al día. Arlen acepta menor
 ganancia porque puede llenar más rápido la meta nacional. Medir 60 días.
 Arlen da por hecho que los cerrajeros que aprendan se irán con un
@@ -108,7 +109,10 @@ Arlen (dueño) ── autoriza
   (público). Los planes, guiones, cifras y reportes van en Google Drive,
   carpeta privada **"Automatismos ARPA – Gerencia"**.
 - **Ritmo:** informe semanal del gerente a Arlen: ventas de la semana vs.
-  meta, qué hizo cada área, qué se necesita de Arlen.
+  meta, qué hizo cada área, qué se necesita de Arlen. Tarea programada
+  "Revisión semanal Automatismos ARPA", lunes 6:55 a. m. (hora Colombia), que
+  se ejecuta en la sesión de gerencia (la que tiene Google Drive conectado) y
+  guarda el informe en la carpeta Gerencia.
 
 ## El negocio
 
@@ -124,10 +128,15 @@ Arlen (dueño) ── autoriza
 - **Instalación:** Medellín, Valle de Aburrá y Rionegro (confirmado). No
   prometer otros municipios del Oriente sin preguntar. **Venta con envío:** toda
   Colombia por Coordinadora (el envío lo paga el cliente).
+- **Sin bodega propia:** Arlen no guarda equipos. Su proveedor principal de
+  Accessmatic (nombre en Drive) es su "bodega": Arlen llama y el proveedor
+  despacha de inmediato a donde él diga, o el cliente recoge allá. El cliente
+  paga a nombre de Arlen (efectivo allá o consignación a la cuenta de Arlen);
+  el proveedor verifica, Arlen confirma y entonces se despacha.
 - **Ventas con envío — reglas de Arlen:** pago del **100 % antes de
   despachar**, solo por transferencia a la cuenta de la empresa y con la plata
-  ya visible en el banco (un pantallazo no vale). Sin contraentrega. Foto de
-  los seriales antes de despachar. Garantía de 2 años en el equipo; la mano de
+  ya visible en el banco (un pantallazo no vale). Sin contraentrega. Pedirle
+  al proveedor foto de los seriales y de la guía antes de que salga el envío. Garantía de 2 años en el equipo; la mano de
   obra la responde quien instala. Retracto de 5 días hábiles (ley): confirmar
   con fotos y medidas que el kit sirve antes de vender y revisar el serial al
   recibir una devolución (pendiente validar con abogado o contador).
@@ -285,3 +294,7 @@ borrar la pregunta.
   `id="envios"`.
 - 2026-10-18: la página dice "Escríbanos por WhatsApp todos los días" (antes
   "lunes a viernes, de 8 a. m. a 5 p. m.").
+- 2026-10-18: Arlen trabaja sin bodega (su proveedor de Accessmatic despacha
+  directo). Asesoría de programación de 8 a 5. El tope de Ads incluye el IVA
+  de Google. La revisión de los lunes pasa a correr en la sesión de gerencia,
+  que sí tiene Google Drive.
