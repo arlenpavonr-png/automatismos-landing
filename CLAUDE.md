@@ -7,6 +7,12 @@ y la bitácora del final.
 > **Ojo: este repositorio es público.** Cualquiera puede leer este archivo en
 > GitHub. No guardar aquí datos sensibles (presupuestos de Ads, ventas,
 > márgenes, costos, claves). `_config.yml` lo excluye de la página publicada.
+> **Los datos sensibles van en Google Drive**, en el documento privado
+> "Automatismos ARPA – Datos privados del negocio"
+> (id `14BAhLueq9pBfcP9fb8zErPRnzWvQTD7fK_QBOVTX_os`).
+
+Este archivo es también **las reglas del negocio**: no existen escritas en
+otro lado. Si una decisión de Arlen cambia una regla, se cambia aquí.
 
 ## Cómo trabajar con Arlen
 
@@ -19,6 +25,13 @@ y la bitácora del final.
   Flujo: proponer → Arlen autoriza → rama → PR → merge → verificar publicación.
 - Si falta un dato, preguntarlo; no inventar precios, cifras ni promesas.
 
+## Hacia dónde vamos (metas, oct-2026)
+
+1. **Aumentar las ventas en Medellín** (instalación).
+2. **Aumentar los envíos nacionales** (venta de equipos a otras ciudades).
+
+Toda propuesta de cambio a la página debe servir a una de estas dos metas.
+
 ## El negocio
 
 - **Razón social:** Automatismos Arlenpav S.A.S · NIT 901.473.259-8.
@@ -28,8 +41,10 @@ y la bitácora del final.
   seccionales/levadizas de garaje, barreras vehiculares, techos corredizos,
   puertas de vidrio automáticas y operadores para puerta peatonal.
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
-  oficiales. LiftMaster se quitó de la página (oct-2026).
-- **Instalación:** Medellín y Valle de Aburrá. **Venta con envío:** toda
+  oficiales. Solo Accessmatic y BFT llevan precio; Elite y NAS **solo se
+  nombran** (decisión de Arlen). LiftMaster se quitó de la página (oct-2026).
+- **Instalación:** Medellín, Valle de Aburrá y Rionegro (confirmado). No
+  prometer otros municipios del Oriente sin preguntar. **Venta con envío:** toda
   Colombia por Coordinadora (el envío lo paga el cliente).
 - **Contacto:** WhatsApp y teléfono +57 300 568 3914. Atención de lunes a
   viernes, de 8 a. m. a 5 p. m.
@@ -39,7 +54,7 @@ y la bitácora del final.
   precio tentativo → visita técnica (precio final) → instalación (normalmente
   un día) → garantía por escrito.
 - **Cifras que muestra la página:** +500 puertas instaladas, 10+ años de
-  experiencia. Deben ser verdaderas y demostrables.
+  experiencia. Arlen confirma que son exactas.
 - **Trato al cliente:** de usted.
 
 ## Precios publicados (equipo sin IVA; instalación aparte)
@@ -79,35 +94,28 @@ barato, actualizar ambos sitios.
 
 - `automatismos-landing` → esta página (automatismosarpa.com.co).
 - `arpatechnologyglobal.com` → web de ARPA Technology (otro negocio/marca).
-- `Formato-Arlenpav` → ARPA Suite en producción (PWA de formatos de servicio,
-  cotizaciones y reportes).
+- `Formato-Arlenpav` → ARPA Suite en producción. Arlen la usa en este negocio
+  para hacer **cotizaciones e informes de obra**.
 - `ARPASuite-LAB` → copia de pruebas de ARPA Suite.
 - `Arpa-Suite` → privado.
 
 ## Pendientes y hallazgos abiertos
 
-1. **Rionegro** aparece en zonas, pero la portada dice "Valle de Aburrá".
-   Definir si se instala en el Oriente y ajustar el texto.
-2. **Conversión única** para WhatsApp y llamada: no se sabe qué canal trae
+1. **Conversión única** para WhatsApp y llamada: no se sabe qué canal trae
    más clientes. Separar si se quiere medir.
-3. En computador, las fotos de las tarjetas se ven muy grandes. No urgente:
+2. En computador, las fotos de las tarjetas se ven muy grandes. No urgente:
    el tráfico es sobre todo de celular.
-4. `img/motor-garaje-accessmatic.webp` ya no se usa (se quitó el Fox 1000 Pro).
+3. `img/motor-garaje-accessmatic.webp` ya no se usa (se quitó el Fox 1000 Pro).
 
 ## Preguntas sin responder (preguntar a Arlen)
 
-Ver la lista al final de la bitácora; cuando Arlen responda, pasar la
-respuesta a la sección que corresponda y borrar la pregunta.
+Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
+borrar la pregunta.
 
-- ¿Hacia dónde va el negocio en los próximos meses (metas, servicios nuevos,
-  ciudades)?
-- ¿Dónde guardar datos sensibles (Ads, ventas, márgenes) si no aquí?
-- ¿Hay "reglas del negocio" escritas (se mencionan en el historial)? ¿Dónde?
-- ¿Se instala en Rionegro / Oriente antioqueño?
-- ¿Las cifras +500 puertas y 10+ años son exactas?
-- ¿Qué relación tiene ARPA Suite con Automatismos ARPA (se usa para las
-  cotizaciones de este negocio)?
-- ¿Precios de Elite y NAS? ¿Se quieren mostrar?
+- Meta numérica: ¿cuántas instalaciones y envíos al mes se quieren? (va en
+  el documento de Drive).
+- Presupuesto mensual de Google Ads y cuántas ventas vienen de ahí (va en
+  el documento de Drive).
 
 ## Bitácora
 
@@ -123,3 +131,8 @@ respuesta a la sección que corresponda y borrar la pregunta.
   sea cierto; kit de herrajes a todo el ancho (PR #17). Se crea este archivo.
 - 2026-10-18: los 4 botones generales de WhatsApp pasan de "vi tu anuncio en
   Google" a "vi su página y necesito cotizar un servicio para mi puerta".
+- 2026-10-18: Rionegro confirmado; la portada, la franja de zonas, la
+  descripción para Google y "Lo que nos diferencia" lo incluyen. La portada
+  menciona también los envíos a toda Colombia. Se crea el documento privado
+  en Drive y se registran las respuestas de Arlen (metas, cifras, ARPA
+  Suite, Elite/NAS).
