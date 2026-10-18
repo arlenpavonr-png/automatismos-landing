@@ -76,6 +76,12 @@ Arlen da por hecho que los cerrajeros que aprendan se irán con un
 distribuidor: no es motivo para frenar. La respuesta es **prospección
 constante** (siempre entrando cerrajerías nuevas para reemplazar a las que se
 van), mientras ARPA Suite madura como segunda fuente de ingresos.
+Lista de municipios y mensajes listos: Google Sheets "Piloto cerrajerías –
+Municipios sin distribuidor" (id `1PzqEqejhKwABlwtsp1v-lLby2ANua-5HiPqo3aAb760`,
+carpeta Gerencia). Ningún municipio está confirmado: el primer mensaje le
+pregunta al cerrajero dónde compra hoy. Pendiente: lista de distribuidores que
+dé el proveedor de Arlen, y confirmar que vender a cerrajerías de Antioquia no
+choca con los clientes de ese mismo proveedor.
 
 **Recomendaciones de distribuidores:** prácticamente no le llegan trabajos a
 Arlen por esa vía en el año (posible razón, según Arlen: a él ya lo tienen
@@ -118,6 +124,14 @@ Arlen (dueño) ── autoriza
   gratis: el gerente prepara la hoja de **carga masiva** con las campañas en
   pausa; Arlen la sube (Campañas → ⋮ → Cargas), revisa y activa. Resultados:
   Arlen manda captura o informe de la app de Google Ads cada lunes.
+- **Campañas activas (desde el 18-oct-2026):** "A - Instalación Medellín"
+  (`?c=medellin`) y "B - Envío nacional" (`?c=nacional#envios`), cargadas
+  desde la sesión del PC de Arlen según el plan v2 de Drive. La campaña vieja
+  de Medellín quedó detenida. Presupuestos y gasto: en Drive. Pendientes:
+  dejar como conversión solo WhatsApp y llamada (hoy cuentan también
+  "Agregar al carrito" y otras), etiquetar los chats en WhatsApp Business, y
+  vigilar 2 semanas que no caigan los chats de Medellín (la inversión nueva
+  es menor que la de la campaña vieja).
 - **Dónde se hace cada cosa:** lo que necesita el navegador de Arlen (Google
   Ads, Facebook, Instagram, WhatsApp Web) se hace desde una **sesión que corre
   en el PC de Arlen** (Claude Desktop o `claude remote-control`), que ve sus
@@ -258,7 +272,7 @@ Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
 - ¿Qué trae cada kit y hay equipos en bodega para despachar rápido?
-- ¿Cuánto se gasta hoy en Google Ads y cuántos contactos llegan por semana?
+- ¿Cuántos contactos llegan por semana? (el gasto de Ads ya está en Drive)
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
   kit, garantía si instala un técnico de otra ciudad, anticipo, medios de
   pago, si se cobra la visita, precio de instalación, enlace de reseñas).
@@ -321,3 +335,7 @@ borrar la pregunta.
   creado. Adspirer descartado; las campañas se suben por carga masiva.
 - 2026-10-18: Arlen contesta llamadas de 7 a. m. a 9 p. m. Las tareas de
   navegador (Google Ads, redes) van por una sesión en el PC de Arlen.
+- 2026-10-18: campañas A (Medellín) y B (nacional) activas en Google Ads; la
+  campaña vieja queda detenida. Se crea la lista de municipios del piloto de
+  cerrajerías en Drive. La sesión de gerencia es una sola; la del PC es solo
+  para tareas del navegador.
