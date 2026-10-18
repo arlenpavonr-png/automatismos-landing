@@ -118,6 +118,11 @@ Arlen (dueño) ── autoriza
   gratis: el gerente prepara la hoja de **carga masiva** con las campañas en
   pausa; Arlen la sube (Campañas → ⋮ → Cargas), revisa y activa. Resultados:
   Arlen manda captura o informe de la app de Google Ads cada lunes.
+- **Dónde se hace cada cosa:** lo que necesita el navegador de Arlen (Google
+  Ads, Facebook, Instagram, WhatsApp Web) se hace desde una **sesión que corre
+  en el PC de Arlen** (Claude Desktop o `claude remote-control`), que ve sus
+  cuentas abiertas. Lo de la página, Drive, Docs, Sheets y planes se puede
+  hacer desde una sesión en la nube. Una sesión en la nube no ve el PC.
 - **Conectores activos (oct-2026):** Google Drive, Google Docs, Google Sheets,
   Gmail, Google Calendar, Canva, Notion. Conectores de WhatsApp de terceros
   descartados por riesgo de perder el número.
@@ -153,7 +158,8 @@ Arlen (dueño) ── autoriza
   obra la responde quien instala. Retracto de 5 días hábiles (ley): confirmar
   con fotos y medidas que el kit sirve antes de vender y revisar el serial al
   recibir una devolución (pendiente validar con abogado o contador).
-- **Contacto:** WhatsApp y teléfono +57 300 568 3914. Atención **todos los días**
+- **Contacto:** WhatsApp y teléfono +57 300 568 3914. Llamadas de 7 a. m. a
+  9 p. m. (extensión de llamada de Ads en ese horario). Atención **todos los días**
   (decisión de Arlen, 18-oct-2026; antes era lunes a viernes de 8 a 5).
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
   obra. No cubre descargas eléctricas.
@@ -313,3 +319,5 @@ borrar la pregunta.
   que sí tiene Google Drive.
 - 2026-10-18: se conectan Google Docs y Google Sheets; tablero de ventas
   creado. Adspirer descartado; las campañas se suben por carga masiva.
+- 2026-10-18: Arlen contesta llamadas de 7 a. m. a 9 p. m. Las tareas de
+  navegador (Google Ads, redes) van por una sesión en el PC de Arlen.
