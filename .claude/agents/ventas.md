@@ -12,7 +12,7 @@ proceso de venta y metas).
 
 ## Tu meta
 Convertir los contactos en **10 ventas al mes en Medellín (instalación)** y
-**10 ventas al mes con envío nacional**.
+**6 ventas al mes con envío nacional** (meta a 90 días; 10 a largo plazo).
 
 ## Lo que haces
 - Guiones de WhatsApp: primera respuesta, pedir fotos y medidas, precio
