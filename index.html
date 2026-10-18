@@ -366,19 +366,27 @@ a.serv-item:active,a.serv-item:hover{border-color:var(--verde)}
 })();
 </script>
 <script>
-// Anuncios de la campaña nacional llegan con ?c=nacional: el mensaje de WhatsApp
-// lo indica para que Arlen sepa que el chat viene de esa campaña.
+// Los anuncios llegan con ?c=nacional o ?c=medellin: el mensaje de WhatsApp
+// lo indica para que Arlen sepa de qué campaña viene el chat.
 (function () {
   var c = new URLSearchParams(window.location.search).get('c');
-  if (c !== 'nacional') return;
+  if (c !== 'nacional' && c !== 'medellin') return;
   document.querySelectorAll('a[href*="wa.me"]').forEach(function (link) {
     try {
       var url = new URL(link.href);
       var text = url.searchParams.get('text');
-      if (!text || text.indexOf('fuera de Medellín') !== -1) return;
-      url.searchParams.set('text', text.replace(/^Hola Arlen,\s*(.)/, function (m, letra) {
-        return 'Hola Arlen, le escribo desde fuera de Medellín. ' + letra.toUpperCase();
-      }));
+      if (!text) return;
+      if (c === 'nacional') {
+        if (text.indexOf('fuera de Medellín') !== -1) return;
+        text = text.replace(/^Hola Arlen,\s*(.)/, function (m, letra) {
+          return 'Hola Arlen, le escribo desde fuera de Medellín. ' + letra.toUpperCase();
+        });
+      } else {
+        if (text.indexOf('vi su anuncio') !== -1) return;
+        text = text.replace('vi su página', 'vi su anuncio')
+                   .replace('vi sus videos', 'vi su anuncio, vi sus videos');
+      }
+      url.searchParams.set('text', text);
       link.href = url.toString();
     } catch (e) {}
   });
