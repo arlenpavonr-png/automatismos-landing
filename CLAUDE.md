@@ -88,14 +88,11 @@ barato, actualizar ambos sitios.
 
 1. **Rionegro** aparece en zonas, pero la portada dice "Valle de Aburrá".
    Definir si se instala en el Oriente y ajustar el texto.
-2. **Mensaje de WhatsApp tutea:** 4 botones generales dicen "vi **tu**
-   anuncio en Google" (la página usa "usted") y lo envían también visitantes
-   que no llegaron por Google. Proponer cambio.
-3. **Conversión única** para WhatsApp y llamada: no se sabe qué canal trae
+2. **Conversión única** para WhatsApp y llamada: no se sabe qué canal trae
    más clientes. Separar si se quiere medir.
-4. En computador, las fotos de las tarjetas se ven muy grandes. No urgente:
+3. En computador, las fotos de las tarjetas se ven muy grandes. No urgente:
    el tráfico es sobre todo de celular.
-5. `img/motor-garaje-accessmatic.webp` ya no se usa (se quitó el Fox 1000 Pro).
+4. `img/motor-garaje-accessmatic.webp` ya no se usa (se quitó el Fox 1000 Pro).
 
 ## Preguntas sin responder (preguntar a Arlen)
 
@@ -124,3 +121,5 @@ respuesta a la sección que corresponda y borrar la pregunta.
 - 2026-10-16: "Accessmatic desde $1.099.900" unificado.
 - 2026-10-18: se quita el kit Fox 1000 Pro ($799.900) para que el "desde"
   sea cierto; kit de herrajes a todo el ancho (PR #17). Se crea este archivo.
+- 2026-10-18: los 4 botones generales de WhatsApp pasan de "vi tu anuncio en
+  Google" a "vi su página y necesito cotizar un servicio para mi puerta".
