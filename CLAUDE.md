@@ -78,6 +78,9 @@ Arlen (dueño) ── autoriza
   viernes, de 8 a. m. a 5 p. m.
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
   obra. No cubre descargas eléctricas.
+- **Quién instala:** Arlen con un asistente. Capacidad confirmada: 10
+  instalaciones al mes, máximo un día cada una. Ojo: esos días Arlen no está
+  atendiendo WhatsApp ni cargando Ads/redes; cuidar la carga.
 - **Proceso de venta:** cliente escribe por WhatsApp con fotos y medidas →
   precio tentativo → visita técnica (precio final) → instalación (normalmente
   un día) → garantía por escrito.
@@ -140,11 +143,10 @@ barato, actualizar ambos sitios.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- ¿Cuántas ventas hay hoy al mes (Medellín y nacional)? Sin ese punto de
-  partida no se sabe qué tan lejos está la meta de 10 + 10.
-- ¿Quién instala? ¿Hay capacidad para 10 instalaciones al mes?
-- Presupuesto mensual de Google Ads y cuántas ventas vienen de ahí (va en
-  el documento de Drive).
+- ¿Cuánto se gasta hoy en Google Ads y cuántos contactos llegan por semana?
+- Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
+  kit, garantía si instala un técnico de otra ciudad, anticipo, medios de
+  pago, si se cobra la visita, precio de instalación, enlace de reseñas).
 
 ## Bitácora
 
@@ -169,3 +171,8 @@ borrar la pregunta.
   al mes en Medellín y 10 nacionales. Se crean los agentes ads, redes y
   ventas. El plan anterior (de otro chat) no se encontró en Drive, Notion ni
   el repo. En Notion existe una plantilla de CRM de nov-2025, sin datos.
+- 2026-10-18: Arlen da el punto de partida y el tope de Ads (guardados en
+  Drive, no aquí). La brecha grande está en ventas nacionales. Se confirma
+  capacidad de 10 instalaciones/mes (Arlen + asistente). Primeros planes de
+  ads, redes y ventas en Drive, carpeta Gerencia. Revisión semanal programada
+  los lunes 6:55 a. m. (hora Colombia).
