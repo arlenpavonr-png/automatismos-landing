@@ -33,15 +33,24 @@ otro lado. Si una decisión de Arlen cambia una regla, se cambia aquí.
 **Meta numérica (decidida por Arlen, 18-oct-2026):**
 - **Medellín (instalación): mínimo 10 ventas al mes.**
 - **Nacional (envío): 6 ventas al mes en 90 días** (nov-2026 a ene-2027:
-  aprox. 3 → 4-5 → 6). La meta de 10 nacionales sigue a largo plazo (mes 6-9)
-  y depende de que funcione la red de instaladores aliados.
+  aprox. 3 → 4-5 → 6). La meta de 10 nacionales sigue a largo plazo.
 
-**Estrategia nacional:** el comprador real desde otra ciudad es quien instala
-(herreros, cerrajeros, empresas de seguridad). Orden: 1) red de instaladores
-aliados, 2) campaña nacional de Ads dirigida a ese comprador, 3) catálogo de
-WhatsApp Business, 4) Facebook para encontrar aliados, SEO por ciudad,
-propiedad horizontal y referidos. El Perfil de Negocio de Google solo sirve
-para Medellín (no poner "toda Colombia": riesgo de suspensión).
+**Enfoque (decisión de Arlen, 18-oct-2026): solo cliente final.** Venta e
+instalación al cliente final en Medellín, y venta con envío al cliente final
+en el resto del país. **No se trabaja con instaladores aliados ni se le vende
+a otros instaladores** (ver "Canales descartados").
+
+**Cómo funciona el mercado (explicado por Arlen):** las marcas se venden por
+distribuidores oficiales que les dan a los instaladores 30-40 % de descuento
+directo. Algunos distribuidores no le venden al público: le pasan al cliente
+la lista de instaladores afiliados. Consecuencia: en otra ciudad, el instalador
+local compra el equipo más barato en su propio distribuidor, así que al
+cliente final de otra ciudad le conviene poco comprarle a Arlen. Esto explica
+en parte las pocas ventas nacionales. Detalle de proveedores y condiciones:
+en Drive (privado), no aquí.
+
+El Perfil de Negocio de Google solo sirve para Medellín (no poner "toda
+Colombia": riesgo de suspensión).
 
 Toda propuesta de cambio a la página debe servir a una de estas dos metas.
 
@@ -153,6 +162,10 @@ barato, actualizar ambos sitios.
 
 ## Canales descartados
 
+- **Instaladores aliados / venta a otros instaladores — descartado por Arlen
+  (18-oct-2026).** Los distribuidores oficiales les dan 30-40 % de descuento
+  directo a los instaladores; Arlen no puede competir con eso dándoles 5-10 %.
+  No volver a proponerlo.
 - **Mercado Libre — descartado por Arlen (18-oct-2026).** Lo usó cerca de dos
   años: ganancia baja, competencia vendiendo por debajo del precio oficial,
   mucho trabajo de empaque y despacho, y una protección al comprador que se
@@ -172,9 +185,9 @@ barato, actualizar ambos sitios.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- ¿Aprueba el precio para aliados (desde su 2.ª compra: -10 % Accessmatic,
-  -5 % BFT)?
-- ¿Hay contactos de compradores instaladores de la época de Mercado Libre?
+- ¿Está Arlen en la lista de instaladores que los distribuidores le pasan al
+  cliente final? ¿Cuántos clientes le llegan así?
+- ¿Mantener la meta nacional de 6 o reenfocar el esfuerzo en Medellín/Oriente?
 - ¿Qué trae cada kit y hay equipos en bodega para despachar rápido?
 - ¿Cuánto se gasta hoy en Google Ads y cuántos contactos llegan por semana?
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
@@ -215,3 +228,5 @@ borrar la pregunta.
 - 2026-10-18: Arlen fija la meta nacional en 6 ventas/mes a 90 días (10 a
   largo plazo) y la regla de pago 100 % antes de despachar. La estrategia
   nacional pasa a priorizar instaladores aliados.
+- 2026-10-18: Arlen descarta los instaladores aliados (los distribuidores ya
+  les dan 30-40 %) y fija el enfoque en el cliente final.
