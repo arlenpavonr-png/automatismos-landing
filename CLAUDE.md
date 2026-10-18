@@ -1,0 +1,122 @@
+# Automatismos ARPA — contexto para Claude
+
+Este archivo se lee al iniciar cada sesión. Mantenerlo al día: cada vez que
+cambie algo del negocio o de la página, actualizar la sección que corresponda
+y la bitácora del final.
+
+## Cómo trabajar con Arlen
+
+- Arlen Pavón, Medellín, Colombia. No es programador y trabaja desde el celular.
+- Explicar todo en español sencillo, paso a paso, sin tecnicismos.
+- Cero adulación. Ser auditor crítico: si algo está mal, inconsistente o
+  incompleto, decirlo de inmediato aunque no lo haya preguntado.
+- **Claude ejecuta todo** (cambios, commits, PR, merge, publicación), siempre
+  **con autorización previa de Arlen**. Arlen solo actúa en casos extremos.
+  Flujo: proponer → Arlen autoriza → rama → PR → merge → verificar publicación.
+- Si falta un dato, preguntarlo; no inventar precios, cifras ni promesas.
+
+## El negocio
+
+- **Razón social:** Automatismos Arlenpav S.A.S · NIT 901.473.259-8.
+- **Marca en la web:** Automatismos ARPA.
+- **Qué hace:** venta e instalación de motores para puertas automáticas:
+  portones corredizos, batientes (1 o 2 hojas), cortinas enrollables, puertas
+  seccionales/levadizas de garaje, barreras vehiculares, techos corredizos,
+  puertas de vidrio automáticas y operadores para puerta peatonal.
+- **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
+  oficiales. LiftMaster se quitó de la página (oct-2026).
+- **Instalación:** Medellín y Valle de Aburrá. **Venta con envío:** toda
+  Colombia por Coordinadora (el envío lo paga el cliente).
+- **Contacto:** WhatsApp y teléfono +57 300 568 3914. Atención de lunes a
+  viernes, de 8 a. m. a 5 p. m.
+- **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
+  obra. No cubre descargas eléctricas.
+- **Proceso de venta:** cliente escribe por WhatsApp con fotos y medidas →
+  precio tentativo → visita técnica (precio final) → instalación (normalmente
+  un día) → garantía por escrito.
+- **Cifras que muestra la página:** +500 puertas instaladas, 10+ años de
+  experiencia. Deben ser verdaderas y demostrables.
+- **Trato al cliente:** de usted.
+
+## Precios publicados (equipo sin IVA; instalación aparte)
+
+| Producto | Precio desde |
+|---|---|
+| Kit Accessmatic portón corredizo | $1.099.900 |
+| Kit BFT Deimos BT A400 corredizo (hasta 400 kg) | $1.948.900 |
+| Kit Accessmatic Eagle 250 batiente 2 hojas (hasta 250 kg y 3 m) | $2.519.900 |
+| Kit BFT Phobos BT A25 batiente 2 hojas (hasta 400 kg) | $3.278.900 |
+| Techo corredizo, cortina lateral, vidrio, peatonal, herrajes | Según medidas |
+
+Regla: "Accessmatic desde" y "BFT desde" deben coincidir con el producto más
+barato de cada marca que aparezca en la página. Si se agrega un producto más
+barato, actualizar ambos sitios.
+
+## La página web (este repositorio)
+
+- **Dominio:** https://automatismosarpa.com.co (archivo `CNAME`).
+- **Publicación:** GitHub Pages desde la rama `main`. Al unir un PR, GitHub
+  publica solo en ~1 minuto ("pages build and deployment").
+- **Archivos:** todo está en `index.html` (HTML, estilos y scripts juntos).
+  Fotos en `img/` en formato `.webp`.
+- **Objetivo de la página:** que el visitante escriba por WhatsApp. Cada botón
+  abre WhatsApp con un mensaje ya escrito según el producto o la sección.
+- **Google Ads:** etiqueta `AW-695987136`. Cada toque en WhatsApp o en
+  "llamar" cuenta como conversión (`AW-695987136/ovsSCKLgs4AdEMDX78sC`).
+  No romper ese script al editar.
+- **Videos:** YouTube, se reproducen dentro de la página (carrusel en celular).
+- **Diseño:** fondo oscuro, amarillo `#FFD700`, verde WhatsApp `#25D366`,
+  fuentes Bebas Neue (títulos) e Inter (texto). Pensada primero para celular.
+- **Verificación:** antes de publicar, revisar capturas a 390 px (celular) y
+  1280 px (computador). Esta sesión en la nube no puede abrir el dominio en
+  vivo; la publicación se confirma con el estado de GitHub Pages.
+
+## Repositorios relacionados (todos de arlenpavonr-png)
+
+- `automatismos-landing` → esta página (automatismosarpa.com.co).
+- `arpatechnologyglobal.com` → web de ARPA Technology (otro negocio/marca).
+- `Formato-Arlenpav` → ARPA Suite en producción (PWA de formatos de servicio,
+  cotizaciones y reportes).
+- `ARPASuite-LAB` → copia de pruebas de ARPA Suite.
+- `Arpa-Suite` → privado.
+
+## Pendientes y hallazgos abiertos
+
+1. **Rionegro** aparece en zonas, pero la portada dice "Valle de Aburrá".
+   Definir si se instala en el Oriente y ajustar el texto.
+2. **Mensaje de WhatsApp tutea:** 4 botones generales dicen "vi **tu**
+   anuncio en Google" (la página usa "usted") y lo envían también visitantes
+   que no llegaron por Google. Proponer cambio.
+3. **Conversión única** para WhatsApp y llamada: no se sabe qué canal trae
+   más clientes. Separar si se quiere medir.
+4. En computador, las fotos de las tarjetas se ven muy grandes. No urgente:
+   el tráfico es sobre todo de celular.
+5. `img/motor-garaje-accessmatic.webp` ya no se usa (se quitó el Fox 1000 Pro).
+
+## Preguntas sin responder (preguntar a Arlen)
+
+Ver la lista al final de la bitácora; cuando Arlen responda, pasar la
+respuesta a la sección que corresponda y borrar la pregunta.
+
+- ¿Hacia dónde va el negocio en los próximos meses (metas, servicios nuevos,
+  ciudades)?
+- ¿Cuánto se invierte en Google Ads y cuántos contactos/ventas llegan al mes?
+- ¿Hay "reglas del negocio" escritas (se mencionan en el historial)? ¿Dónde?
+- ¿Se instala en Rionegro / Oriente antioqueño?
+- ¿Las cifras +500 puertas y 10+ años son exactas?
+- ¿Qué relación tiene ARPA Suite con Automatismos ARPA (se usa para las
+  cotizaciones de este negocio)?
+- ¿Precios de Elite y NAS? ¿Se quieren mostrar?
+
+## Bitácora
+
+- 2026-08-20: se sube la página y se conecta el dominio.
+- 2026-09-25: productos con precios, puertas de vidrio, videos, envíos,
+  botón llamar, conversiones de WhatsApp, garantía.
+- 2026-09-29 / 10-01: garantía 2 años equipos + 1 año mano de obra; carrusel
+  y reproducción de videos; se quita LiftMaster.
+- 2026-10-11: trato de usted, precios sin IVA, kits económico/premium, fotos
+  reales, tarjetas de garaje, techo corredizo y cortina.
+- 2026-10-16: "Accessmatic desde $1.099.900" unificado.
+- 2026-10-18: se quita el kit Fox 1000 Pro ($799.900) para que el "desde"
+  sea cierto; kit de herrajes a todo el ancho (PR #17). Se crea este archivo.
