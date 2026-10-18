@@ -108,6 +108,19 @@ Arlen (dueño) ── autoriza
 - **Dónde va el trabajo:** las definiciones de los agentes van en este repo
   (público). Los planes, guiones, cifras y reportes van en Google Drive,
   carpeta privada **"Automatismos ARPA – Gerencia"**.
+- **Tablero de ventas:** Google Sheets "Tablero de ventas – Automatismos
+  ARPA" (id `10vajV22mdDvpWUJ-n0fCRrgfoES1T3HnRH2Rev6Z7E0`, carpeta Gerencia).
+  Arlen anota cada chat desde el celular (origen, tipo de puerta, estado,
+  valor). La pestaña Resumen calcula ventas vs. metas por mes. Es la fuente de
+  datos del informe semanal.
+- **Google Ads sin conector:** no hay conector oficial. Adspirer (terceros)
+  evaluado y **no se paga** (aprox. 20 % del presupuesto, empresa nueva). Camino
+  gratis: el gerente prepara la hoja de **carga masiva** con las campañas en
+  pausa; Arlen la sube (Campañas → ⋮ → Cargas), revisa y activa. Resultados:
+  Arlen manda captura o informe de la app de Google Ads cada lunes.
+- **Conectores activos (oct-2026):** Google Drive, Google Docs, Google Sheets,
+  Gmail, Google Calendar, Canva, Notion. Conectores de WhatsApp de terceros
+  descartados por riesgo de perder el número.
 - **Ritmo:** informe semanal del gerente a Arlen: ventas de la semana vs.
   meta, qué hizo cada área, qué se necesita de Arlen. Tarea programada
   "Revisión semanal Automatismos ARPA", lunes 6:55 a. m. (hora Colombia), que
@@ -298,3 +311,5 @@ borrar la pregunta.
   directo). Asesoría de programación de 8 a 5. El tope de Ads incluye el IVA
   de Google. La revisión de los lunes pasa a correr en la sesión de gerencia,
   que sí tiene Google Drive.
+- 2026-10-18: se conectan Google Docs y Google Sheets; tablero de ventas
+  creado. Adspirer descartado; las campañas se suben por carga masiva.
