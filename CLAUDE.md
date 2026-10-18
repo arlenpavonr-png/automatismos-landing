@@ -88,7 +88,7 @@ Arlen (dueño) ── autoriza
   experiencia. Arlen confirma que son exactas.
 - **Trato al cliente:** de usted.
 
-## Precios publicados (equipo sin IVA; instalación aparte)
+## Precios publicados (equipo con IVA incluido; instalación aparte)
 
 | Producto | Precio desde |
 |---|---|
@@ -97,6 +97,10 @@ Arlen (dueño) ── autoriza
 | Kit Accessmatic Eagle 250 batiente 2 hojas (hasta 250 kg y 3 m) | $2.519.900 |
 | Kit BFT Phobos BT A25 batiente 2 hojas (hasta 400 kg) | $3.278.900 |
 | Techo corredizo, cortina lateral, vidrio, peatonal, herrajes | Según medidas |
+
+Regla: los precios son los de la **lista oficial al público, que ya trae el
+IVA**. Nunca escribir "sin IVA" ni "+ IVA" (página, anuncios, guiones). A
+quien pide factura se le cobra el mismo precio.
 
 Regla: "Accessmatic desde" y "BFT desde" deben coincidir con el producto más
 barato de cada marca que aparezca en la página. Si se agrega un producto más
@@ -129,6 +133,14 @@ barato, actualizar ambos sitios.
   para hacer **cotizaciones e informes de obra**.
 - `ARPASuite-LAB` → copia de pruebas de ARPA Suite.
 - `Arpa-Suite` → privado.
+
+## Canales descartados
+
+- **Mercado Libre — descartado por Arlen (18-oct-2026).** Lo usó cerca de dos
+  años: ganancia baja, competencia vendiendo por debajo del precio oficial,
+  mucho trabajo de empaque y despacho, y una protección al comprador que se
+  presta a abusos (un cliente devolvió una tarjeta quemada a los dos meses y
+  Arlen perdió $650.000 sin respaldo de ML). No volver a proponerlo.
 
 ## Pendientes y hallazgos abiertos
 
@@ -176,3 +188,6 @@ borrar la pregunta.
   capacidad de 10 instalaciones/mes (Arlen + asistente). Primeros planes de
   ads, redes y ventas en Drive, carpeta Gerencia. Revisión semanal programada
   los lunes 6:55 a. m. (hora Colombia).
+- 2026-10-18: la página pasa a decir "precio con IVA incluido" (antes decía
+  "sin IVA; si requiere factura se suma el IVA", y eso era falso porque la
+  lista oficial ya trae el IVA). Mercado Libre queda descartado.
