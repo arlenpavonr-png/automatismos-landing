@@ -68,6 +68,10 @@ Coordinadora a su cargo, asesoría de programación a distancia (la instalación
 la hace el cerrajero). Se llega a ellas por contacto directo de WhatsApp (no
 con publicidad), máximo 10-15 mensajes nuevos al día. Arlen acepta menor
 ganancia porque puede llenar más rápido la meta nacional. Medir 60 días.
+Arlen da por hecho que los cerrajeros que aprendan se irán con un
+distribuidor: no es motivo para frenar. La respuesta es **prospección
+constante** (siempre entrando cerrajerías nuevas para reemplazar a las que se
+van), mientras ARPA Suite madura como segunda fuente de ingresos.
 
 **Recomendaciones de distribuidores:** prácticamente no le llegan trabajos a
 Arlen por esa vía en el año (posible razón, según Arlen: a él ya lo tienen
@@ -128,6 +132,10 @@ Arlen (dueño) ── autoriza
   viernes, de 8 a. m. a 5 p. m.
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
   obra. No cubre descargas eléctricas.
+- **Atención y ventas desde el celular:** Arlen maneja ventas, WhatsApp y
+  asesoría a distancia (programación por videollamada) desde el celular todo
+  el tiempo, también los días de obra. Todo lo que se le entregue debe poder
+  usarse desde el celular.
 - **Quién instala:** Arlen con un asistente. Capacidad confirmada: 10
   instalaciones al mes, máximo un día cada una. Ojo: esos días Arlen no está
   atendiendo WhatsApp ni cargando Ads/redes; cuidar la carga.
@@ -180,7 +188,9 @@ barato, actualizar ambos sitios.
 - `automatismos-landing` → esta página (automatismosarpa.com.co).
 - `arpatechnologyglobal.com` → web de ARPA Technology (otro negocio/marca).
 - `Formato-Arlenpav` → ARPA Suite en producción. Arlen la usa en este negocio
-  para hacer **cotizaciones e informes de obra**.
+  para hacer **cotizaciones e informes de obra**. ARPA Suite es además el
+  **otro proyecto de Arlen para generar ingresos** a mediano plazo (no es
+  parte de la gerencia de Automatismos ARPA).
 - `ARPASuite-LAB` → copia de pruebas de ARPA Suite.
 - `Arpa-Suite` → privado.
 
@@ -258,3 +268,6 @@ borrar la pregunta.
 - 2026-10-18: piloto de cerrajerías de pueblos sin distribuidor, solo
   Accessmatic, 10 % de descuento. Regla: la publicidad siempre le habla al
   cliente final.
+- 2026-10-18: Arlen acepta que los cerrajeros que aprendan se irán; se
+  responde con prospección constante. Ventas y asesoría se manejan desde el
+  celular. ARPA Suite anotado como segunda fuente de ingresos.
