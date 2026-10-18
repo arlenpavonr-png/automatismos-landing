@@ -30,7 +30,35 @@ otro lado. Si una decisión de Arlen cambia una regla, se cambia aquí.
 1. **Aumentar las ventas en Medellín** (instalación).
 2. **Aumentar los envíos nacionales** (venta de equipos a otras ciudades).
 
+**Meta numérica (desde oct-2026): mínimo 10 ventas al mes en Medellín
+(instalación) y mínimo 10 ventas al mes con envío nacional.**
+
 Toda propuesta de cambio a la página debe servir a una de estas dos metas.
+
+## Organización: quién manda a quién
+
+```
+Arlen (dueño) ── autoriza
+   └── Claude: gerente general ── decide, coordina, responde a Arlen
+         ├── Agente "ads"    → Google Ads           (.claude/agents/ads.md)
+         ├── Agente "redes"  → Redes sociales       (.claude/agents/redes.md)
+         └── Agente "ventas" → WhatsApp y cierre    (.claude/agents/ventas.md)
+```
+
+- Decisión de Arlen (18-oct-2026): Claude maneja Automatismos ARPA como
+  **gerente general**. Los tres agentes le rinden cuentas a Claude y Claude a
+  Arlen. Todo se hace dentro de este proyecto (automatismosarpa).
+- El gerente usa a cada agente para su área, revisa lo que entrega con ojo
+  crítico y le presenta a Arlen **un solo informe** con lo que se necesita de él.
+- **Límites reales:** los agentes solo existen mientras hay una sesión abierta
+  (no trabajan solos de fondo) y no tienen acceso a la cuenta de Google Ads,
+  a las redes ni al WhatsApp. Entregan todo listo para copiar y pegar; Arlen
+  (o quien él designe) lo carga. Si se conectan esas herramientas, esto cambia.
+- **Dónde va el trabajo:** las definiciones de los agentes van en este repo
+  (público). Los planes, guiones, cifras y reportes van en Google Drive,
+  carpeta privada **"Automatismos ARPA – Gerencia"**.
+- **Ritmo:** informe semanal del gerente a Arlen: ventas de la semana vs.
+  meta, qué hizo cada área, qué se necesita de Arlen.
 
 ## El negocio
 
@@ -112,8 +140,9 @@ barato, actualizar ambos sitios.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- Meta numérica: ¿cuántas instalaciones y envíos al mes se quieren? (va en
-  el documento de Drive).
+- ¿Cuántas ventas hay hoy al mes (Medellín y nacional)? Sin ese punto de
+  partida no se sabe qué tan lejos está la meta de 10 + 10.
+- ¿Quién instala? ¿Hay capacidad para 10 instalaciones al mes?
 - Presupuesto mensual de Google Ads y cuántas ventas vienen de ahí (va en
   el documento de Drive).
 
@@ -136,3 +165,7 @@ borrar la pregunta.
   menciona también los envíos a toda Colombia. Se crea el documento privado
   en Drive y se registran las respuestas de Arlen (metas, cifras, ARPA
   Suite, Elite/NAS).
+- 2026-10-18: Arlen nombra a Claude gerente general, con meta de 10 ventas
+  al mes en Medellín y 10 nacionales. Se crean los agentes ads, redes y
+  ventas. El plan anterior (de otro chat) no se encontró en Drive, Notion ni
+  el repo. En Notion existe una plantilla de CRM de nov-2025, sin datos.
