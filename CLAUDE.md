@@ -225,7 +225,8 @@ barato, actualizar ambos sitios.
   `https://automatismosarpa.com.co/?c=nacional#envios`. Con `?c=nacional`, un
   script al final de `index.html` cambia el mensaje de WhatsApp a "Hola Arlen,
   le escribo desde fuera de Medellín. …", así Arlen sabe que el chat viene de
-  esa campaña. Medellín usa `?c=medellin` (mensaje normal). La sección
+  esa campaña. Medellín usa `?c=medellin`: el mensaje dice "vi su anuncio"
+  en vez de "vi su página", así se distingue de quien llega sin anuncio. La sección
   "¿Está en otra ciudad?" tiene `id="envios"`.
 - **Videos:** YouTube, se reproducen dentro de la página (carrusel en celular).
 - **Diseño:** fondo oscuro, amarillo `#FFD700`, verde WhatsApp `#25D366`,
@@ -339,3 +340,5 @@ borrar la pregunta.
   campaña vieja queda detenida. Se crea la lista de municipios del piloto de
   cerrajerías en Drive. La sesión de gerencia es una sola; la del PC es solo
   para tareas del navegador.
+- 2026-10-18: con `?c=medellin` el mensaje de WhatsApp dice "vi su anuncio";
+  así se reconocen los chats de la campaña A.
