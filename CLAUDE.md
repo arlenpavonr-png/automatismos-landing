@@ -49,6 +49,17 @@ cliente final de otra ciudad le conviene poco comprarle a Arlen. Esto explica
 en parte las pocas ventas nacionales. Detalle de proveedores y condiciones:
 en Drive (privado), no aquí.
 
+**Plan nacional (opción A, decidida por Arlen 18-oct-2026):** mantener la meta
+de 6 apuntando a **municipios sin distribuidor ni instalador de la marca**
+(hipótesis: ahí el cliente final no tiene a quién comprarle cerca), excluyendo
+las ciudades grandes con distribuidores. Medir 60 días y decidir con datos.
+**Reparto de Google Ads: 70 % Medellín/Valle de Aburrá/Rionegro, 30 %
+nacional** (el monto está en Drive).
+
+**Recomendaciones de distribuidores:** prácticamente no le llegan trabajos a
+Arlen por esa vía en el año (posible razón, según Arlen: a él ya lo tienen
+como comprador fijo). No contar con ese canal.
+
 El Perfil de Negocio de Google solo sirve para Medellín (no poner "toda
 Colombia": riesgo de suspensión).
 
@@ -185,9 +196,6 @@ barato, actualizar ambos sitios.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- ¿Está Arlen en la lista de instaladores que los distribuidores le pasan al
-  cliente final? ¿Cuántos clientes le llegan así?
-- ¿Mantener la meta nacional de 6 o reenfocar el esfuerzo en Medellín/Oriente?
 - ¿Qué trae cada kit y hay equipos en bodega para despachar rápido?
 - ¿Cuánto se gasta hoy en Google Ads y cuántos contactos llegan por semana?
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
@@ -230,3 +238,6 @@ borrar la pregunta.
   nacional pasa a priorizar instaladores aliados.
 - 2026-10-18: Arlen descarta los instaladores aliados (los distribuidores ya
   les dan 30-40 %) y fija el enfoque en el cliente final.
+- 2026-10-18: Arlen elige la opción A para lo nacional (municipios sin
+  distribuidor, medir 60 días) y el reparto de Ads 70 % Medellín / 30 %
+  nacional. Las recomendaciones de distribuidores no son un canal.
