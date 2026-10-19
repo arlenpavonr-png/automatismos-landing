@@ -68,3 +68,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-19: CLAUDE.md se acorta: la bitácora, el piloto de cerrajerías y
   el detalle de gerencia pasan a `docs/`. Se agregan el hook que protege la
   etiqueta de Google Ads y la skill `publicar-pagina`.
+- 2026-10-19: la regla "mismo precio con factura" admite excepciones que
+  decide Arlen con clientes puntuales (detalle en Drive, privado).
