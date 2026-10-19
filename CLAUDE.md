@@ -148,7 +148,9 @@ Arlen (dueño) ── autoriza
 
 Regla: los precios son los de la **lista oficial al público, que ya trae el
 IVA**. Nunca escribir "sin IVA" ni "+ IVA" (página, anuncios, guiones). A
-quien pide factura se le cobra el mismo precio.
+quien pide factura se le cobra el mismo precio, salvo excepciones que decide
+Arlen con clientes puntuales (detalle en el documento privado de Drive; no
+se publican ni se ofrecen por iniciativa propia).
 
 Regla: "Accessmatic desde" y "BFT desde" deben coincidir con el producto más
 barato de cada marca que aparezca en la página. Si se agrega un producto más
