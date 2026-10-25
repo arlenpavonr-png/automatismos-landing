@@ -70,3 +70,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   etiqueta de Google Ads y la skill `publicar-pagina`.
 - 2026-10-19: la regla "mismo precio con factura" admite excepciones que
   decide Arlen con clientes puntuales (detalle en Drive, privado).
+- 2026-10-25: se agrega `privacidad.html` (política de privacidad, Ley 1581 de
+  2012) y su enlace en el pie de página. Meta la exige para publicar la app del
+  asistente automático de WhatsApp, que responderá 24/7 (decisión de Arlen).
