@@ -40,7 +40,7 @@ Mantenerlo corto: el detalle va en `docs/` (ver "Mapa del repositorio").
   conectores, informe semanal, por qué se descartaron canales.
 - `docs/piloto-cerrajerias.md` → condiciones y pendientes del piloto.
 - `docs/bitacora.md` → historial de cambios y decisiones.
-- `.claude/agents/` → agentes ads, redes y ventas.
+- `.claude/agents/` → agentes ads, redes, ventas y editor-reels.
 - `.claude/skills/publicar-pagina/` → paso a paso para cambiar y publicar la página.
 - `.claude/hooks/proteger-ads.sh` → bloquea commit/push si a `index.html` le
   falta la etiqueta de Google Ads. Si salta, restaurar la etiqueta; no
@@ -82,7 +82,8 @@ Arlen (dueño) ── autoriza
    └── Claude: gerente general ── decide, coordina, responde a Arlen
          ├── Agente "ads"    → Google Ads           (.claude/agents/ads.md)
          ├── Agente "redes"  → Redes sociales       (.claude/agents/redes.md)
-         └── Agente "ventas" → WhatsApp y cierre    (.claude/agents/ventas.md)
+         ├── Agente "ventas" → WhatsApp y cierre    (.claude/agents/ventas.md)
+         └── Agente "editor-reels" → reels de videos (.claude/agents/editor-reels.md)
 ```
 
 - Claude maneja Automatismos ARPA como **gerente general** (decisión de Arlen,
