@@ -111,6 +111,10 @@ Arlen (dueño) ── autoriza
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
   oficiales. Solo Accessmatic y BFT llevan precio; Elite y NAS **solo se
   nombran** (decisión de Arlen). LiftMaster se quitó de la página (oct-2026).
+  **Marca por tipo de puerta en las obras de Arlen** (dato para reels y
+  textos): cortinas enrollables, todas Accessmatic; levadizas y techos
+  corredizos, Accessmatic y NAS (revisar cada video para no confundir la
+  marca). Dicho por Arlen el 26-oct-2026.
 - **Instalación:** Medellín, Valle de Aburrá y Rionegro (confirmado). No
   prometer otros municipios del Oriente sin preguntar. **Venta con envío:** toda
   Colombia por Coordinadora (el envío lo paga el cliente).
