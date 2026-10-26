@@ -73,3 +73,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-25: se agrega `privacidad.html` (política de privacidad, Ley 1581 de
   2012) y su enlace en el pie de página. Meta la exige para publicar la app del
   asistente automático de WhatsApp, que responderá 24/7 (decisión de Arlen).
+- 2026-10-26: nueva regla en `CLAUDE.md`: Arlen pega cualquier cosa y Claude
+  primero dice a qué negocio y área corresponde antes de actuar.
