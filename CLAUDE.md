@@ -116,8 +116,9 @@ Arlen (dueño) ── autoriza
   **Solo venta e instalación:** no se ofrece mantenimiento ni reparación en
   anuncios, página, redes ni textos para clientes (decisión de Arlen, 26-oct-2026).
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
-  oficiales. Solo Accessmatic y BFT llevan precio; Elite y NAS **solo se
-  nombran** (decisión de Arlen). LiftMaster se quitó de la página (oct-2026).
+  oficiales. Accessmatic y BFT llevan precio; de Elite solo el **Slide 500**
+  lleva precio (decisión de Arlen, 26-oct-2026); el resto de Elite y NAS
+  **solo se nombran**. LiftMaster se quitó de la página (oct-2026).
   **Marca por tipo de puerta en las obras de Arlen** (dato para reels y
   textos): cortinas enrollables, todas Accessmatic; levadizas y techos
   corredizos, Accessmatic y NAS (revisar cada video para no confundir la
@@ -160,7 +161,8 @@ Arlen (dueño) ── autoriza
 
 | Producto | Precio desde |
 |---|---|
-| Kit Accessmatic portón corredizo | $1.099.900 |
+| Kit Elite Slide 500 portón corredizo (hasta 500 kg) | $1.199.900 |
+| Accessmatic Shark 1000 puerta de garaje (3/4 HP) | $1.095.900 |
 | Kit BFT Deimos BT A400 corredizo (hasta 400 kg) | $1.948.900 |
 | Kit Accessmatic Eagle 250 batiente 2 hojas (hasta 250 kg y 3 m) | $2.519.900 |
 | Kit BFT Phobos BT A25 batiente 2 hojas (hasta 400 kg) | $3.278.900 |
@@ -169,10 +171,15 @@ Arlen (dueño) ── autoriza
 Qué trae cada kit (listas oficiales en Drive; Accessmatic ene-2026, BFT
 oct-2025). Fotoceldas y lámpara no vienen: se cobran aparte.
 
-- **Accessmatic corredizo (Pitbull 400):** motor, 4 m de cremallera de acero
-  con pernos y 2 controles. Hasta 400 kg, uso residencial. Falta confirmar
-  que su precio sea el $1.099.900 de la página (en el PDF ese precio parece
-  ser del Elite Slide 400).
+- **Elite Slide 500:** motor, 4 m de cremallera de acero con pernos y 2
+  controles. Hasta 500 kg, uso residencial.
+- **Accessmatic Shark 1000:** motor de garaje 3/4 HP, 2 controles, pulsador
+  inalámbrico y cargador de batería. Falta confirmar si trae el riel.
+- **Motores que Arlen sí ofrece** (lista del 25-oct-2026, la misma del robot
+  de WhatsApp): corredizo Elite Slide 500, Accessmatic Bulldozer 850
+  ($1.599.900) y Bulldog 1100 ($1.999.900); batiente Accessmatic Eagle 250;
+  garaje Accessmatic Raptor 1200, Shark 1000, Scorpion 900/901 y Elite
+  MG750; y casi todo el catálogo de BFT. El Pitbull 400 ya no se ofrece.
 - **BFT Deimos BT A400:** motor con tarjeta, 4 m de cremallera y 2 controles.
 - **Accessmatic Eagle 250:** 2 brazos, tarjeta con pantalla y 2 controles.
   **La batería de respaldo no viene: es opcional** y se cobra aparte
@@ -188,7 +195,7 @@ quien pide factura se le cobra el mismo precio, salvo excepciones que decide
 Arlen con clientes puntuales (detalle en el documento privado de Drive; no
 se publican ni se ofrecen por iniciativa propia).
 
-Regla: "Accessmatic desde" y "BFT desde" deben coincidir con el producto más
+Regla: "Accessmatic desde", "Elite desde" y "BFT desde" deben coincidir con el producto más
 barato de cada marca que aparezca en la página. Si se agrega un producto más
 barato, actualizar ambos sitios.
 
@@ -247,8 +254,7 @@ Las razones están en `docs/gerencia.md`.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- Precio real del kit Accessmatic corredizo (Pitbull 400) en la lista de
-  ene-2026: ¿es $1.099.900 o ese precio es del Elite Slide 400?
+- ¿El Shark 1000 trae el riel o se cobra aparte?
 - Lista de BFT más nueva que la de oct-2025: no está en Drive. Pedirla al
   distribuidor y revisar si cambiaron los precios de la página.
 - ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
