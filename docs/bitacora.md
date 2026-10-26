@@ -104,3 +104,4 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   cifras van a Drive. Se pasan a las reglas la visita técnica y los pagos.
 - 2026-10-26: obras grandes fuera de la zona (cortinas en Venecia y La
   Ceja): Arlen va a la visita y las ejecutan dos contratistas. No se anuncian.
+- 2026-10-26: visita técnica fuera de la zona: $120.000.

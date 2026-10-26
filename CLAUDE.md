@@ -163,8 +163,9 @@ Arlen (dueño) ── autoriza
 - **Quién instala:** Arlen con un asistente. Capacidad: 10 instalaciones al
   mes, máximo un día cada una. Esos días Arlen no atiende WhatsApp ni carga
   Ads/redes; cuidar la carga.
-- **Visita técnica en Medellín:** $80.000 con IVA, pago anticipado; se
-  descuenta si el cliente toma la instalación. **Pagos de instalación:** 50 %
+- **Visita técnica:** en Medellín $80.000 con IVA; fuera de la zona
+  $120.000 (decisión de Arlen, 26-oct-2026). Pago anticipado; se descuenta
+  si el cliente toma la instalación. **Pagos de instalación:** 50 %
   al iniciar y 50 % al terminar, por Bancolombia, Nequi o efectivo (las ventas
   con envío siguen la regla de pago total por transferencia).
 - **Proceso de venta:** cliente escribe por WhatsApp con fotos y medidas →
@@ -275,7 +276,6 @@ borrar la pregunta.
   distribuidor y revisar si cambiaron los precios de la página.
 - ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
   cotizaciones)? Hay que dejar una sola.
-- ¿Se cobra el desplazamiento de la visita técnica fuera de la zona?
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
   garantía si instala un técnico de otra ciudad, precio de instalación).
   Ya respondidas: qué trae el kit, visita, anticipo, medios de pago y enlace
