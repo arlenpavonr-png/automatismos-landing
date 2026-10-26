@@ -85,3 +85,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-26: Arlen confirma la marca por tipo de puerta en sus obras:
   cortinas enrollables, todas Accessmatic; levadizas y techos corredizos,
   Accessmatic y NAS. Se anota en `CLAUDE.md` para los reels.
+- 2026-10-26: se anota en `CLAUDE.md` qué trae cada kit publicado (según las
+  listas oficiales). Arlen decide: garantía de 2 años en equipo aunque la
+  fábrica dé 3; la batería del Eagle 250 es opcional. Quedan abiertos el
+  precio del Pitbull 400 y una lista de BFT más nueva.
