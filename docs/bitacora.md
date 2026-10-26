@@ -75,3 +75,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   asistente automático de WhatsApp, que responderá 24/7 (decisión de Arlen).
 - 2026-10-26: nueva regla en `CLAUDE.md`: Arlen pega cualquier cosa y Claude
   primero dice a qué negocio y área corresponde antes de actuar.
+- 2026-10-26: se crea el agente `editor-reels` (videos → reels 9:16 para
+  Automatismos y ARPA Suite). Trabaja en el PC, fuera del disco C y fuera de
+  este repo, en tandas de 3 videos, y nunca publica.
