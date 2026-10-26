@@ -98,3 +98,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   de referencia Accessmatic / Elite / BFT. BFT se sigue vendiendo.
 - 2026-10-26: se quitan de la página las tarjetas de operador para puerta
   peatonal y kit de herrajes para levadiza (decisión de Arlen).
+- 2026-10-26: Arlen da autonomía al gerente para lo interno y reversible
+  (sigue pidiendo visto bueno para plata, precios, promesas, clientes y lo
+  irreversible). Se fija la medición semanal de WhatsApp con la lupa; las
+  cifras van a Drive. Se pasan a las reglas la visita técnica y los pagos.

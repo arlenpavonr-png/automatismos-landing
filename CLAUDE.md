@@ -22,6 +22,13 @@ Mantenerlo corto: el detalle va en `docs/` (ver "Mapa del repositorio").
 - **Claude ejecuta todo** (cambios, commits, PR, merge, publicación), siempre
   **con autorización previa de Arlen**. Arlen solo actúa en casos extremos.
   Flujo: proponer → Arlen autoriza → rama → PR → merge → verificar publicación.
+- **Autonomía del gerente** (decisión de Arlen, 26-oct-2026: "haz lo que creas
+  mejor para el proyecto"): Claude decide y ejecuta sin preguntar lo interno y
+  reversible (reglas, bitácora, documentos, orden de chats, correcciones de la
+  página que no cambien precios ni promesas) y luego le cuenta a Arlen. Sigue
+  pidiendo visto bueno antes de: gastar plata, cambiar precios, garantías o
+  promesas en la página o los anuncios, escribirle a clientes o a terceros, o
+  hacer algo que no se pueda deshacer.
   Para cambios en la página, seguir la skill `publicar-pagina`.
 - Si falta un dato, preguntarlo; no inventar precios, cifras ni promesas.
 - **Arlen pega cualquier cosa sin explicar** (mensaje de cliente, idea, foto,
@@ -150,6 +157,10 @@ Arlen (dueño) ── autoriza
 - **Quién instala:** Arlen con un asistente. Capacidad: 10 instalaciones al
   mes, máximo un día cada una. Esos días Arlen no atiende WhatsApp ni carga
   Ads/redes; cuidar la carga.
+- **Visita técnica en Medellín:** $80.000 con IVA, pago anticipado; se
+  descuenta si el cliente toma la instalación. **Pagos de instalación:** 50 %
+  al iniciar y 50 % al terminar, por Bancolombia, Nequi o efectivo (las ventas
+  con envío siguen la regla de pago total por transferencia).
 - **Proceso de venta:** cliente escribe por WhatsApp con fotos y medidas →
   precio tentativo → visita técnica (precio final) → instalación (normalmente
   un día) → garantía por escrito.
@@ -258,7 +269,9 @@ borrar la pregunta.
   distribuidor y revisar si cambiaron los precios de la página.
 - ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
   cotizaciones)? Hay que dejar una sola.
-- ¿Cuántos contactos llegan por semana? (el gasto de Ads ya está en Drive)
+- ¿Se cobra el desplazamiento cuando la obra queda fuera de la zona
+  (ej. Venecia, La Ceja)? ¿Se amplía la zona de instalación?
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
-  kit, garantía si instala un técnico de otra ciudad, anticipo, medios de
-  pago, si se cobra la visita, precio de instalación, enlace de reseñas).
+  garantía si instala un técnico de otra ciudad, precio de instalación).
+  Ya respondidas: qué trae el kit, visita, anticipo, medios de pago y enlace
+  de reseñas (este último en la bitácora de Drive).
