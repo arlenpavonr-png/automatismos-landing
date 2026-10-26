@@ -50,6 +50,12 @@ datos del informe semanal.
   descartados por riesgo de perder el número.
 
 ## Ritmo
+Medición de WhatsApp, cada lunes (Arlen, desde el celular): con la lupa de
+WhatsApp Business contar los mensajes de lunes a lunes con "vi su anuncio"
+(campaña A), "fuera de Medellín" (campaña B) y "vi su página" (sin anuncio),
+más los chats nuevos sin frase; y cuántos se cotizaron y vendieron. Las
+cifras van a la bitácora privada de Drive, no a este repositorio.
+
 Informe semanal del gerente a Arlen: ventas de la semana vs. meta, qué hizo
 cada área, qué se necesita de Arlen. Tarea programada "Revisión semanal
 Automatismos ARPA", lunes 6:55 a. m. (hora Colombia), que se ejecuta en la
