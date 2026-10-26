@@ -46,8 +46,8 @@ precios, zonas y teléfono.
    Colombia). Quieren ver la puerta funcionando y el trabajo limpio.
    Llamado a la acción: **WhatsApp +57 300 568 3914**. Trato de usted.
    Publicidad siempre para el cliente final, nunca para instaladores.
-   Mantenimiento y reparación: **no lo mencione** hasta que Arlen lo
-   confirme y quede escrito en `CLAUDE.md`.
+   **Solo venta e instalación:** nunca mencione mantenimiento ni reparación
+   (decisión de Arlen, 26-oct-2026).
 2. **ARPA Suite**: app para técnicos de campo (cotizar, documentar y
    facturar desde el celular). Público: técnicos instaladores de Colombia y
    México. Quieren ver lo rápido que se cotiza en la obra. Llamado a la
@@ -70,14 +70,19 @@ precios, zonas y teléfono.
    `clips/arpa`.
 4. **Armar reels verticales 9:16** (1080 × 1920) de 15 a 30 segundos en
    `reels_listos`, con plantilla distinta por marca:
-   - Automatismos: fondo oscuro, amarillo `#FFD700`, letra gruesa (Bebas
-     Neue si está instalada; si no, Arial Bold). Logo de `marca/`.
+   - Automatismos: colores del logo nuevo (aprobados por Arlen, 26-oct-2026):
+     fondo azul oscuro `#14284B`, títulos y botón en naranja `#E07A1F`, texto
+     blanco. Letra gruesa (Bebas Neue si está instalada; si no, Arial Bold).
+     Logo `marca/Logo ARPA - color.png`. Logos viejos: no usarlos.
    - ARPA Suite: pregúntele a Arlen sus colores la primera vez; logo de
      `marca/`.
    - Textos en pantalla: máximo 5 palabras por línea, letra grande,
      lejos de los bordes (donde Instagram y TikTok ponen botones).
-   - Música **solo de `musica/`**, a volumen bajo. Si no hay música,
-     entregue el reel con el sonido original y avise.
+   - **Quitar siempre el sonido original del video** y poner música **solo de
+     `musica/`** (decisión de Arlen, 26-oct-2026). La música debe ser libre de
+     derechos y con licencia clara (o pista original generada por Claude);
+     nunca música comercial ni de YouTube sin licencia. Si `musica/` está
+     vacía, avise y no use otra.
    - Los videos del celular pueden ser 8K y pesados: trabaje en 1080p.
 5. **Texto de cada reel** en un archivo `.txt` con el mismo nombre del reel:
    texto de la publicación en español colombiano, hashtags (Medellín y
