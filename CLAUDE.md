@@ -95,6 +95,13 @@ Arlen (dueño) ── autoriza
 - **Dónde va el trabajo:** definiciones de agentes, en este repo. Planes,
   guiones, cifras y reportes, en Google Drive, carpeta privada
   **"Automatismos ARPA – Gerencia"**.
+- **Solo 3 chats fijos** (decisión de Arlen, 26-oct-2026):
+  "1 · GERENTE Automatismos ARPA" (nube; aquí habla Arlen de este negocio),
+  "2 · GERENTE ARPA Suite" (nube; todo lo de ARPA Suite) y
+  "3 · PC (manos en el computador)" (en el PC de Arlen: reels con videos del
+  disco D, WhatsApp Web, Google Ads en Chrome). El chat 3 no decide ni se
+  presenta como gerente: ejecuta lo que ordena el gerente. No abrir chats
+  nuevos; si uno se llena, el gerente arma el resumen y lo pasa al siguiente.
 - Tablero de ventas, Google Ads, sesión del PC vs. nube, conectores e informe
   de los lunes: ver `docs/gerencia.md`.
 

@@ -89,3 +89,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   listas oficiales). Arlen decide: garantía de 2 años en equipo aunque la
   fábrica dé 3; la batería del Eagle 250 es opcional. Quedan abiertos el
   precio del Pitbull 400 y una lista de BFT más nueva.
+- 2026-10-26: Arlen aprueba trabajar con solo 3 chats fijos (gerente
+  Automatismos, gerente ARPA Suite y PC). Se renombran y se archivan los
+  chats terminados.
