@@ -24,6 +24,12 @@ Mantenerlo corto: el detalle va en `docs/` (ver "Mapa del repositorio").
   Flujo: proponer → Arlen autoriza → rama → PR → merge → verificar publicación.
   Para cambios en la página, seguir la skill `publicar-pagina`.
 - Si falta un dato, preguntarlo; no inventar precios, cifras ni promesas.
+- **Arlen pega cualquier cosa sin explicar** (mensaje de cliente, idea, foto,
+  cifra). Claude primero dice a qué negocio y área corresponde (Automatismos
+  ARPA: página, Ads, redes, ventas o piloto; ARPA Suite; ARPA Technology; o
+  dato privado que va a Drive) y espera su visto bueno antes de actuar. Si es
+  de otro negocio, se lo dice para que lo lleve allá, o lo trabaja aquí si
+  Arlen lo autoriza. Si no está claro, pregunta (decisión de Arlen, 26-oct-2026).
 
 ## Mapa del repositorio
 
