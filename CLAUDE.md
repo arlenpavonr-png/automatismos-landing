@@ -173,8 +173,8 @@ oct-2025). Fotoceldas y lámpara no vienen: se cobran aparte.
 
 - **Elite Slide 500:** motor, 4 m de cremallera de acero con pernos y 2
   controles. Hasta 500 kg, uso residencial.
-- **Accessmatic Shark 1000:** motor de garaje 3/4 HP, 2 controles, pulsador
-  inalámbrico y cargador de batería. Falta confirmar si trae el riel.
+- **Accessmatic Shark 1000:** motor de garaje 3/4 HP con riel, 2 controles,
+  pulsador inalámbrico y cargador de batería (riel confirmado por Arlen).
 - **Motores que Arlen sí ofrece** (lista del 25-oct-2026, la misma del robot
   de WhatsApp): corredizo Elite Slide 500, Accessmatic Bulldozer 850
   ($1.599.900) y Bulldog 1100 ($1.999.900); batiente Accessmatic Eagle 250;
@@ -254,7 +254,6 @@ Las razones están en `docs/gerencia.md`.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- ¿El Shark 1000 trae el riel o se cobra aparte?
 - Lista de BFT más nueva que la de oct-2025: no está en Drive. Pedirla al
   distribuidor y revisar si cambiaron los precios de la página.
 - ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
