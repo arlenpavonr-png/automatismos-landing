@@ -166,7 +166,7 @@ Arlen (dueño) ── autoriza
 | Kit BFT Deimos BT A400 corredizo (hasta 400 kg) | $1.948.900 |
 | Kit Accessmatic Eagle 250 batiente 2 hojas (hasta 250 kg y 3 m) | $2.519.900 |
 | Kit BFT Phobos BT A25 batiente 2 hojas (hasta 400 kg) | $3.278.900 |
-| Techo corredizo, cortina lateral, vidrio, peatonal, herrajes | Según medidas |
+| Techo corredizo, cortina lateral, puerta de vidrio | Según medidas |
 
 Qué trae cada kit (listas oficiales en Drive; Accessmatic ene-2026, BFT
 oct-2025). Fotoceldas y lámpara no vienen: se cobran aparte.

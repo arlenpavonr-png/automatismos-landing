@@ -96,3 +96,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   Elite Slide 500 desde $1.199.900 (Elite lleva precio solo en ese modelo),
   tarjeta nueva de garaje Accessmatic Shark 1000 desde $1.095.900 y precios
   de referencia Accessmatic / Elite / BFT. BFT se sigue vendiendo.
+- 2026-10-26: se quitan de la página las tarjetas de operador para puerta
+  peatonal y kit de herrajes para levadiza (decisión de Arlen).
