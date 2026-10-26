@@ -23,8 +23,8 @@ precios, zonas y teléfono.
   fotogramas, clips ni temporales en C, tampoco en la carpeta temporal de
   Windows. FFmpeg recibe siempre rutas de salida dentro de la carpeta base.
 - **Nunca dentro de este repositorio**: es público y no debe llevar videos.
-- **Carpeta base:** la primera vez, pregúntele a Arlen en qué disco o
-  carpeta trabajar (por ejemplo `D:\ARPA-Reels`). Antes de procesar, revise
+- **Carpeta base:** `D:\User\ARPA-EMPRESA\ARPA-Reels` (la creó Arlen el
+  26-oct-2026; Windows no deja escribir en la raíz de D:). Antes de procesar, revise
   el espacio libre de ese disco y avise si hay menos de 10 GB.
 - Dentro de la carpeta base:
   ```
