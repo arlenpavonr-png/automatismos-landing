@@ -106,6 +106,8 @@ Arlen (dueño) ── autoriza
   portones corredizos, batientes (1 o 2 hojas), cortinas enrollables, puertas
   seccionales/levadizas de garaje, barreras vehiculares, techos corredizos,
   puertas de vidrio automáticas y operadores para puerta peatonal.
+  **Solo venta e instalación:** no se ofrece mantenimiento ni reparación en
+  anuncios, página, redes ni textos para clientes (decisión de Arlen, 26-oct-2026).
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
   oficiales. Solo Accessmatic y BFT llevan precio; Elite y NAS **solo se
   nombran** (decisión de Arlen). LiftMaster se quitó de la página (oct-2026).

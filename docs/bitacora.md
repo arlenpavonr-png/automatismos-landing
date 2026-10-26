@@ -78,3 +78,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-26: se crea el agente `editor-reels` (videos → reels 9:16 para
   Automatismos y ARPA Suite). Trabaja en el PC, fuera del disco C y fuera de
   este repo, en tandas de 3 videos, y nunca publica.
+- 2026-10-26: Arlen confirma que Automatismos ARPA es **solo venta e
+  instalación** (no se ofrece mantenimiento ni reparación). Editor-reels: colores
+  del logo nuevo (azul `#14284B` y naranja `#E07A1F`), se quita el sonido
+  original y se usa música libre de derechos de `musica/`.
