@@ -82,3 +82,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   instalación** (no se ofrece mantenimiento ni reparación). Editor-reels: colores
   del logo nuevo (azul `#14284B` y naranja `#E07A1F`), se quita el sonido
   original y se usa música libre de derechos de `musica/`.
+- 2026-10-26: Arlen confirma la marca por tipo de puerta en sus obras:
+  cortinas enrollables, todas Accessmatic; levadizas y techos corredizos,
+  Accessmatic y NAS. Se anota en `CLAUDE.md` para los reels.
