@@ -159,6 +159,22 @@ Arlen (dueño) ── autoriza
 | Kit BFT Phobos BT A25 batiente 2 hojas (hasta 400 kg) | $3.278.900 |
 | Techo corredizo, cortina lateral, vidrio, peatonal, herrajes | Según medidas |
 
+Qué trae cada kit (listas oficiales en Drive; Accessmatic ene-2026, BFT
+oct-2025). Fotoceldas y lámpara no vienen: se cobran aparte.
+
+- **Accessmatic corredizo (Pitbull 400):** motor, 4 m de cremallera de acero
+  con pernos y 2 controles. Hasta 400 kg, uso residencial. Falta confirmar
+  que su precio sea el $1.099.900 de la página (en el PDF ese precio parece
+  ser del Elite Slide 400).
+- **BFT Deimos BT A400:** motor con tarjeta, 4 m de cremallera y 2 controles.
+- **Accessmatic Eagle 250:** 2 brazos, tarjeta con pantalla y 2 controles.
+  **La batería de respaldo no viene: es opcional** y se cobra aparte
+  (decisión de Arlen, 26-oct-2026). Decírselo al cliente antes de vender.
+- **BFT Phobos BT A25:** 2 brazos, tarjeta (con salida para cerradura
+  eléctrica) y 2 controles.
+- **Garantía:** se ofrecen 2 años en el equipo aunque la fábrica dé 3
+  (Accessmatic). Es regla de Arlen (26-oct-2026); no mencionar los 3 años.
+
 Regla: los precios son los de la **lista oficial al público, que ya trae el
 IVA**. Nunca escribir "sin IVA" ni "+ IVA" (página, anuncios, guiones). A
 quien pide factura se le cobra el mismo precio, salvo excepciones que decide
@@ -224,7 +240,12 @@ Las razones están en `docs/gerencia.md`.
 Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
 borrar la pregunta.
 
-- ¿Qué trae cada kit y hay equipos en bodega para despachar rápido?
+- Precio real del kit Accessmatic corredizo (Pitbull 400) en la lista de
+  ene-2026: ¿es $1.099.900 o ese precio es del Elite Slide 400?
+- Lista de BFT más nueva que la de oct-2025: no está en Drive. Pedirla al
+  distribuidor y revisar si cambiaron los precios de la página.
+- ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
+  cotizaciones)? Hay que dejar una sola.
 - ¿Cuántos contactos llegan por semana? (el gasto de Ads ya está en Drive)
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
   kit, garantía si instala un técnico de otra ciudad, anticipo, medios de
