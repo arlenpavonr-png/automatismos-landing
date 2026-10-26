@@ -154,6 +154,12 @@ Arlen (dueño) ── autoriza
 - **Todo desde el celular:** Arlen maneja ventas, WhatsApp y asesoría a
   distancia (programación por videollamada) desde el celular, también los
   días de obra. Todo lo que se le entregue debe poder usarse desde el celular.
+- **Obras fuera de la zona** (decisión de Arlen, 26-oct-2026): proyectos
+  grandes, como cortinas enrollables en Venecia o La Ceja, se toman caso por
+  caso. Arlen hace la visita técnica y la obra la hacen **dos contratistas**
+  suyos. No se anuncian municipios fuera de la zona. Pendiente: acuerdo por
+  escrito con los contratistas sobre quién responde la garantía de mano de
+  obra (al cliente le responde Automatismos ARPA).
 - **Quién instala:** Arlen con un asistente. Capacidad: 10 instalaciones al
   mes, máximo un día cada una. Esos días Arlen no atiende WhatsApp ni carga
   Ads/redes; cuidar la carga.
@@ -269,8 +275,7 @@ borrar la pregunta.
   distribuidor y revisar si cambiaron los precios de la página.
 - ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
   cotizaciones)? Hay que dejar una sola.
-- ¿Se cobra el desplazamiento cuando la obra queda fuera de la zona
-  (ej. Venecia, La Ceja)? ¿Se amplía la zona de instalación?
+- ¿Se cobra el desplazamiento de la visita técnica fuera de la zona?
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
   garantía si instala un técnico de otra ciudad, precio de instalación).
   Ya respondidas: qué trae el kit, visita, anticipo, medios de pago y enlace
