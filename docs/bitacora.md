@@ -110,3 +110,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   (enviada el 26-oct; Meta tarda hasta unos 20 días).
 - 2026-10-27: la agenda de trabajo la maneja el chat 1 en Google Calendar;
   el Claude normal queda solo para lo personal.
+- 2026-10-27: Arlen confirma 1 año de garantía en mano de obra. Falta
+  corregir la skill de cotizaciones en claude.ai (decía 2 años).

@@ -156,7 +156,7 @@ Arlen (dueño) ── autoriza
   9 p. m. (extensión de llamada de Ads en ese horario). Atención **todos los
   días** (decisión de Arlen, 18-oct-2026).
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
-  obra. No cubre descargas eléctricas.
+  obra (confirmado por Arlen, 27-oct-2026). No cubre descargas eléctricas.
 - **Todo desde el celular:** Arlen maneja ventas, WhatsApp y asesoría a
   distancia (programación por videollamada) desde el celular, también los
   días de obra. Todo lo que se le entregue debe poder usarse desde el celular.
@@ -280,8 +280,6 @@ borrar la pregunta.
 
 - Lista de BFT más nueva que la de oct-2025: no está en Drive. Pedirla al
   distribuidor y revisar si cambiaron los precios de la página.
-- ¿Garantía de mano de obra: 1 año (estas reglas) o 2 años (skill de
-  cotizaciones)? Hay que dejar una sola.
 - Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
   garantía si instala un técnico de otra ciudad, precio de instalación).
   Ya respondidas: qué trae el kit, visita, anticipo, medios de pago y enlace
