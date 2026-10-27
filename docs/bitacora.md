@@ -108,3 +108,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-27: se agrega Cloudflare a los proveedores de la política de
   privacidad, para que coincida con lo declarado en la revisión de Meta
   (enviada el 26-oct; Meta tarda hasta unos 20 días).
+- 2026-10-27: la agenda de trabajo la maneja el chat 1 en Google Calendar;
+  el Claude normal queda solo para lo personal.
