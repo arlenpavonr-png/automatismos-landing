@@ -105,3 +105,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-26: obras grandes fuera de la zona (cortinas en Venecia y La
   Ceja): Arlen va a la visita y las ejecutan dos contratistas. No se anuncian.
 - 2026-10-26: visita técnica fuera de la zona: $120.000.
+- 2026-10-27: se agrega Cloudflare a los proveedores de la política de
+  privacidad, para que coincida con lo declarado en la revisión de Meta
+  (enviada el 26-oct; Meta tarda hasta unos 20 días).
