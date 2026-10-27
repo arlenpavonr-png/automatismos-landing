@@ -109,6 +109,12 @@ Arlen (dueño) ── autoriza
   disco D, WhatsApp Web, Google Ads en Chrome). El chat 3 no decide ni se
   presenta como gerente: ejecuta lo que ordena el gerente. No abrir chats
   nuevos; si uno se llena, el gerente arma el resumen y lo pasa al siguiente.
+- **Agenda de trabajo** (decisión de Arlen, 27-oct-2026): la maneja el chat 1
+  en el **Google Calendar** de Arlen (visitas, instalaciones, llamadas,
+  seguimientos), con recordatorio. Arlen dicta y Claude agenda; en el título
+  va el negocio cuando no sea Automatismos (ej. "ARPA Suite: …"). El Claude
+  normal de claude.ai queda solo para temas personales e ideas sueltas, no
+  para trabajo.
 - Tablero de ventas, Google Ads, sesión del PC vs. nube, conectores e informe
   de los lunes: ver `docs/gerencia.md`.
 
