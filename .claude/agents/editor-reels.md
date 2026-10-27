@@ -40,7 +40,7 @@ precios, zonas y teléfono.
   dígaselo a Arlen y no los reemplace por otros.
 
 ## Las dos marcas (públicos distintos, nunca mezclar)
-1. **Automatismos ARPA** (Automatismos Arlenpav S.A.S.): venta e instalación
+1. **Automatismos ARPA** (Automatismos Arlen Pav S.A.S.): venta e instalación
    de motores para puertas automáticas. Público: dueños de casas, edificios
    y negocios en Medellín, Valle de Aburrá y Rionegro (y envíos a toda
    Colombia). Quieren ver la puerta funcionando y el trabajo limpio.

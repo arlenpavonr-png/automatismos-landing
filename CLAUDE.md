@@ -120,7 +120,8 @@ Arlen (dueño) ── autoriza
 
 ## El negocio
 
-- **Razón social:** Automatismos Arlenpav S.A.S · NIT 901.473.259-8.
+- **Razón social:** Automatismos Arlen Pav S.A.S · NIT 901.473.259-8 (así sale en el
+  RUT; confirmado el 27-oct-2026).
 - **Marca en la web:** Automatismos ARPA.
 - **Qué hace:** venta e instalación de motores para puertas automáticas:
   portones corredizos, batientes (1 o 2 hojas), cortinas enrollables, puertas
