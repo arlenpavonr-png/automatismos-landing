@@ -112,3 +112,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   el Claude normal queda solo para lo personal.
 - 2026-10-27: Arlen confirma 1 año de garantía en mano de obra. Falta
   corregir la skill de cotizaciones en claude.ai (decía 2 años).
+- 2026-10-27: la razón social se corrige a "Automatismos Arlen Pav S.A.S",
+  como sale en el RUT (antes decía "Arlenpav" junto). Coincide con Meta.
