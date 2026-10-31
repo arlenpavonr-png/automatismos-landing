@@ -15,7 +15,10 @@ Mantenerlo corto: el detalle va en `docs/` (ver "Mapa del repositorio").
 
 ## Cómo trabajar con Arlen
 
-- Arlen Pavón, Medellín, Colombia. No es programador y trabaja desde el celular.
+- Arlen Pavón, Medellín, Colombia. No es programador. **En la oficina trabaja
+  sobre todo desde el PC** y se apoya en el celular; **en la calle usa el
+  celular**, sobre todo para ARPA Suite (cotizaciones e informes de obra).
+  Dar pasos para PC cuando esté en la oficina (aclarado por Arlen, 31-oct-2026).
 - Explicar todo en español sencillo, paso a paso, sin tecnicismos.
 - Cero adulación. Ser auditor crítico: si algo está mal, inconsistente o
   incompleto, decirlo de inmediato aunque no lo haya preguntado.
@@ -158,9 +161,10 @@ Arlen (dueño) ── autoriza
   días** (decisión de Arlen, 18-oct-2026).
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
   obra (confirmado por Arlen, 27-oct-2026). No cubre descargas eléctricas.
-- **Todo desde el celular:** Arlen maneja ventas, WhatsApp y asesoría a
-  distancia (programación por videollamada) desde el celular, también los
-  días de obra. Todo lo que se le entregue debe poder usarse desde el celular.
+- **Celular en la calle, PC en la oficina:** en obra y en la calle Arlen maneja
+  ventas, WhatsApp y asesoría a distancia (programación por videollamada)
+  desde el celular; en la oficina prefiere el PC. Lo que se le entregue debe
+  poder usarse en los dos.
 - **Obras fuera de la zona** (decisión de Arlen, 26-oct-2026): proyectos
   grandes, como cortinas enrollables en Venecia o La Ceja, se toman caso por
   caso. Arlen hace la visita técnica y la obra la hacen **dos contratistas**
