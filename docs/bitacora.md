@@ -114,3 +114,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   corregir la skill de cotizaciones en claude.ai (decía 2 años).
 - 2026-10-27: la razón social se corrige a "Automatismos Arlen Pav S.A.S",
   como sale en el RUT (antes decía "Arlenpav" junto). Coincide con Meta.
+- 2026-10-31: Arlen aclara que en la oficina trabaja sobre todo desde el PC;
+  el celular es para la calle (ARPA Suite: cotizaciones e informes de obra).
