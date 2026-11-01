@@ -116,3 +116,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   como sale en el RUT (antes decía "Arlenpav" junto). Coincide con Meta.
 - 2026-10-31: Arlen aclara que en la oficina trabaja sobre todo desde el PC;
   el celular es para la calle (ARPA Suite: cotizaciones e informes de obra).
+- 2026-10-31: se aclara que sí hay mantenimiento preventivo para los clientes
+  con equipos instalados por Arlen (no se anuncia a clientes nuevos). La regla
+  del IVA queda en revisión (detalle en Drive).
