@@ -130,8 +130,12 @@ Arlen (dueño) ── autoriza
   portones corredizos, batientes (1 o 2 hojas), cortinas enrollables, puertas
   seccionales/levadizas de garaje, barreras vehiculares, techos corredizos,
   puertas de vidrio automáticas y operadores para puerta peatonal.
-  **Solo venta e instalación:** no se ofrece mantenimiento ni reparación en
-  anuncios, página, redes ni textos para clientes (decisión de Arlen, 26-oct-2026).
+  **Venta e instalación:** no se anuncia mantenimiento ni reparación en
+  anuncios, página ni redes para clientes nuevos (decisión de Arlen,
+  26-oct-2026). **Excepción:** a los clientes con equipos que instaló Arlen sí
+  se les ofrece **mantenimiento preventivo** (cada 6 meses, en la garantía de
+  la cotización). Meta: 20 a 30 clientes de mantenimiento al año, sobre todo
+  en enero y febrero, que son meses flojos (aclarado por Arlen, 31-oct-2026).
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
   oficiales. Accessmatic y BFT llevan precio; de Elite solo el **Slide 500**
   lleva precio (decisión de Arlen, 26-oct-2026); el resto de Elite y NAS
@@ -222,7 +226,9 @@ Regla: los precios son los de la **lista oficial al público, que ya trae el
 IVA**. Nunca escribir "sin IVA" ni "+ IVA" (página, anuncios, guiones). A
 quien pide factura se le cobra el mismo precio, salvo excepciones que decide
 Arlen con clientes puntuales (detalle en el documento privado de Drive; no
-se publican ni se ofrecen por iniciativa propia).
+se publican ni se ofrecen por iniciativa propia). **En revisión (31-oct-2026):**
+Arlen quiere sumar el IVA en las cotizaciones cuando pueda; choca con la
+página, que dice "IVA incluido". Ver la bitácora privada de Drive.
 
 Regla: "Accessmatic desde", "Elite desde" y "BFT desde" deben coincidir con el producto más
 barato de cada marca que aparezca en la página. Si se agrega un producto más
