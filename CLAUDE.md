@@ -71,6 +71,9 @@ Todo cambio a la página debe servir a una de las dos.
   redes, ventas y editor-reels, revisa lo que entregan y le da a Arlen un
   solo informe. Los agentes no tienen acceso a Google Ads, redes ni WhatsApp:
   entregan todo listo para copiar y pegar.
+- **Modelos (2-nov-2026):** los agentes trabajan en Sonnet; para tareas
+  sencillas (contar, ordenar, revisar textos cortos) el gerente los manda en
+  Haiku. El chat 1 sigue en el modelo fuerte; el chat 3 puede ir en Sonnet.
 - **Solo 3 chats fijos:** "1 · GERENTE Automatismos ARPA" (aquí),
   "2 · GERENTE ARPA Suite" y "3 · PC (manos en el computador)", que ejecuta
   lo del PC y no decide. No abrir chats nuevos.

@@ -124,3 +124,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   zona, envíos, pagos, mantenimiento, IVA) y `docs/pagina.md` (Ads, medición,
   diseño, pendientes). Agentes y skill `publicar-pagina` apuntan a los nuevos
   archivos. No se cambió ninguna regla.
+- 2026-11-02: para ahorrar uso, los agentes (ads, redes, ventas,
+  editor-reels) quedan en Sonnet y el gerente los manda en Haiku para tareas
+  sencillas. El chat 1 sigue en el modelo fuerte; Arlen pasa el chat 3 a
+  Sonnet.
