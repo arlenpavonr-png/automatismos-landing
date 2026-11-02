@@ -74,6 +74,9 @@ Todo cambio a la página debe servir a una de las dos.
 - **Modelos (2-nov-2026):** los agentes trabajan en Sonnet; para tareas
   sencillas (contar, ordenar, revisar textos cortos) el gerente los manda en
   Haiku. El chat 1 sigue en el modelo fuerte; el chat 3 puede ir en Sonnet.
+- **Claude en Chrome (2-nov-2026, a prueba):** en el PC de Arlen, como parte
+  del chat 3. Puede mirar todo (Google Ads, Meta, Tuya) pero **no cambia nada
+  sin el sí de Arlen**; toda decisión es con él. No usarlo en bancos.
 - **Solo 3 chats fijos:** "1 · GERENTE Automatismos ARPA" (aquí),
   "2 · GERENTE ARPA Suite" y "3 · PC (manos en el computador)", que ejecuta
   lo del PC y no decide. No abrir chats nuevos.
