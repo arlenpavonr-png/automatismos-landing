@@ -10,13 +10,14 @@ No saltarse pasos. Si uno falla, parar y contarle a Arlen en palabras sencillas.
 ## 1. Antes de tocar nada
 - ¿Arlen autorizó **este** cambio? Si no, proponerlo y esperar.
 - ¿Sirve a una de las dos metas (ventas Medellín o envíos nacionales)? Si no, decirlo.
-- Releer en `CLAUDE.md` las reglas de precios, de IVA y de "La página web".
+- Releer los precios y la regla de IVA en `CLAUDE.md`, y las reglas de la
+  página en `docs/pagina.md`.
 - Trabajar en la rama asignada a la sesión, nunca directo en `main`.
 
 ## 2. Hacer el cambio
 - Todo está en `index.html`. Fotos nuevas en `img/` y en `.webp`.
 - Trato de usted. No inventar precios, cifras ni promesas.
-- Si cambia un precio: revisar que "Accessmatic desde" y "BFT desde" sigan
+- Si cambia un precio: revisar que "Accessmatic desde", "Elite desde" y "BFT desde" sigan
   siendo el producto más barato de cada marca, y actualizar la tabla de
   precios de `CLAUDE.md`.
 - No tocar la etiqueta `AW-695987136` ni los scripts de `?c=nacional` y
