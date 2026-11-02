@@ -119,3 +119,8 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-10-31: se aclara que sí hay mantenimiento preventivo para los clientes
   con equipos instalados por Arlen (no se anuncia a clientes nuevos). La regla
   del IVA queda en revisión (detalle en Drive).
+- 2026-11-02: `CLAUDE.md` se poda de 297 a ~107 líneas para que cada sesión
+  arranque con lo esencial. El detalle pasa a `docs/negocio.md` (kits, marcas,
+  zona, envíos, pagos, mantenimiento, IVA) y `docs/pagina.md` (Ads, medición,
+  diseño, pendientes). Agentes y skill `publicar-pagina` apuntan a los nuevos
+  archivos. No se cambió ninguna regla.

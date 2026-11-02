@@ -1,194 +1,92 @@
 # Automatismos ARPA — contexto para Claude
 
-Este archivo se lee al iniciar cada sesión y contiene **las reglas del
-negocio** (no existen escritas en otro lado). Si una decisión de Arlen cambia
-una regla, se cambia aquí, y el cambio se anota en `docs/bitacora.md`.
-Mantenerlo corto: el detalle va en `docs/` (ver "Mapa del repositorio").
+Reglas vigentes del negocio. Se leen al iniciar cada sesión: mantenerlas
+cortas. El detalle va en `docs/`. Si Arlen cambia una regla, se cambia aquí o
+en el archivo de `docs/` que corresponda y se anota en `docs/bitacora.md`.
 
-> **Ojo: este repositorio es público**, incluida la carpeta `docs/`.
-> No guardar aquí datos sensibles (presupuestos de Ads, ventas, márgenes,
-> costos, claves, nombre del proveedor). `_config.yml` excluye este archivo y
-> `docs/` de la página publicada, pero en GitHub se pueden leer.
-> **Los datos sensibles van en Google Drive**, en el documento privado
-> "Automatismos ARPA – Datos privados del negocio"
-> (id `14BAhLueq9pBfcP9fb8zErPRnzWvQTD7fK_QBOVTX_os`).
+> **Repositorio público**, incluida `docs/`. Nada de presupuestos, ventas,
+> márgenes, costos, claves ni nombre del proveedor: eso va en Google Drive,
+> documento privado "Automatismos ARPA – Datos privados del negocio"
+> (id `14BAhLueq9pBfcP9fb8zErPRnzWvQTD7fK_QBOVTX_os`) y carpeta
+> "Automatismos ARPA – Gerencia".
 
 ## Cómo trabajar con Arlen
 
-- Arlen Pavón, Medellín, Colombia. No es programador. **En la oficina trabaja
-  sobre todo desde el PC** y se apoya en el celular; **en la calle usa el
-  celular**, sobre todo para ARPA Suite (cotizaciones e informes de obra).
-  Dar pasos para PC cuando esté en la oficina (aclarado por Arlen, 31-oct-2026).
-- Explicar todo en español sencillo, paso a paso, sin tecnicismos.
-- Cero adulación. Ser auditor crítico: si algo está mal, inconsistente o
-  incompleto, decirlo de inmediato aunque no lo haya preguntado.
-- **Claude ejecuta todo** (cambios, commits, PR, merge, publicación), siempre
-  **con autorización previa de Arlen**. Arlen solo actúa en casos extremos.
-  Flujo: proponer → Arlen autoriza → rama → PR → merge → verificar publicación.
-- **Autonomía del gerente** (decisión de Arlen, 26-oct-2026: "haz lo que creas
-  mejor para el proyecto"): Claude decide y ejecuta sin preguntar lo interno y
-  reversible (reglas, bitácora, documentos, orden de chats, correcciones de la
-  página que no cambien precios ni promesas) y luego le cuenta a Arlen. Sigue
-  pidiendo visto bueno antes de: gastar plata, cambiar precios, garantías o
-  promesas en la página o los anuncios, escribirle a clientes o a terceros, o
-  hacer algo que no se pueda deshacer.
-  Para cambios en la página, seguir la skill `publicar-pagina`.
-- Si falta un dato, preguntarlo; no inventar precios, cifras ni promesas.
-- **Arlen pega cualquier cosa sin explicar** (mensaje de cliente, idea, foto,
-  cifra). Claude primero dice a qué negocio y área corresponde (Automatismos
-  ARPA: página, Ads, redes, ventas o piloto; ARPA Suite; ARPA Technology; o
-  dato privado que va a Drive) y espera su visto bueno antes de actuar. Si es
-  de otro negocio, se lo dice para que lo lleve allá, o lo trabaja aquí si
-  Arlen lo autoriza. Si no está claro, pregunta (decisión de Arlen, 26-oct-2026).
+- Arlen Pavón, Medellín. No es programador. En la oficina usa sobre todo el
+  PC; en la calle, el celular (sobre todo ARPA Suite: cotizaciones e informes
+  de obra). Dar pasos para el aparato que esté usando.
+- Español sencillo, paso a paso, sin tecnicismos. Trato de usted a clientes.
+- Cero adulación. Auditor crítico: si algo está mal o incompleto, decirlo de
+  una vez aunque no pregunte.
+- **Autonomía del gerente** (Arlen, 26-oct-2026): Claude decide y ejecuta solo
+  lo interno y reversible (reglas, bitácora, documentos, agenda, orden de
+  chats, correcciones de la página que no cambien precios ni promesas) y luego
+  le cuenta. Pide visto bueno antes de: gastar plata, cambiar precios,
+  garantías o promesas en página o anuncios, escribirle a clientes o
+  terceros, o hacer algo que no se pueda deshacer.
+- Cambios a la página: proponer → visto bueno → rama → PR → merge → verificar
+  publicación, con la skill `publicar-pagina`.
+- No inventar precios, cifras ni promesas: si falta un dato, preguntar.
+- **Arlen pega cualquier cosa sin explicar:** primero decir a qué negocio y
+  área corresponde (Automatismos: página, Ads, redes, ventas o piloto; ARPA
+  Suite; ARPA Technology; o dato privado para Drive) y esperar su visto bueno.
 
-## Mapa del repositorio
+## Mapa
 
-- `index.html` → toda la página (HTML, estilos y scripts). Fotos en `img/` (`.webp`).
-- `CLAUDE.md` → este archivo: reglas vigentes.
-- `docs/gerencia.md` → cómo funciona el mercado, tablero de ventas, Google
-  Ads (carga masiva, campañas activas, pendientes), dónde se hace cada cosa,
-  conectores, informe semanal, por qué se descartaron canales.
-- `docs/piloto-cerrajerias.md` → condiciones y pendientes del piloto.
+- `index.html` (toda la página) y `img/`; `privacidad.html`.
+- `docs/negocio.md` → detalle del negocio: kits, marcas, zona, envíos, pagos,
+  mantenimiento, IVA, repos relacionados. **Leerlo antes de ventas o textos.**
+- `docs/pagina.md` → reglas de la página (etiqueta de Ads, medición, diseño).
+- `docs/gerencia.md` → mercado, tablero de ventas, Google Ads, medición de
+  los lunes, canales descartados y por qué.
+- `docs/piloto-cerrajerias.md` → piloto de cerrajerías.
 - `docs/bitacora.md` → historial de cambios y decisiones.
-- `.claude/agents/` → agentes ads, redes, ventas y editor-reels.
-- `.claude/skills/publicar-pagina/` → paso a paso para cambiar y publicar la página.
-- `.claude/hooks/proteger-ads.sh` → bloquea commit/push si a `index.html` le
-  falta la etiqueta de Google Ads. Si salta, restaurar la etiqueta; no
-  desactivar el hook.
+- `.claude/agents/` (ads, redes, ventas, editor-reels),
+  `.claude/skills/publicar-pagina/`, `.claude/hooks/proteger-ads.sh` (bloquea
+  el commit si a `index.html` le falta la etiqueta de Ads; no desactivarlo).
 
-## Hacia dónde vamos (metas, oct-2026)
+## Metas (oct-2026)
 
-1. **Aumentar las ventas en Medellín** (instalación): **mínimo 10 ventas al mes.**
-2. **Aumentar los envíos nacionales**: **6 ventas al mes en 90 días**
-   (nov-2026 a ene-2027: aprox. 3 → 4-5 → 6). 10 al mes a largo plazo.
+1. **Medellín (instalación): mínimo 10 ventas al mes.**
+2. **Envíos nacionales: 6 ventas al mes en 90 días** (nov-2026 a ene-2027:
+   aprox. 3 → 4-5 → 6); 10 al mes a largo plazo.
 
-Toda propuesta de cambio a la página debe servir a una de estas dos metas.
+Todo cambio a la página debe servir a una de las dos.
 
-- **Solo cliente final** (decisión de Arlen, 18-oct-2026): instalación en
-  Medellín y venta con envío en el resto del país. No se trabaja con
-  instaladores aliados ni se le vende a otros instaladores.
-- **Plan nacional (opción A):** apuntar a **municipios sin distribuidor ni
-  instalador de la marca**, excluyendo las ciudades grandes con
-  distribuidores. Medir 60 días y decidir con datos. Por qué: ver
-  `docs/gerencia.md`.
-- **Google Ads: 70 % Medellín/Valle de Aburrá/Rionegro, 30 % nacional** (el
-  monto está en Drive; **el tope incluye el IVA que cobra Google**). Anuncios
-  **todos los días, incluidos sábado y domingo** (el fin de semana es cuando
-  más escribe el cliente). Horario entre semana: se ajusta con los datos por hora.
-- **Publicidad = siempre cliente final:** Google Ads y redes le hablan al ama
-  de casa, al trabajador que quiere su motor. Nunca anuncios para
-  instaladores o cerrajeros.
-- **Piloto de cerrajerías de pueblos sin distribuidor** (única excepción a
-  "no aliados"): solo Accessmatic, 10 % de descuento, contacto directo por
-  WhatsApp. Condiciones completas en `docs/piloto-cerrajerias.md`.
-- **No contar** con recomendaciones de distribuidores como canal.
-- El Perfil de Negocio de Google solo sirve para Medellín (no poner "toda
-  Colombia": riesgo de suspensión).
+- **Solo cliente final** (18-oct-2026): ni instaladores aliados ni venta a
+  otros instaladores. Única excepción: piloto de cerrajerías de pueblos sin
+  distribuidor (solo Accessmatic, 10 % de descuento, por WhatsApp).
+- **Plan nacional:** municipios sin distribuidor ni instalador de la marca,
+  sin ciudades grandes. Medir 60 días y decidir con datos.
+- **Google Ads:** 70 % Medellín/Valle de Aburrá/Rionegro, 30 % nacional; el
+  tope (en Drive) incluye el IVA de Google. Todos los días, también fines de
+  semana. Publicidad siempre para el cliente final.
+- No contar con recomendaciones de distribuidores. Perfil de Negocio de
+  Google solo para Medellín.
+- **Descartados, no volver a proponer:** instaladores aliados y Mercado Libre.
 
-## Organización: quién manda a quién
+## Organización
 
-```
-Arlen (dueño) ── autoriza
-   └── Claude: gerente general ── decide, coordina, responde a Arlen
-         ├── Agente "ads"    → Google Ads           (.claude/agents/ads.md)
-         ├── Agente "redes"  → Redes sociales       (.claude/agents/redes.md)
-         ├── Agente "ventas" → WhatsApp y cierre    (.claude/agents/ventas.md)
-         └── Agente "editor-reels" → reels de videos (.claude/agents/editor-reels.md)
-```
+- Claude es el **gerente general** (18-oct-2026): usa los agentes de ads,
+  redes, ventas y editor-reels, revisa lo que entregan y le da a Arlen un
+  solo informe. Los agentes no tienen acceso a Google Ads, redes ni WhatsApp:
+  entregan todo listo para copiar y pegar.
+- **Solo 3 chats fijos:** "1 · GERENTE Automatismos ARPA" (aquí),
+  "2 · GERENTE ARPA Suite" y "3 · PC (manos en el computador)", que ejecuta
+  lo del PC y no decide. No abrir chats nuevos.
+- **Agenda:** la lleva el chat 1 en el Google Calendar de Arlen, con
+  recordatorio; título "ARPA Suite: …" si es de ese negocio. Avisos diarios a
+  las 6:24 a. m. y 8:21 p. m. El Claude normal es solo para lo personal.
 
-- Claude maneja Automatismos ARPA como **gerente general** (decisión de Arlen,
-  18-oct-2026). Usa a cada agente para su área, revisa lo que entrega con ojo
-  crítico y le presenta a Arlen **un solo informe** con lo que se necesita de él.
-- **Límites reales:** los agentes solo existen mientras hay una sesión abierta
-  y no tienen acceso a Google Ads, a las redes ni al WhatsApp. Entregan todo
-  listo para copiar y pegar; Arlen (o quien él designe) lo carga.
-- **Dónde va el trabajo:** definiciones de agentes, en este repo. Planes,
-  guiones, cifras y reportes, en Google Drive, carpeta privada
-  **"Automatismos ARPA – Gerencia"**.
-- **Solo 3 chats fijos** (decisión de Arlen, 26-oct-2026):
-  "1 · GERENTE Automatismos ARPA" (nube; aquí habla Arlen de este negocio),
-  "2 · GERENTE ARPA Suite" (nube; todo lo de ARPA Suite) y
-  "3 · PC (manos en el computador)" (en el PC de Arlen: reels con videos del
-  disco D, WhatsApp Web, Google Ads en Chrome). El chat 3 no decide ni se
-  presenta como gerente: ejecuta lo que ordena el gerente. No abrir chats
-  nuevos; si uno se llena, el gerente arma el resumen y lo pasa al siguiente.
-- **Agenda de trabajo** (decisión de Arlen, 27-oct-2026): la maneja el chat 1
-  en el **Google Calendar** de Arlen (visitas, instalaciones, llamadas,
-  seguimientos), con recordatorio. Arlen dicta y Claude agenda; en el título
-  va el negocio cuando no sea Automatismos (ej. "ARPA Suite: …"). El Claude
-  normal de claude.ai queda solo para temas personales e ideas sueltas, no
-  para trabajo.
-- Tablero de ventas, Google Ads, sesión del PC vs. nube, conectores e informe
-  de los lunes: ver `docs/gerencia.md`.
+## El negocio en corto (detalle en `docs/negocio.md`)
 
-## El negocio
-
-- **Razón social:** Automatismos Arlen Pav S.A.S · NIT 901.473.259-8 (así sale en el
-  RUT; confirmado el 27-oct-2026).
-- **Marca en la web:** Automatismos ARPA.
-- **Qué hace:** venta e instalación de motores para puertas automáticas:
-  portones corredizos, batientes (1 o 2 hojas), cortinas enrollables, puertas
-  seccionales/levadizas de garaje, barreras vehiculares, techos corredizos,
-  puertas de vidrio automáticas y operadores para puerta peatonal.
-  **Venta e instalación:** no se anuncia mantenimiento ni reparación en
-  anuncios, página ni redes para clientes nuevos (decisión de Arlen,
-  26-oct-2026). **Excepción:** a los clientes con equipos que instaló Arlen sí
-  se les ofrece **mantenimiento preventivo** (cada 6 meses, en la garantía de
-  la cotización). Meta: 20 a 30 clientes de mantenimiento al año, sobre todo
-  en enero y febrero, que son meses flojos (aclarado por Arlen, 31-oct-2026).
-- **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
-  oficiales. Accessmatic y BFT llevan precio; de Elite solo el **Slide 500**
-  lleva precio (decisión de Arlen, 26-oct-2026); el resto de Elite y NAS
-  **solo se nombran**. LiftMaster se quitó de la página (oct-2026).
-  **Marca por tipo de puerta en las obras de Arlen** (dato para reels y
-  textos): cortinas enrollables, todas Accessmatic; levadizas y techos
-  corredizos, Accessmatic y NAS (revisar cada video para no confundir la
-  marca). Dicho por Arlen el 26-oct-2026.
-- **Instalación:** Medellín, Valle de Aburrá y Rionegro (confirmado). No
-  prometer otros municipios del Oriente sin preguntar. **Venta con envío:** toda
-  Colombia por Coordinadora (el envío lo paga el cliente).
-- **Sin bodega propia:** Arlen no guarda equipos. Su proveedor principal de
-  Accessmatic (nombre en Drive) es su "bodega": Arlen llama y el proveedor
-  despacha de inmediato a donde él diga, o el cliente recoge allá. El cliente
-  paga a nombre de Arlen (efectivo allá o consignación a la cuenta de Arlen);
-  el proveedor verifica, Arlen confirma y entonces se despacha.
-- **Ventas con envío — reglas de Arlen:** pago del **100 % antes de
-  despachar**, solo por transferencia a la cuenta de la empresa y con la plata
-  ya visible en el banco (un pantallazo no vale). Sin contraentrega. Pedirle
-  al proveedor foto de los seriales y de la guía antes de que salga el envío.
-  Garantía de 2 años en el equipo; la mano de obra la responde quien instala.
-  Retracto de 5 días hábiles (ley): confirmar con fotos y medidas que el kit
-  sirve antes de vender y revisar el serial al recibir una devolución
-  (pendiente validar con abogado o contador).
-- **Contacto:** WhatsApp y teléfono +57 300 568 3914. Llamadas de 7 a. m. a
-  9 p. m. (extensión de llamada de Ads en ese horario). Atención **todos los
-  días** (decisión de Arlen, 18-oct-2026).
-- **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano de
-  obra (confirmado por Arlen, 27-oct-2026). No cubre descargas eléctricas.
-- **Celular en la calle, PC en la oficina:** en obra y en la calle Arlen maneja
-  ventas, WhatsApp y asesoría a distancia (programación por videollamada)
-  desde el celular; en la oficina prefiere el PC. Lo que se le entregue debe
-  poder usarse en los dos.
-- **Obras fuera de la zona** (decisión de Arlen, 26-oct-2026): proyectos
-  grandes, como cortinas enrollables en Venecia o La Ceja, se toman caso por
-  caso. Arlen hace la visita técnica y la obra la hacen **dos contratistas**
-  suyos. No se anuncian municipios fuera de la zona. Pendiente: acuerdo por
-  escrito con los contratistas sobre quién responde la garantía de mano de
-  obra (al cliente le responde Automatismos ARPA).
-- **Quién instala:** Arlen con un asistente. Capacidad: 10 instalaciones al
-  mes, máximo un día cada una. Esos días Arlen no atiende WhatsApp ni carga
-  Ads/redes; cuidar la carga.
-- **Visita técnica:** en Medellín $80.000 con IVA; fuera de la zona
-  $120.000 (decisión de Arlen, 26-oct-2026). Pago anticipado; se descuenta
-  si el cliente toma la instalación. **Pagos de instalación:** 50 %
-  al iniciar y 50 % al terminar, por Bancolombia, Nequi o efectivo (las ventas
-  con envío siguen la regla de pago total por transferencia).
-- **Proceso de venta:** cliente escribe por WhatsApp con fotos y medidas →
-  precio tentativo → visita técnica (precio final) → instalación (normalmente
-  un día) → garantía por escrito.
-- **Cifras que muestra la página:** +500 puertas instaladas, 10+ años de
-  experiencia. Arlen confirma que son exactas.
-- **Trato al cliente:** de usted.
+- **Razón social:** Automatismos Arlen Pav S.A.S · NIT 901.473.259-8 (como en
+  el RUT). Marca: Automatismos ARPA.
+- Venta e instalación de motores para puertas automáticas en Medellín, Valle
+  de Aburrá y Rionegro; venta con envío a toda Colombia.
+- **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano
+  de obra. No cubre descargas eléctricas.
+- **Contacto:** WhatsApp y teléfono +57 300 568 3914, todos los días.
 
 ## Precios publicados (equipo con IVA incluido; instalación aparte)
 
@@ -201,97 +99,9 @@ Arlen (dueño) ── autoriza
 | Kit BFT Phobos BT A25 batiente 2 hojas (hasta 400 kg) | $3.278.900 |
 | Techo corredizo, cortina lateral, puerta de vidrio | Según medidas |
 
-Qué trae cada kit (listas oficiales en Drive; Accessmatic ene-2026, BFT
-oct-2025). Fotoceldas y lámpara no vienen: se cobran aparte.
+Nunca escribir "sin IVA" ni "+ IVA" en página, anuncios ni guiones.
 
-- **Elite Slide 500:** motor, 4 m de cremallera de acero con pernos y 2
-  controles. Hasta 500 kg, uso residencial.
-- **Accessmatic Shark 1000:** motor de garaje 3/4 HP con riel, 2 controles,
-  pulsador inalámbrico y cargador de batería (riel confirmado por Arlen).
-- **Motores que Arlen sí ofrece** (lista del 25-oct-2026, la misma del robot
-  de WhatsApp): corredizo Elite Slide 500, Accessmatic Bulldozer 850
-  ($1.599.900) y Bulldog 1100 ($1.999.900); batiente Accessmatic Eagle 250;
-  garaje Accessmatic Raptor 1200, Shark 1000, Scorpion 900/901 y Elite
-  MG750; y casi todo el catálogo de BFT. El Pitbull 400 ya no se ofrece.
-- **BFT Deimos BT A400:** motor con tarjeta, 4 m de cremallera y 2 controles.
-- **Accessmatic Eagle 250:** 2 brazos, tarjeta con pantalla y 2 controles.
-  **La batería de respaldo no viene: es opcional** y se cobra aparte
-  (decisión de Arlen, 26-oct-2026). Decírselo al cliente antes de vender.
-- **BFT Phobos BT A25:** 2 brazos, tarjeta (con salida para cerradura
-  eléctrica) y 2 controles.
-- **Garantía:** se ofrecen 2 años en el equipo aunque la fábrica dé 3
-  (Accessmatic). Es regla de Arlen (26-oct-2026); no mencionar los 3 años.
+## Preguntas abiertas (preguntar a Arlen y luego pasar la respuesta a su sitio)
 
-Regla: los precios son los de la **lista oficial al público, que ya trae el
-IVA**. Nunca escribir "sin IVA" ni "+ IVA" (página, anuncios, guiones). A
-quien pide factura se le cobra el mismo precio, salvo excepciones que decide
-Arlen con clientes puntuales (detalle en el documento privado de Drive; no
-se publican ni se ofrecen por iniciativa propia). **En revisión (31-oct-2026):**
-Arlen quiere sumar el IVA en las cotizaciones cuando pueda; choca con la
-página, que dice "IVA incluido". Ver la bitácora privada de Drive.
-
-Regla: "Accessmatic desde", "Elite desde" y "BFT desde" deben coincidir con el producto más
-barato de cada marca que aparezca en la página. Si se agrega un producto más
-barato, actualizar ambos sitios.
-
-## La página web (este repositorio)
-
-- **Dominio:** https://automatismosarpa.com.co (archivo `CNAME`).
-- **Publicación:** GitHub Pages desde la rama `main`. Al unir un PR, GitHub
-  publica solo en ~1 minuto ("pages build and deployment").
-- **Objetivo de la página:** que el visitante escriba por WhatsApp. Cada botón
-  abre WhatsApp con un mensaje ya escrito según el producto o la sección.
-- **Google Ads:** etiqueta `AW-695987136`. Cada toque en WhatsApp o en
-  "llamar" cuenta como conversión (`AW-695987136/ovsSCKLgs4AdEMDX78sC`).
-  No romper ese script al editar (el hook `proteger-ads.sh` lo vigila).
-- **Medición por campaña:** los anuncios nacionales llevan a
-  `https://automatismosarpa.com.co/?c=nacional#envios`. Con `?c=nacional`, un
-  script al final de `index.html` cambia el mensaje de WhatsApp a "Hola Arlen,
-  le escribo desde fuera de Medellín. …". Medellín usa `?c=medellin`: el
-  mensaje dice "vi su anuncio" en vez de "vi su página", así se distingue de
-  quien llega sin anuncio. La sección "¿Está en otra ciudad?" tiene `id="envios"`.
-- **Videos:** YouTube, se reproducen dentro de la página (carrusel en celular).
-- **Diseño:** fondo oscuro, amarillo `#FFD700`, verde WhatsApp `#25D366`,
-  fuentes Bebas Neue (títulos) e Inter (texto). Pensada primero para celular.
-- **Verificación:** antes de publicar, revisar capturas a 390 px (celular) y
-  1280 px (computador). La sesión en la nube no puede abrir el dominio en
-  vivo; la publicación se confirma con el estado de GitHub Pages.
-
-## Repositorios relacionados (todos de arlenpavonr-png)
-
-- `automatismos-landing` → esta página (automatismosarpa.com.co).
-- `arpatechnologyglobal.com` → web de ARPA Technology (otro negocio/marca).
-- `Formato-Arlenpav` → ARPA Suite en producción. Arlen la usa en este negocio
-  para **cotizaciones e informes de obra**. Es además el **otro proyecto de
-  Arlen para generar ingresos** (no es parte de la gerencia de Automatismos ARPA).
-- `ARPASuite-LAB` → copia de pruebas de ARPA Suite.
-- `Arpa-Suite` → privado.
-
-## Canales descartados (no volver a proponerlos)
-
-- **Instaladores aliados / venta a otros instaladores en ciudades con
-  distribuidor** — descartado por Arlen (18-oct-2026). Excepción en prueba:
-  el piloto de cerrajerías.
-- **Mercado Libre** — descartado por Arlen (18-oct-2026).
-
-Las razones están en `docs/gerencia.md`.
-
-## Pendientes y hallazgos abiertos
-
-1. **Conversión única** para WhatsApp y llamada: no se sabe qué canal trae
-   más clientes. Separar si se quiere medir.
-2. En computador, las fotos de las tarjetas se ven muy grandes. No urgente:
-   el tráfico es sobre todo de celular.
-3. `img/motor-garaje-accessmatic.webp` ya no se usa (se quitó el Fox 1000 Pro).
-
-## Preguntas sin responder (preguntar a Arlen)
-
-Cuando Arlen responda, pasar la respuesta a la sección que corresponda y
-borrar la pregunta.
-
-- Lista de BFT más nueva que la de oct-2025: no está en Drive. Pedirla al
-  distribuidor y revisar si cambiaron los precios de la página.
-- Las preguntas abiertas de los planes de Ads, Redes y Ventas (qué trae el
-  garantía si instala un técnico de otra ciudad, precio de instalación).
-  Ya respondidas: qué trae el kit, visita, anticipo, medios de pago y enlace
-  de reseñas (este último en la bitácora de Drive).
+- Lista de BFT más nueva que la de oct-2025 (no está en Drive).
+- Garantía si instala un técnico de otra ciudad; precio de instalación.
