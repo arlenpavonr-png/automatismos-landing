@@ -128,3 +128,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   editor-reels) quedan en Sonnet y el gerente los manda en Haiku para tareas
   sencillas. El chat 1 sigue en el modelo fuerte; Arlen pasa el chat 3 a
   Sonnet.
+- 2026-11-02: Arlen aprueba probar Claude en Chrome en el PC: puede mirar
+  todo, pero no cambia nada sin su permiso. Primera prueba: medición de
+  Google Ads del lunes 9-nov.
