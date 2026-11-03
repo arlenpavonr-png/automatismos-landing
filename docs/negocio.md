@@ -83,6 +83,20 @@ lámpara no vienen: se cobran aparte.
 - **Garantía:** 2 años en el equipo aunque la fábrica dé 3 (Accessmatic); no
   mencionar los 3 años.
 
+## Instalación (Medellín, Valle de Aburrá y Rionegro)
+
+Precio por tipo de puerta (decisión de Arlen, 2-nov-2026). Va siempre en una
+línea aparte del equipo.
+
+| Tipo de puerta | Instalación |
+|---|---|
+| Corrediza | $500.000 |
+| Levadiza / seccional de garaje | $400.000 |
+| Batiente | $650.000 |
+| Barrera vehicular | $650.000 |
+| Techo corredizo | $650.000 |
+| Cortina enrollable, vidrio, peatonal, fuera de la zona | Preguntar a Arlen |
+
 ## IVA
 
 Los precios publicados son los de la lista oficial al público, que ya trae el
@@ -90,6 +104,11 @@ IVA: nunca escribir "sin IVA" ni "+ IVA" en página, anuncios o guiones. En
 cotizaciones, Arlen decide caso por caso sumar el IVA a algunos clientes
 (lo declara y paga siempre); riesgo: la página dice "IVA incluido". Detalle en
 la bitácora privada de Drive.
+
+- **IVA de la instalación:** el precio de la tabla va sin IVA; se suma el
+  19 % solo si el cliente pide factura (decisión de Arlen, 2-nov-2026).
+- **Redondeo:** el precio de lista se respeta exacto ($1.199.900, no
+  $1.200.000). Solo se redondea a miles un precio calculado por Arlen.
 
 ## Repositorios relacionados (todos de arlenpavonr-png)
 
