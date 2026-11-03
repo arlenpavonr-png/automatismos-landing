@@ -131,3 +131,8 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-11-02: Arlen aprueba probar Claude en Chrome en el PC: puede mirar
   todo, pero no cambia nada sin su permiso. Primera prueba: medición de
   Google Ads del lunes 9-nov.
+- 2026-11-02: Arlen fija las reglas de cotización que chocaban entre la
+  skill de cotización y este repo: instalación en Medellín (corrediza
+  $500.000; levadiza/seccional $400.000; batiente, barrera y techo $650.000),
+  IVA de la instalación solo si el cliente pide factura y precio de lista
+  exacto, sin redondear. La skill de cotización se alinea con estas reglas.
