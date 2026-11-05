@@ -136,3 +136,8 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   $500.000; levadiza/seccional $400.000; batiente, barrera y techo $650.000),
   IVA de la instalación solo si el cliente pide factura y precio de lista
   exacto, sin redondear. La skill de cotización se alinea con estas reglas.
+- 2026-11-05: Perfil de Negocio de Google: el sitio web pasa de
+  automatismosarpa.com (viejo) a automatismosarpa.com.co. Arlen decide dejar
+  la descripción con "mantenimiento y reparación" (excepción a la regla de no
+  anunciar mantenimiento). Una edición del nombre a "AutomatismosArpa.com.co"
+  se deshizo (Google no permite direcciones web en el nombre).
