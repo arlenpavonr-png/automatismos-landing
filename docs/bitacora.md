@@ -141,3 +141,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   la descripción con "mantenimiento y reparación" (excepción a la regla de no
   anunciar mantenimiento). Una edición del nombre a "AutomatismosArpa.com.co"
   se deshizo (Google no permite direcciones web en el nombre).
+- 2026-11-05: el chat "1 · GERENTE" se reemplaza por uno nuevo con el mismo
+  nombre para ahorrar uso (el viejo era muy largo). Pendientes y avisos
+  programados quedaron en la bitácora privada de Drive. Siguen siendo 3 chats.
