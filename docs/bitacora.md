@@ -144,3 +144,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-11-05: el chat "1 · GERENTE" se reemplaza por uno nuevo con el mismo
   nombre para ahorrar uso (el viejo era muy largo). Pendientes y avisos
   programados quedaron en la bitácora privada de Drive. Siguen siendo 3 chats.
+- 2026-11-05: regla nueva de Arlen: precio fijo para todos, sin rebajas
+  ("como un almacén de cadena"). Queda en `CLAUDE.md`.

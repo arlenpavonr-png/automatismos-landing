@@ -107,6 +107,11 @@ Todo cambio a la página debe servir a una de las dos.
 
 Nunca escribir "sin IVA" ni "+ IVA" en página, anuncios ni guiones.
 
+**Precio fijo, sin rebajas** (Arlen, 5-nov-2026): "como un almacén de cadena",
+el precio es el mismo para todos. No sugerir ni negociar rebajas; si el
+cliente insiste, se le explica qué incluye y se espera. Única excepción: el
+piloto de cerrajerías.
+
 Instalación en Medellín (aparte del equipo): corrediza $500.000; levadiza o
 seccional $400.000; batiente, barrera y techo $650.000; el resto, preguntar.
 Lleva IVA solo si el cliente pide factura. Detalle en `docs/negocio.md`.
