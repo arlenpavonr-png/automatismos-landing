@@ -16,6 +16,8 @@ márgenes, ventas ni nombres de proveedores (eso va en Drive).
   que instaló Arlen (cada 6 meses; $120.000). Meta: 20-30 clientes al año,
   sobre todo en enero y febrero (meses flojos). Lista en la hoja "Clientes de
   mantenimiento – Automatismos ARPA" (Drive, carpeta Gerencia).
+  Excepción (5-nov-2026): la descripción del Perfil de Negocio de Google
+  (solo Medellín) sí dice "instalación, mantenimiento y reparación".
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
   oficiales. Llevan precio Accessmatic, BFT y, de Elite, solo el Slide 500; el
   resto de Elite y NAS solo se nombran. LiftMaster se quitó (oct-2026).
