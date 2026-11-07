@@ -79,7 +79,7 @@ lámpara no vienen: se cobran aparte.
   eléctrica) y 2 controles.
 - **Motores que Arlen sí ofrece** (lista del 25-oct-2026, la misma del robot
   de WhatsApp): corredizo Elite Slide 500, Accessmatic Bulldozer 850
-  ($1.599.900) y Bulldog 1100 ($1.999.900); batiente Accessmatic Eagle 250;
+  ($1.459.900) y Bulldog 1100 ($1.799.900); batiente Accessmatic Eagle 250;
   garaje Accessmatic Raptor 1200, Shark 1000, Scorpion 900/901 y Elite MG750;
   y casi todo el catálogo de BFT. El Pitbull 400 ya no se ofrece.
 - **Garantía:** 2 años en el equipo aunque la fábrica dé 3 (Accessmatic); no
