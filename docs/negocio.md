@@ -16,8 +16,6 @@ márgenes, ventas ni nombres de proveedores (eso va en Drive).
   que instaló Arlen (cada 6 meses; $120.000). Meta: 20-30 clientes al año,
   sobre todo en enero y febrero (meses flojos). Lista en la hoja "Clientes de
   mantenimiento – Automatismos ARPA" (Drive, carpeta Gerencia).
-  Excepción (5-nov-2026): la descripción del Perfil de Negocio de Google
-  (solo Medellín) sí dice "instalación, mantenimiento y reparación".
 - **Marcas:** Accessmatic, BFT, Elite y NAS, compradas a distribuidores
   oficiales. Llevan precio Accessmatic, BFT y, de Elite, solo el Slide 500; el
   resto de Elite y NAS solo se nombran. LiftMaster se quitó (oct-2026).
@@ -79,7 +77,7 @@ lámpara no vienen: se cobran aparte.
   eléctrica) y 2 controles.
 - **Motores que Arlen sí ofrece** (lista del 25-oct-2026, la misma del robot
   de WhatsApp): corredizo Elite Slide 500, Accessmatic Bulldozer 850
-  ($1.599.900) y Bulldog 1100 ($1.999.900); batiente Accessmatic Eagle 250;
+  ($1.459.900) y Bulldog 1100 ($1.799.900); batiente Accessmatic Eagle 250;
   garaje Accessmatic Raptor 1200, Shark 1000, Scorpion 900/901 y Elite MG750;
   y casi todo el catálogo de BFT. El Pitbull 400 ya no se ofrece.
 - **Garantía:** 2 años en el equipo aunque la fábrica dé 3 (Accessmatic); no
