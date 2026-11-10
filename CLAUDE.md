@@ -80,7 +80,8 @@ Todo cambio a la página debe servir a una de las dos.
 - **Solo 3 chats fijos:** "1 · GERENTE Automatismos ARPA" (aquí),
   "2 · GERENTE ARPA Suite" y "3 · PC (manos en el computador)", que ejecuta
   lo del PC y no decide. No abrir chats nuevos.
-- **Un solo chat por puesto, siempre** (Arlen, 10-nov-2026): nunca dos
+- **Solo esos 3 chats, siempre** (Arlen, 10-nov-2026): ni un cuarto ni
+  chats con fecha en el nombre; lo del PC va en el chat 3. Nunca dos
   activos para lo mismo (p. ej. dos "08-nov: Gerente general"). Claude no
   propone "abramos otro chat" a mitad de un trabajo: el chat se resume solo.
   Solo si Arlen lo pide se reemplaza, y en el mismo momento: entrega de
