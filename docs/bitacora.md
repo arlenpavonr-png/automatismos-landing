@@ -144,3 +144,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-11-05: el chat "1 · GERENTE" se reemplaza por uno nuevo con el mismo
   nombre para ahorrar uso (el viejo era muy largo). Pendientes y avisos
   programados quedaron en la bitácora privada de Drive. Siguen siendo 3 chats.
+- 2026-11-10: Arlen fija "un solo chat por puesto, siempre". Había dos chats
+  activos "08-nov: Gerente general" en el PC porque a mitad de trabajo se
+  propuso abrir otro. Claude ya no lo propone; solo se reemplaza un chat si
+  Arlen lo pide, y el viejo se archiva en el mismo momento.
