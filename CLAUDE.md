@@ -80,6 +80,12 @@ Todo cambio a la página debe servir a una de las dos.
 - **Solo 3 chats fijos:** "1 · GERENTE Automatismos ARPA" (aquí),
   "2 · GERENTE ARPA Suite" y "3 · PC (manos en el computador)", que ejecuta
   lo del PC y no decide. No abrir chats nuevos.
+- **Solo esos 3 chats, siempre** (Arlen, 10-nov-2026): ni un cuarto ni
+  chats con fecha en el nombre; lo del PC va en el chat 3. Nunca dos
+  activos para lo mismo (p. ej. dos "08-nov: Gerente general"). Claude no
+  propone "abramos otro chat" a mitad de un trabajo: el chat se resume solo.
+  Solo si Arlen lo pide se reemplaza, y en el mismo momento: entrega de
+  pendientes en la bitácora de Drive, mismo nombre fijo y el viejo se archiva.
 - **Agenda:** la lleva el chat 1 en el Google Calendar de Arlen, con
   recordatorio; título "ARPA Suite: …" si es de ese negocio. Avisos diarios a
   las 6:24 a. m. y 8:21 p. m. El Claude normal es solo para lo personal.
