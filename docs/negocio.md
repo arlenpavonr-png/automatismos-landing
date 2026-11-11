@@ -59,8 +59,7 @@ márgenes, ventas ni nombres de proveedores (eso va en Drive).
   abogado o contador).
 - **Contacto:** WhatsApp y teléfono +57 300 568 3914. Llamadas de 7 a. m. a
   9 p. m. Atención todos los días.
-- **Cifras de la página:** +500 puertas instaladas, 10+ años de experiencia
-  (Arlen confirma que son exactas).
+- **Cifras de la página:** más de 10 años de experiencia (Arlen, 10-nov: es real; el "+500 puertas" se quitó porque le parece exagerado y no necesario).
 
 ## Qué trae cada kit
 
