@@ -41,3 +41,11 @@ paso para publicar está en la skill `publicar-pagina`.
    `herrajes-levadiza.webp`, `puerta-vidrio-automatica.webp`,
    `puerta-peatonal-batiente.webp` y `levadiza-herrajes-instalada.webp` no se
    usan.
+
+## Página del sticker QR (`/motor/`)
+
+- Es la página a la que lleva el QR del sticker pegado en cada motor. La URL
+  no se cambia nunca: ya está impresa.
+- Sin etiqueta de Google Ads (no son visitas de anuncios) y con `noindex`.
+- Videos de destrabe: en `motor/index.html`, campo `video` de cada tipo de
+  puerta (código de YouTube).
