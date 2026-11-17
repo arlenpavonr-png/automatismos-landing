@@ -148,3 +148,9 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   activos "08-nov: Gerente general" en el PC porque a mitad de trabajo se
   propuso abrir otro. Claude ya no lo propone; solo se reemplaza un chat si
   Arlen lo pide, y el viejo se archiva en el mismo momento.
+
+- 2026-11-16: página del sticker QR `/motor/` (una sola para todos los motores):
+  tipo de puerta con dibujos, cómo destrabar en un apagón (espacio para el video
+  de Arlen), garantía, manuales oficiales de Accessmatic y BFT, WhatsApp para
+  mantenimiento y botón de reseñas de Google. Sin etiqueta de Ads y sin indexar
+  (es para clientes que ya compraron).
