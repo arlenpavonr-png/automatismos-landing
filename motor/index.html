@@ -44,6 +44,12 @@ header p{color:rgba(255,255,255,.75);margin-top:6px}
 .tabla b{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:26px;color:var(--amarillo);line-height:1;white-space:nowrap}
 .small{font-size:13.5px;color:var(--gris)}
 .links{display:flex;flex-direction:column;gap:8px}
+.modelos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.modelo{position:relative;display:flex;flex-direction:column;gap:3px;text-decoration:none;color:var(--blanco);border:2px solid var(--borde);border-radius:12px;padding:12px 28px 12px 12px;min-height:64px}
+.modelo b{font-size:16px;font-weight:700}
+.modelo small{font-size:12.5px;color:var(--gris);line-height:1.3}
+.modelo span{position:absolute;top:10px;right:10px;color:var(--amarillo)}
+.modelo:active,.modelo:hover{border-color:var(--amarillo)}
 .btn{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font:inherit;font-weight:700;font-size:17px;border-radius:12px;padding:15px 14px;text-align:center}
 .btn svg{width:22px;height:22px;flex:none}
 .btn.wa{background:var(--verde);color:#fff}
@@ -87,7 +93,9 @@ footer a{color:var(--gris)}
 
   <section class="step" aria-labelledby="h-man">
     <h2 id="h-man"><span class="num">4</span>Manual de su motor</h2>
-    <p class="hint">Mire la marca en la tapa del motor y abra el manual oficial del fabricante:</p>
+    <p class="hint">Mire el nombre en la tapa del motor y toque su modelo para abrir el manual oficial del fabricante:</p>
+    <div class="modelos" id="modelos"></div>
+    <p class="hint" style="margin-top:14px">¿Su modelo no está en la lista?</p>
     <div class="links" id="manuales"></div>
     <p class="small">¿No encuentra la marca o su modelo? Pídale el manual a Arlen por WhatsApp.</p>
   </section>
@@ -149,9 +157,17 @@ const TIPOS = [
      'Cuando vuelva la luz: suelte el desbloqueo (o devuelva la palanca) y pruebe con el control o el botón.'
    ]},
 ];
+// Los modelos que más instala Arlen (16-nov-2026), cada uno con la página OFICIAL de su manual.
+// En BFT se abre la página del producto: allí el botón "Ir a los manuales".
+const MODELOS = [
+  {t:'Bulldozer 850', s:'Accessmatic · corredizo', u:'https://accessmatic.com/manuales-de-usuario/24'},
+  {t:'Eagle 250', s:'Accessmatic · batiente', u:'https://accessmatic.com/manuales-de-usuario/53'},
+  {t:'Icaro', s:'BFT · corredizo', u:'https://www.bft-automation.com/es_ES/producto/icaro-smart-ac-a2000-v/'},
+  {t:'Phobos', s:'BFT · batiente (página en inglés)', u:'https://www.bft-automation.com/en_INT/product/phobos-bt-a40/'},
+];
 const MANUALES = [
-  {t:'Manuales Accessmatic', u:'https://accessmatic.com/manuales-de-usuario'},
-  {t:'Manuales BFT', u:'https://www.bft-automation.com/es_ES/centro-de-asistencia/descargar/'},
+  {t:'Otros modelos Accessmatic', u:'https://accessmatic.com/manuales-de-usuario'},
+  {t:'Otros modelos BFT', u:'https://www.bft-automation.com/es_ES/centro-de-asistencia/descargar/'},
 ];
 const ICON = {
   corredizo:'<svg viewBox="0 0 72 52" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="4" y="10" width="40" height="30" rx="2"/><path d="M4 46h64"/><path d="M50 25h16m-5-5 5 5-5 5"/></svg>',
@@ -180,6 +196,7 @@ function render(scroll){
   $('btn-mant').href = wa(`Hola Arlen, escaneé el sticker de mi motor (${T.nombre}). Quiero pedir mantenimiento.`);
   if (scroll) $('destrabe').scrollIntoView({behavior:'smooth', block:'start'});
 }
+$('modelos').innerHTML = MODELOS.map(m => `<a class="modelo" href="${m.u}" target="_blank" rel="noopener"><b>${m.t}</b><small>${m.s}</small><span aria-hidden="true">↗</span></a>`).join('');
 $('manuales').innerHTML = MANUALES.map(m => `<a class="btn ghost" href="${m.u}" target="_blank" rel="noopener">${m.t} ↗</a>`).join('');
 render(false);
 </script>
