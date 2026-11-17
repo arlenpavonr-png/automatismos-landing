@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Su motor instalado por Automatismos ARPA</title>
-<meta name="description" content="Ayuda para su motor de puerta instalado por Automatismos ARPA: cómo destrabarlo si se va la luz, garantía, manual de la marca y mantenimiento por WhatsApp.">
+<meta name="description" content="Ayuda para su motor de puerta instalado por Automatismos ARPA: cómo destrabarlo si se va la luz, garantía y mantenimiento por WhatsApp.">
 <!-- Página del sticker QR que va pegado en cada motor. Es para clientes que ya compraron: no se indexa y no lleva la etiqueta de Google Ads (para no mezclar estas visitas con las de los anuncios). -->
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://automatismosarpa.com.co/motor/">
@@ -85,15 +85,8 @@ footer a{color:var(--gris)}
     <p class="small">Se cuentan desde la <b>fecha de instalación</b> escrita a mano en el sticker de su motor. No cubre daños por descargas eléctricas. Para hacerla valer, escríbale a Arlen con una foto del sticker.</p>
   </section>
 
-  <section class="step" aria-labelledby="h-man">
-    <h2 id="h-man"><span class="num">4</span>Manual de su motor</h2>
-    <p class="hint">Mire la marca en la tapa del motor y abra el manual oficial del fabricante:</p>
-    <div class="links" id="manuales"></div>
-    <p class="small">¿No encuentra la marca o su modelo? Pídale el manual a Arlen por WhatsApp.</p>
-  </section>
-
   <section class="step" aria-labelledby="h-mant">
-    <h2 id="h-mant"><span class="num">5</span>Mantenimiento</h2>
+    <h2 id="h-mant"><span class="num">4</span>Mantenimiento</h2>
     <p>Le recomendamos un mantenimiento cada 6 meses: así el motor dura más y le avisamos a tiempo si algo se está gastando.</p>
     <a class="btn wa" id="btn-mant" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.3-.8a11.6 11.6 0 0 1-4.6-4.1c-.4-.6-1-1.6-1-2.7a2.9 2.9 0 0 1 .9-2.2 1 1 0 0 1 .7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6a8.4 8.4 0 0 0 1.6 2 7.7 7.7 0 0 0 2.3 1.4c.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9.6.3c0 .2 0 .7-.2 1.3z"/></svg>
@@ -103,7 +96,7 @@ footer a{color:var(--gris)}
   </section>
 
   <section class="step" aria-labelledby="h-cal">
-    <h2 id="h-cal"><span class="num">6</span>¿Cómo lo atendimos?</h2>
+    <h2 id="h-cal"><span class="num">5</span>¿Cómo lo atendimos?</h2>
     <p>Su opinión en Google ayuda a que otros vecinos nos encuentren. Toma un minuto.</p>
     <a class="btn estrellas" href="https://g.page/r/CeyTZseWSGFxEAI/review" target="_blank" rel="noopener">★★★★★ Califíquenos en Google</a>
   </section>
@@ -149,10 +142,6 @@ const TIPOS = [
      'Cuando vuelva la luz: suelte el desbloqueo (o devuelva la palanca) y pruebe con el control o el botón.'
    ]},
 ];
-const MANUALES = [
-  {t:'Manuales Accessmatic', u:'https://accessmatic.com/manuales-de-usuario'},
-  {t:'Manuales BFT', u:'https://www.bft-automation.com/es_ES/centro-de-asistencia/descargar/'},
-];
 const ICON = {
   corredizo:'<svg viewBox="0 0 72 52" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="4" y="10" width="40" height="30" rx="2"/><path d="M4 46h64"/><path d="M50 25h16m-5-5 5 5-5 5"/></svg>',
   batiente:'<svg viewBox="0 0 72 52" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M8 8v38M64 8v38"/><path d="M8 10l20 6v26l-20 4M64 10l-20 6v26l20 4"/></svg>',
@@ -180,7 +169,6 @@ function render(scroll){
   $('btn-mant').href = wa(`Hola Arlen, escaneé el sticker de mi motor (${T.nombre}). Quiero pedir mantenimiento.`);
   if (scroll) $('destrabe').scrollIntoView({behavior:'smooth', block:'start'});
 }
-$('manuales').innerHTML = MANUALES.map(m => `<a class="btn ghost" href="${m.u}" target="_blank" rel="noopener">${m.t} ↗</a>`).join('');
 render(false);
 </script>
 </body>
