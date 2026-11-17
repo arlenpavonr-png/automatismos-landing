@@ -154,3 +154,8 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   de Arlen), garantía, manuales oficiales de Accessmatic y BFT, WhatsApp para
   mantenimiento y botón de reseñas de Google. Sin etiqueta de Ads y sin indexar
   (es para clientes que ya compraron).
+
+- 2026-11-16: Arlen quita los manuales de `/motor/`. Motivo: hay clientes que
+  abren el manual, manipulan el motor, lo dañan y después piden garantía. Si
+  alguien necesita el manual, que lo pida por WhatsApp. La página queda en 5
+  pasos: tipo de puerta, destrabe, garantía, mantenimiento y reseñas.
