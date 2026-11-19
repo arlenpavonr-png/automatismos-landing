@@ -159,3 +159,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   abren el manual, manipulan el motor, lo dañan y después piden garantía. Si
   alguien necesita el manual, que lo pida por WhatsApp. La página queda en 5
   pasos: tipo de puerta, destrabe, garantía, mantenimiento y reseñas.
+- 2026-11-19: revisión de Meta de la app del asistente de WhatsApp: el 11-nov
+  salieron resultados con acciones pendientes y el 13-nov se volvió a enviar.
+  Sigue pendiente; respuesta esperada hacia el 3-dic. La app aparece en Meta
+  como "ARPA Avisos Mantenimiento", bajo el negocio "ARPA Technology Global".
