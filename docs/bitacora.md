@@ -163,3 +163,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   salieron resultados con acciones pendientes y el 13-nov se volvió a enviar.
   Sigue pendiente; respuesta esperada hacia el 3-dic. La app aparece en Meta
   como "ARPA Avisos Mantenimiento", bajo el negocio "ARPA Technology Global".
+  Arlen aclara: esa aprobación es la que espera ARPA Suite para la campaña de
+  México atendida por el asistente (no por Arlen). La cuenta publicitaria
+  "ARPA Suite - México" queda desactivada a propósito hasta entonces.
