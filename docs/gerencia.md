@@ -23,6 +23,11 @@ Arlen anota cada chat desde el celular (origen, tipo de puerta, estado,
 valor). La pestaña Resumen calcula ventas vs. metas por mes. Es la fuente de
 datos del informe semanal.
 
+**Regla (Arlen, 21-nov-2026):** cada vez que instala, Arlen escribe una
+sola línea en el chat 1 (equipo, municipio, valor, cómo llegó) y el gerente
+la anota en el tablero, en "Clientes de mantenimiento" y en la agenda. La
+venta cuenta en el mes en que se instala. Los valores van solo a Drive.
+
 ## Google Ads
 - **Sin conector:** no hay conector oficial. Adspirer (terceros) evaluado y
   **no se paga** (aprox. 20 % del presupuesto, empresa nueva). Camino gratis:

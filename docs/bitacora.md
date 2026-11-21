@@ -173,3 +173,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   Del 22-oct al 9-nov no hay registro porque WhatsApp Web no trae ese historial.
 - 2026-11-21: Arlen fija la instalación de puertas de vidrio (cabezal) en
   $750.000 en Medellín, aparte del equipo.
+- 2026-11-21: el tablero de ventas estaba incompleto; se completó con la hoja
+  de mantenimiento y el Cuaderno. Nueva regla: una línea de Arlen en el chat 1
+  por cada instalación (`docs/gerencia.md`).
