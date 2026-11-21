@@ -171,3 +171,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   chat 2 ni chat 3 activos; se abren con su nombre fijo cuando se necesiten.
   Se pasan al tablero de ventas los chats de WhatsApp Web del 10 al 18-nov.
   Del 22-oct al 9-nov no hay registro porque WhatsApp Web no trae ese historial.
+- 2026-11-21: Arlen fija la instalación de puertas de vidrio (cabezal) en
+  $750.000 en Medellín, aparte del equipo.
