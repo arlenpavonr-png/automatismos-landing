@@ -28,6 +28,13 @@ sola línea en el chat 1 (equipo, municipio, valor, cómo llegó) y el gerente
 la anota en el tablero, en "Clientes de mantenimiento" y en la agenda. La
 venta cuenta en el mes en que se instala. Los valores van solo a Drive.
 
+**Fuente de cotizaciones:** ARPA Suite guarda cada día una copia en Drive
+(archivos `suite-5443ac66-ultimo.json`, clave `arpa_suite_servicio_historial`:
+número, cliente, ciudad, fecha, concepto y total de cada cotización, cuenta de
+cobro y formato de servicio). El gerente la lee para sacar valores sin
+pedírselos a Arlen. WhatsApp no tiene acceso directo: solo por Claude en
+Chrome en el PC (WhatsApp Web trae poco historial).
+
 ## Google Ads
 - **Sin conector:** no hay conector oficial. Adspirer (terceros) evaluado y
   **no se paga** (aprox. 20 % del presupuesto, empresa nueva). Camino gratis:
