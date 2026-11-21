@@ -97,6 +97,7 @@ línea aparte del equipo.
 | Barrera vehicular | $650.000 |
 | Techo corredizo | $650.000 |
 | Puerta de vidrio (cabezal) | $750.000 (Arlen, 21-nov-2026) |
+| Corrediza en Don Matías | $700.000 (Arlen, 21-nov-2026) |
 | Cortina enrollable, peatonal, fuera de la zona | Preguntar a Arlen |
 
 ## IVA

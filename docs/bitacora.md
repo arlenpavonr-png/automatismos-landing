@@ -176,3 +176,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-11-21: el tablero de ventas estaba incompleto; se completó con la hoja
   de mantenimiento y el Cuaderno. Nueva regla: una línea de Arlen en el chat 1
   por cada instalación (`docs/gerencia.md`).
+- 2026-11-21: instalación de corrediza en Don Matías fijada en $700.000
+  (queda lejos; en Medellín sigue en $500.000). Otros municipios lejanos se
+  siguen preguntando a Arlen.
