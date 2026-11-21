@@ -166,3 +166,8 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   Arlen aclara: esa aprobación es la que espera ARPA Suite para la campaña de
   México atendida por el asistente (no por Arlen). La cuenta publicitaria
   "ARPA Suite - México" queda desactivada a propósito hasta entonces.
+- 2026-11-21: orden de chats (visto bueno de Arlen): este chat queda como
+  "1 · GERENTE Automatismos ARPA" y se archivan los terminados. Hoy no hay
+  chat 2 ni chat 3 activos; se abren con su nombre fijo cuando se necesiten.
+  Se pasan al tablero de ventas los chats de WhatsApp Web del 10 al 18-nov.
+  Del 22-oct al 9-nov no hay registro porque WhatsApp Web no trae ese historial.
