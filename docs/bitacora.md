@@ -159,3 +159,17 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   abren el manual, manipulan el motor, lo dañan y después piden garantía. Si
   alguien necesita el manual, que lo pida por WhatsApp. La página queda en 5
   pasos: tipo de puerta, destrabe, garantía, mantenimiento y reseñas.
+- 2026-11-19: revisión de Meta de la app del asistente de WhatsApp: el 11-nov
+  salieron resultados con acciones pendientes y el 13-nov se volvió a enviar.
+  Sigue pendiente; respuesta esperada hacia el 3-dic. La app aparece en Meta
+  como "ARPA Avisos Mantenimiento", bajo el negocio "ARPA Technology Global".
+  Arlen aclara: esa aprobación es la que espera ARPA Suite para la campaña de
+  México atendida por el asistente (no por Arlen). La cuenta publicitaria
+  "ARPA Suite - México" queda desactivada a propósito hasta entonces.
+- 2026-11-21: orden de chats (visto bueno de Arlen): este chat queda como
+  "1 · GERENTE Automatismos ARPA" y se archivan los terminados. Hoy no hay
+  chat 2 ni chat 3 activos; se abren con su nombre fijo cuando se necesiten.
+  Se pasan al tablero de ventas los chats de WhatsApp Web del 10 al 18-nov.
+  Del 22-oct al 9-nov no hay registro porque WhatsApp Web no trae ese historial.
+- 2026-11-21: Arlen fija la instalación de puertas de vidrio (cabezal) en
+  $750.000 en Medellín, aparte del equipo.

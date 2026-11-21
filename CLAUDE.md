@@ -114,7 +114,8 @@ Todo cambio a la página debe servir a una de las dos.
 Nunca escribir "sin IVA" ni "+ IVA" en página, anuncios ni guiones.
 
 Instalación en Medellín (aparte del equipo): corrediza $500.000; levadiza o
-seccional $400.000; batiente, barrera y techo $650.000; el resto, preguntar.
+seccional $400.000; batiente, barrera y techo $650.000; vidrio $750.000; el
+resto, preguntar.
 Lleva IVA solo si el cliente pide factura. Detalle en `docs/negocio.md`.
 
 ## Preguntas abiertas (preguntar a Arlen y luego pasar la respuesta a su sitio)

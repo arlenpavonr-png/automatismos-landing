@@ -96,7 +96,8 @@ línea aparte del equipo.
 | Batiente | $650.000 |
 | Barrera vehicular | $650.000 |
 | Techo corredizo | $650.000 |
-| Cortina enrollable, vidrio, peatonal, fuera de la zona | Preguntar a Arlen |
+| Puerta de vidrio (cabezal) | $750.000 (Arlen, 21-nov-2026) |
+| Cortina enrollable, peatonal, fuera de la zona | Preguntar a Arlen |
 
 ## IVA
 
