@@ -183,3 +183,5 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   precio en ARPA Suite, línea escrita después de cada audio con precio,
   seguimiento a los 2 y 7 días, revisión de 15 min los lunes). Detalle en
   `docs/gerencia.md`.
+- 2026-11-22: garantía de 6 meses para el módulo Wi-Fi de portón (escrita en
+  cada cotización). Se crea la hoja de inventario en la carpeta Gerencia.

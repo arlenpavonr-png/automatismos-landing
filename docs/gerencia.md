@@ -45,6 +45,10 @@ venta cuenta en el mes en que se instala. Los valores van solo a Drive.
 7. **Un solo lugar por cosa:** Arlen escribe todo en el chat 1 y el gerente lo
    reparte (tablero, agenda, hoja de clientes, chat 3, chat 2).
 
+**Inventario:** hoja "Inventario – Automatismos ARPA" en la carpeta Gerencia
+(lo que hay en bodega y cuándo pedir). Arlen avisa en el chat 1 lo que vende o
+le llega y el gerente la actualiza.
+
 **Fuente de cotizaciones:** ARPA Suite guarda cada día una copia en Drive
 (archivos `suite-5443ac66-ultimo.json`, clave `arpa_suite_servicio_historial`:
 número, cliente, ciudad, fecha, concepto y total de cada cotización, cuenta de

@@ -83,6 +83,9 @@ lámpara no vienen: se cobran aparte.
   y casi todo el catálogo de BFT. El Pitbull 400 ya no se ofrece.
 - **Garantía:** 2 años en el equipo aunque la fábrica dé 3 (Accessmatic); no
   mencionar los 3 años.
+- **Garantía del módulo Wi-Fi para portón** (accesorio genérico Tuya): 6 meses
+  (Arlen, 22-nov-2026). Escribirlo siempre en la cotización o cuenta de cobro,
+  porque la regla general de equipos es 2 años. Funciona solo con Wi-Fi 2,4 GHz.
 
 ## Instalación (Medellín, Valle de Aburrá y Rionegro)
 
