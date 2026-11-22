@@ -28,6 +28,23 @@ sola línea en el chat 1 (equipo, municipio, valor, cómo llegó) y el gerente
 la anota en el tablero, en "Clientes de mantenimiento" y en la agenda. La
 venta cuenta en el mes en que se instala. Los valores van solo a Drive.
 
+**Reglas de eficacia (Arlen, 22-nov-2026):**
+1. **24 horas:** ningún cliente pasa más de 24 h sin cotización. La revisión
+   nocturna del PC (en el Cuaderno) lista los que faltan; el chat 1 le deja a
+   Arlen cada mañana los mensajes listos y el chat 3 arma los PDF en ARPA Suite.
+   Arlen solo envía.
+2. **Todo precio va en ARPA Suite**, aunque se haya dicho por chat o por
+   teléfono. Lo que no está en ARPA Suite el gerente no lo ve.
+3. **Después de un audio con precio, una línea escrita** al cliente con el
+   valor y lo que incluye (queda constancia para el cliente y para el gerente).
+4. **Seguimiento fijo:** a los 2 días y a los 7 días de enviar la cotización.
+   Si a los 15 días no responde, se marca Perdido con el motivo.
+5. **Lunes, 15 minutos de revisión** con el informe del gerente: ventas,
+   cotizaciones abiertas, Google Ads y qué cambiar.
+6. **Reseña de Google** al terminar cada instalación.
+7. **Un solo lugar por cosa:** Arlen escribe todo en el chat 1 y el gerente lo
+   reparte (tablero, agenda, hoja de clientes, chat 3, chat 2).
+
 **Fuente de cotizaciones:** ARPA Suite guarda cada día una copia en Drive
 (archivos `suite-5443ac66-ultimo.json`, clave `arpa_suite_servicio_historial`:
 número, cliente, ciudad, fecha, concepto y total de cada cotización, cuenta de

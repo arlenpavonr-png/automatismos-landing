@@ -179,3 +179,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
 - 2026-11-21: instalación de corrediza en Don Matías fijada en $700.000
   (queda lejos; en Medellín sigue en $500.000). Otros municipios lejanos se
   siguen preguntando a Arlen.
+- 2026-11-22: Arlen aprueba las reglas de eficacia (24 horas para cotizar, todo
+  precio en ARPA Suite, línea escrita después de cada audio con precio,
+  seguimiento a los 2 y 7 días, revisión de 15 min los lunes). Detalle en
+  `docs/gerencia.md`.
