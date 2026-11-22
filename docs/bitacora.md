@@ -185,3 +185,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   `docs/gerencia.md`.
 - 2026-11-22: garantía de 6 meses para el módulo Wi-Fi de portón (escrita en
   cada cotización). Se crea la hoja de inventario en la carpeta Gerencia.
+- 2026-11-22: excepción a "solo cliente final": se siguen haciendo los
+  mantenimientos como subcontratista de un contratista metalmecánico con el
+  que Arlen trabaja hace 4 años (detalle en Drive). Se le propondrá un plan de
+  mantenimiento cada 2 meses.
