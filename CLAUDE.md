@@ -56,6 +56,9 @@ Todo cambio a la página debe servir a una de las dos.
 - **Solo cliente final** (18-oct-2026): ni instaladores aliados ni venta a
   otros instaladores. Única excepción: piloto de cerrajerías de pueblos sin
   distribuidor (solo Accessmatic, 10 % de descuento, por WhatsApp).
+  Otra excepción (Arlen, 22-nov-2026): los mantenimientos que Arlen hace
+  desde hace 4 años como subcontratista de un contratista metalmecánico de
+  confianza (nombre y condiciones en Drive). Se siguen haciendo.
 - **Plan nacional:** municipios sin distribuidor ni instalador de la marca,
   sin ciudades grandes. Medir 60 días y decidir con datos.
 - **Google Ads:** 70 % Medellín/Valle de Aburrá/Rionegro, 30 % nacional; el
