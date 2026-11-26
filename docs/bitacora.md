@@ -189,3 +189,7 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   mantenimientos como subcontratista de un contratista metalmecánico con el
   que Arlen trabaja hace 4 años (detalle en Drive). Se le propondrá un plan de
   mantenimiento cada 2 meses.
+- 2026-11-26: zonas anotadas en las reglas: con página y publicidad (Medellín,
+  sur, norte, occidente y Guarne) y sin publicidad pero se atienden (Rionegro,
+  La Ceja, El Retiro, Marinilla, Santa Rosa de Osos). La página principal
+  sigue mencionando Rionegro: pendiente visto bueno.

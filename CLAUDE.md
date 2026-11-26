@@ -61,7 +61,8 @@ Todo cambio a la página debe servir a una de las dos.
   confianza (nombre y condiciones en Drive). Se siguen haciendo.
 - **Plan nacional:** municipios sin distribuidor ni instalador de la marca,
   sin ciudades grandes. Medir 60 días y decidir con datos.
-- **Google Ads:** 70 % Medellín/Valle de Aburrá/Rionegro, 30 % nacional; el
+- **Google Ads:** 70 % Medellín y la zona con página (ver `docs/negocio.md`),
+  30 % nacional; el
   tope (en Drive) incluye el IVA de Google. Todos los días, también fines de
   semana. Publicidad siempre para el cliente final.
 - No contar con recomendaciones de distribuidores. Perfil de Negocio de
@@ -98,7 +99,8 @@ Todo cambio a la página debe servir a una de las dos.
 - **Razón social:** Automatismos Arlen Pav S.A.S · NIT 901.473.259-8 (como en
   el RUT). Marca: Automatismos ARPA.
 - Venta e instalación de motores para puertas automáticas en Medellín, Valle
-  de Aburrá y Rionegro; venta con envío a toda Colombia.
+  de Aburrá y municipios cercanos (zonas en `docs/negocio.md`); venta con
+  envío a toda Colombia.
 - **Garantía:** 2 años en equipos (defectos de fabricación) y 1 año en mano
   de obra. No cubre descargas eléctricas.
 - **Contacto:** WhatsApp y teléfono +57 300 568 3914, todos los días.
