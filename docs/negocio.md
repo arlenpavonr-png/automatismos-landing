@@ -24,8 +24,18 @@ márgenes, ventas ni nombres de proveedores (eso va en Drive).
 - **Marca por tipo de puerta en las obras de Arlen** (para reels y textos):
   cortinas enrollables, todas Accessmatic; levadizas y techos corredizos,
   Accessmatic y NAS (revisar cada video para no confundir la marca).
-- **Zona de instalación:** Medellín, Valle de Aburrá y Rionegro. No prometer
-  otros municipios del Oriente sin preguntar. **Obras fuera de la zona**
+- **Zona de instalación (Arlen, 11-nov-2026; anotado 26-nov-2026):**
+  - **Con página y publicidad:** Medellín (incl. El Poblado y San Cristóbal);
+    sur: Envigado, Sabaneta, Itagüí, La Estrella, Caldas; norte: Bello,
+    Copacabana, Girardota, Barbosa, Don Matías, San Pedro de los Milagros;
+    occidente: Santa Fe de Antioquia, Sopetrán, San Jerónimo; y Guarne.
+  - **Sin página ni publicidad, pero se atiende si escriben:** Rionegro,
+    La Ceja, El Retiro, Marinilla, Santa Rosa de Osos.
+  - Precio de instalación fuera de Medellín y el Valle de Aburrá: Don Matías
+    corrediza $700.000; los demás, preguntar a Arlen.
+  - Ojo: la página principal todavía dice "Medellín, el Valle de Aburrá y
+    Rionegro" (cambiarla requiere visto bueno de Arlen).
+- **Obras fuera de la zona**
   (ej. cortinas en Venecia o La Ceja): caso por caso, Arlen hace la visita y
   la obra la hacen dos contratistas suyos; no se anuncian. Pendiente: acuerdo
   escrito con los contratistas sobre la garantía de mano de obra (al cliente
@@ -87,7 +97,7 @@ lámpara no vienen: se cobran aparte.
   (Arlen, 22-nov-2026). Escribirlo siempre en la cotización o cuenta de cobro,
   porque la regla general de equipos es 2 años. Funciona solo con Wi-Fi 2,4 GHz.
 
-## Instalación (Medellín, Valle de Aburrá y Rionegro)
+## Instalación (Medellín, Valle de Aburrá y municipios cercanos)
 
 Precio por tipo de puerta (decisión de Arlen, 2-nov-2026). Va siempre en una
 línea aparte del equipo.
