@@ -33,8 +33,6 @@ márgenes, ventas ni nombres de proveedores (eso va en Drive).
     La Ceja, El Retiro, Marinilla, Santa Rosa de Osos.
   - Precio de instalación fuera de Medellín y el Valle de Aburrá: Don Matías
     corrediza $700.000; los demás, preguntar a Arlen.
-  - Ojo: la página principal todavía dice "Medellín, el Valle de Aburrá y
-    Rionegro" (cambiarla requiere visto bueno de Arlen).
 - **Obras fuera de la zona**
   (ej. cortinas en Venecia o La Ceja): caso por caso, Arlen hace la visita y
   la obra la hacen dos contratistas suyos; no se anuncian. Pendiente: acuerdo

@@ -193,3 +193,6 @@ va al final. Las reglas vigentes están en `CLAUDE.md`; esto es solo historia.
   sur, norte, occidente y Guarne) y sin publicidad pero se atienden (Rionegro,
   La Ceja, El Retiro, Marinilla, Santa Rosa de Osos). La página principal
   sigue mencionando Rionegro: pendiente visto bueno.
+- 2026-11-26: se quita Rionegro de la página (portada, franja de zonas,
+  descripción para Google y "Rapidez y disponibilidad"): queda "Medellín y el
+  Valle de Aburrá". Autorizado por Arlen.
